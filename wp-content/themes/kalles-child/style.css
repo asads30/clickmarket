@@ -398,3 +398,19 @@ display:block;
     margin-right: 5px;
     height: 20px;
 }
+.market404{
+    padding: 90px 0;
+    text-align: center;
+}
+.market404-box>img{
+    margin-bottom: 40px;
+}
+.market404-text>p{
+    margin-bottom: 10px;
+}
+.market404-text>p>a{
+    color: #3f56ff;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+}

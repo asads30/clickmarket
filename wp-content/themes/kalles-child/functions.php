@@ -244,6 +244,8 @@ pll_register_string('cartRepeat1', 'cartRepeat2');
 pll_register_string('cartTolov1', 'cartTolov2');
 pll_register_string('subtotalTitle1', 'subtotalTitle2');
 pll_register_string('totalWeight1', 'totalWeight2');
+pll_register_string('pnf1', 'pnf2');
+pll_register_string('pnfb1', 'pnfb2');
 
 add_action('admin_head', 'operator_css');
 function operator_css() {
