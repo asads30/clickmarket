@@ -1,0 +1,19 @@
+{
+    "name": "itmas/partner-api",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Asadbek Ibragimov",
+            "email": "itmasteruz@yandex.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^7.4@dev",
+        "phpseclib/phpseclib": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}

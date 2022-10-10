@@ -1,0 +1,2888 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kalles Addons\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-02-18 10:41+0700\n"
+"PO-Revision-Date: 2022-09-06 07:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: Uzbek\n"
+"Language: uz_UZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0"
+
+#: includes/classes/woocommerce/The4SocialAuth.php:110
+#: includes/classes/woocommerce/The4SocialAuth.php:141
+#: includes/classes/woocommerce/The4SocialAuth.php:172
+msgid "Can't get email, Please try again ! "
+msgstr "Email olinmayapti, qayta urinib ko'ring!"
+
+#: includes/classes/woocommerce/The4SocialAuth.php:119
+#: includes/classes/woocommerce/The4SocialAuth.php:150
+#: includes/classes/woocommerce/The4SocialAuth.php:181
+msgid "Can't login with Twitter, Please try again ! "
+msgstr "Twitter bilan tizimga kirib bo'lmadi, Iltimos, qayta urinib ko'ring!"
+
+#: includes/classes/woocommerce/The4Wishlist.php:65
+msgid "Wishlist is empty."
+msgstr "Istaklar roʻyxati boʻsh."
+
+#: includes/classes/woocommerce/The4Wishlist.php:68
+#: includes/classes/woocommerce/The4Compare.php:96
+msgid "Return To Shop"
+msgstr "Do'konga qaytish"
+
+#: includes/classes/woocommerce/The4Wishlist.php:128
+#: includes/classes/woocommerce/The4Wishlist.php:214
+msgid "Browse Wishlist"
+msgstr "Istaklar roʻyxatini koʻrib chiqish"
+
+#: includes/classes/woocommerce/The4Wishlist.php:130
+#: includes/classes/woocommerce/The4Wishlist.php:214
+#: includes/classes/woocommerce/The4Wishlist.php:230
+msgid "Remove Wishlist"
+msgstr "Istaklar roʻyxatini oʻchirish"
+
+#: includes/classes/woocommerce/The4Wishlist.php:168
+#: includes/classes/woocommerce/The4Wishlist.php:212
+msgid "Add to Wishlist"
+msgstr "Istaklar roʻyxatiga qoʻshish"
+
+#: includes/classes/woocommerce/The4Product360.php:23
+msgid "360 Images Product "
+msgstr "360 rasmlar mahsuloti"
+
+#: includes/classes/woocommerce/The4Product360.php:62
+#: includes/classes/woocommerce/The4Product360.php:93
+#: includes/classes/woocommerce/swatches/The4Swatches.php:875
+#: includes/classes/woocommerce/swatches/The4Swatches.php:908
+#: includes/classes/woocommerce/swatches/The4Swatches.php:1086
+#: includes/classes/woocommerce/swatches/The4Swatches.php:1154
+msgid "Delete image"
+msgstr "Rasmni o'chirish"
+
+#: includes/classes/woocommerce/The4Product360.php:64
+#: includes/classes/woocommerce/The4Product360.php:95
+#: includes/classes/woocommerce/swatches/The4Swatches.php:877
+#: includes/classes/woocommerce/swatches/The4Swatches.php:910
+#: includes/classes/woocommerce/swatches/The4Swatches.php:1086
+#: includes/classes/woocommerce/swatches/The4Swatches.php:1154
+msgid "Delete"
+msgstr "Oʻchirish"
+
+#: includes/classes/woocommerce/The4Product360.php:88
+msgid "Add Images to 360 Product Gallery"
+msgstr "360° mahsulot galereyasiga rasmlar qo‘shing"
+
+#: includes/classes/woocommerce/The4Product360.php:91
+#: includes/classes/woocommerce/swatches/The4Swatches.php:906
+msgid "Add to gallery"
+msgstr "Galereyaga qo'shish"
+
+#: includes/classes/woocommerce/The4Product360.php:97
+#: includes/classes/woocommerce/swatches/The4Swatches.php:912
+msgid "Add product gallery images"
+msgstr "Mahsulot galereyasi rasmlarini qo'shing"
+
+#: includes/classes/woocommerce/The4Product360.php:135
+msgid "View 360"
+msgstr "360 ko'rish"
+
+#: includes/classes/woocommerce/The4Compare.php:92
+msgid "Compare list is empty"
+msgstr "Taqqoslash roʻyxati boʻsh"
+
+#: includes/classes/woocommerce/The4Compare.php:145
+#: includes/classes/woocommerce/swatches/views/html-color-new.php:35
+#: includes/classes/woocommerce/swatches/views/html-color-edit.php:50
+#: includes/plugin/codestar-framework/fields/upload/upload.php:25
+#: includes/plugin/codestar-framework/fields/media/media.php:26
+msgid "Remove"
+msgstr "O'chirish"
+
+#: includes/classes/woocommerce/The4Compare.php:160
+msgid "Quick view"
+msgstr "Tez ko'rish"
+
+#: includes/classes/woocommerce/The4Compare.php:256
+msgid "Out stock"
+msgstr "Zaxira tugadi"
+
+#: includes/classes/woocommerce/The4Compare.php:256
+msgid "In stock"
+msgstr "Omborda mavjud"
+
+#: includes/classes/woocommerce/The4Compare.php:365
+#: includes/classes/woocommerce/The4Compare.php:457
+msgid "Compare products"
+msgstr "Mahsulotlarni solishtiring"
+
+#: includes/classes/woocommerce/The4Compare.php:455
+msgid "Compare"
+msgstr "Taqqoslash"
+
+#: includes/classes/woocommerce/discount/The4Discount.php:346
+msgid "Product Discount"
+msgstr "Mahsulot chegirmasi"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:50
+#: includes/classes/woocommerce/swatches/The4Swatches.php:651
+#: includes/classes/woocommerce/swatches/The4Swatches.php:1056
+#: includes/classes/woocommerce/swatches/views/html-color-new.php:22
+#: includes/classes/woocommerce/swatches/views/html-color-edit.php:22
+#: includes/plugin/codestar-framework/fields/background/background.php:278
+msgid "Color"
+msgstr "Rang"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:51
+#: includes/classes/woocommerce/swatches/The4Swatches.php:695
+#: includes/classes/woocommerce/swatches/The4Swatches.php:712
+#: includes/classes/woocommerce/swatches/The4Swatches.php:1057
+#: views/woocommerce/discount/add-price-rules-simple.php:15
+#: views/woocommerce/discount/add-price-rules-variation.php:17
+msgid "Label"
+msgstr "Yorliq"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:52
+msgid "Radio"
+msgstr "Radio"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:53
+msgid "Brand"
+msgstr "Brend"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:498
+#: includes/classes/woocommerce/swatches/The4Swatches.php:539
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:336
+msgid "Name"
+msgstr "Ism"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:499
+msgid "Logo"
+msgstr "Logotip"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:500
+#: includes/classes/woocommerce/swatches/The4Swatches.php:541
+msgid "Description"
+msgstr "Tavsif"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:501
+#: includes/classes/woocommerce/swatches/The4Swatches.php:542
+msgid "Slug"
+msgstr "Slug"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:502
+#: includes/classes/woocommerce/swatches/The4Swatches.php:543
+msgid "Count"
+msgstr "Hisoblash"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:540
+msgid "Swatch"
+msgstr "Swatch"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:656
+msgid "Image thumbnail"
+msgstr "Tasvir eskizi"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:657
+#: includes/classes/woocommerce/swatches/views/html-color-new.php:39
+#: includes/classes/woocommerce/swatches/views/html-color-edit.php:55
+msgid "This option will be overridden color."
+msgstr "Ushbu parametr bekor qilingan rang bo'ladi."
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:664
+#: includes/classes/woocommerce/swatches/The4Swatches.php:683
+#: includes/classes/woocommerce/swatches/The4Swatches.php:700
+#: includes/classes/woocommerce/swatches/views/html-color-new.php:42
+#: includes/classes/woocommerce/swatches/views/html-color-edit.php:60
+msgid "Tooltip"
+msgstr "Maslahat"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:676
+msgid "Brand logo"
+msgstr "Brend logotipi"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:738
+msgid "Select terms"
+msgstr "Shartlarni tanlang"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:760
+msgid "Select all"
+msgstr "Hammasini belgilash"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:761
+msgid "Select none"
+msgstr "Hech birini tanlang"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:762
+msgid "Add new"
+msgstr "Yangi qo'shing"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:813
+#, php-format
+msgid "Product Gallery %s Color"
+msgstr "Mahsulot galereyasi %s Rang"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:902
+#, php-format
+msgid "Add Images to Product Gallery %s"
+msgstr "%s mahsulot galereyasiga rasmlar qo‘shing"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:1010
+msgid "Variation Swatch"
+msgstr "Variatsiya namunasi"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:1040
+msgid "Setting for attribute of this product"
+msgstr "Ushbu mahsulotning atributini sozlash"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:1051
+msgid "Attribute type for "
+msgstr "uchun atribut turi"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:1053
+msgid "Click Update button to see the attributes."
+msgstr "Atributlarni ko'rish uchun Yangilash tugmasini bosing."
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:1055
+#: includes/classes/woocommerce/swatches/views/html-color-new.php:60
+#: includes/classes/woocommerce/swatches/views/html-color-edit.php:82
+msgid "Select"
+msgstr "Tanlang"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:1086
+#: includes/classes/woocommerce/swatches/The4Swatches.php:1154
+msgid "Add image"
+msgstr "Rasm qo'shish"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:1086
+#: includes/classes/woocommerce/swatches/The4Swatches.php:1154
+msgid "Update image"
+msgstr "Rasmni yangilash"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:1134
+msgid "Custom image for variation of global attribute"
+msgstr "Global atributning o'zgarishi uchun moslashtirilgan rasm"
+
+#: includes/classes/woocommerce/swatches/The4Swatches.php:1171
+msgid ""
+"Before you can add a variation you need to add some variation attributes on "
+"the Attributes tab."
+msgstr ""
+"Variantni qo'shishdan oldin Atributlar yorlig'iga ba'zi variatsiya "
+"atributlarini qo'shishingiz kerak."
+
+#: includes/classes/woocommerce/swatches/views/html-color-new.php:26
+msgid "Thumbnail"
+msgstr "Eskiz"
+
+#: includes/classes/woocommerce/swatches/views/html-color-new.php:31
+#: includes/classes/woocommerce/swatches/views/html-color-edit.php:46
+msgid "Upload/Add image"
+msgstr "Rasmni yuklash/qo'shish"
+
+#: includes/classes/woocommerce/swatches/views/html-color-new.php:64
+#: includes/classes/woocommerce/swatches/views/html-color-edit.php:86
+msgid "Select an image"
+msgstr "Rasm tanlang"
+
+#: includes/classes/woocommerce/swatches/views/html-color-edit.php:31
+msgid "Image"
+msgstr "Rasm"
+
+#: includes/plugin/one-click-demo-import/one-click-demo-import.php:55
+#, php-format
+msgid ""
+"The %2$sOne Click Demo Import%3$s plugin requires %2$sPHP 5.6+%3$s to run "
+"properly. Please contact your hosting company and ask them to update the PHP "
+"version of your site to at least PHP 7.4%4$s Your current version of PHP: "
+"%2$s%1$s%3$s"
+msgstr ""
+"%2$sOne Click Demo Import%3$s plaginining to‘g‘ri ishlashi uchun %2$sPHP 5."
+"6+%3$s talab qilinadi. Iltimos, xosting kompaniyangizga murojaat qiling va "
+"ulardan saytingizning PHP versiyasini kamida PHP 7.4%4$s ga yangilashni "
+"soʻrang. Sizning joriy PHP versiyangiz: %2$s%1$s%3$s"
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:34
+msgid "There are no predefined demo imports for currently active theme!"
+msgstr "Hozirda faol mavzu uchun oldindan belgilangan demo import mavjud emas!"
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:37
+msgid "Here are the predefined demo imports:"
+msgstr "Bu yerda oldindan belgilangan demo importlar:"
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:71
+msgid ""
+"At least one of the possible options should be set! Check them with --help"
+msgstr ""
+"Mumkin bo'lgan variantlardan kamida bittasi o'rnatilishi kerak! Ularni --"
+"help bilan tekshiring"
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:122
+msgid ""
+"The \"predefined\" parameter should be a number (an index of the OCDI "
+"predefined demo import)!"
+msgstr ""
+"\"Oldindan belgilangan\" parametr raqam bo'lishi kerak (OCDI oldindan "
+"belgilangan demo importining indeksi)!"
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:128
+msgid ""
+"The supplied predefined index does not exist! Please take a look at the "
+"available predefined demo imports:"
+msgstr ""
+"Taqdim etilgan oldindan belgilangan indeks mavjud emas! Iltimos, mavjud "
+"oldindan belgilangan demo importlarini ko'rib chiqing:"
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:135
+msgid "Predefined demo import started! All other parameters will be ignored!"
+msgstr ""
+"Oldindan belgilangan demo import boshlandi! Boshqa barcha parametrlar "
+"e'tiborga olinmaydi!"
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:140
+#, php-format
+msgid "Selected predefined demo import: %s"
+msgstr "Tanlangan oldindan belgilangan demo importi: %s"
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:143
+msgid "Preparing the demo import files..."
+msgstr "Demo import fayllari tayyorlanmoqda..."
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:148
+msgid "Demo import files could not be retrieved!"
+msgstr "Demo import fayllarini olib boʻlmadi!"
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:151
+msgid "Demo import files retrieved successfully!"
+msgstr "Demo import fayllari muvaffaqiyatli olindi!"
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:153
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:227
+msgid "Importing..."
+msgstr "Import qilinmoqda..."
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:173
+msgid "Predefined import finished!"
+msgstr "Oldindan belgilangan import tugallandi!"
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:185
+msgid "Content import file provided does not exist! Skipping this import!"
+msgstr ""
+"Taqdim etilgan kontentni import qilish fayli mavjud emas! Ushbu import "
+"o'tkazib yuborilsin!"
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:194
+msgid "Importing content (this might take a while)..."
+msgstr "Kontent import qilinmoqda (bu biroz vaqt olishi mumkin)..."
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:196
+msgid "Importing content"
+msgstr "Kontent import qilinmoqda"
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:201
+msgid "Content import finished!"
+msgstr "Kontentni import qilish tugallandi!"
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:204
+msgid "There were some issues while importing the content!"
+msgstr "Kontentni import qilishda muammolar yuzaga keldi!"
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:223
+msgid "Widgets import file provided does not exist! Skipping this import!"
+msgstr ""
+"Taqdim etilgan vidjetlar import fayli mavjud emas! Ushbu import o'tkazib "
+"yuborilsin!"
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:227
+msgid "Importing widgets..."
+msgstr "Vidjetlar import qilinmoqda..."
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:232
+msgid "Widgets imported successfully!"
+msgstr "Vidjetlar muvaffaqiyatli import qilindi!"
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:235
+msgid "There were some issues while importing widgets!"
+msgstr "Vidjetlarni import qilishda muammolar yuzaga keldi!"
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:254
+msgid "Customizer import file provided does not exist! Skipping this import!"
+msgstr ""
+"Taqdim etilgan moslashtiruvchi import fayli mavjud emas! Ushbu import "
+"o'tkazib yuborilsin!"
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:258
+msgid "Importing customizer settings..."
+msgstr "Sozlovchi sozlamalari import qilinmoqda..."
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:263
+msgid "Customizer settings imported successfully!"
+msgstr "Customizer sozlamalari muvaffaqiyatli import qilindi!"
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:266
+msgid "There were some issues while importing customizer settings!"
+msgstr ""
+"Moslashtiruvchi sozlamalarini import qilishda ba'zi muammolar yuzaga keldi!"
+
+#: includes/plugin/one-click-demo-import/inc/WPCLICommands.php:286
+#, php-format
+msgid "Executing action: %s ..."
+msgstr "Amal bajarilmoqda: %s ..."
+
+#: includes/plugin/one-click-demo-import/inc/Importer.php:174
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/Importer.php:504
+msgid "New AJAX call!"
+msgstr "Yangi AJAX qo'ng'irog'i!"
+
+#: includes/plugin/one-click-demo-import/inc/PluginInstaller.php:85
+msgid "WPForms"
+msgstr "WPForms"
+
+#: includes/plugin/one-click-demo-import/inc/PluginInstaller.php:86
+msgid ""
+"Join 4,000,000+ professionals who build smarter forms and surveys with "
+"WPForms."
+msgstr ""
+"WPForms yordamida aqlli shakllar va so'rovlar tuzadigan 4 000 000 dan ortiq "
+"mutaxassislarga qo'shiling."
+
+#: includes/plugin/one-click-demo-import/inc/PluginInstaller.php:92
+msgid "All in One SEO"
+msgstr "Hammasi bitta SEOda"
+
+#: includes/plugin/one-click-demo-import/inc/PluginInstaller.php:93
+msgid "Use All in One SEO Pack to optimize your WordPress site for SEO."
+msgstr ""
+"WordPress saytingizni SEO uchun optimallashtirish uchun All in One SEO Pack "
+"dan foydalaning."
+
+#: includes/plugin/one-click-demo-import/inc/PluginInstaller.php:99
+msgid "MonsterInsights"
+msgstr "MonsterInsights"
+
+#: includes/plugin/one-click-demo-import/inc/PluginInstaller.php:100
+msgid "The #1 Google Analytics Plugin for WordPress that’s easy and powerful."
+msgstr "WordPress uchun №1 Google Analytics plagini oson va kuchli."
+
+#: includes/plugin/one-click-demo-import/inc/PluginInstaller.php:106
+msgid "Custom Landing Pages by SeedProd"
+msgstr "SeedProd tomonidan maxsus ochilish sahifalari"
+
+#: includes/plugin/one-click-demo-import/inc/PluginInstaller.php:107
+msgid ""
+"Work on your site in private while visitors see a \"Coming Soon\" or "
+"\"Maintenance Mode\" page."
+msgstr ""
+"Mehmonlar “Tez orada” yoki “Xizmat ko‘rsatish rejimi” sahifasini "
+"ko‘rayotganda saytingizda shaxsiy ishlang."
+
+#: includes/plugin/one-click-demo-import/inc/PluginInstaller.php:112
+msgid "Smash Balloon Social Photo Feed"
+msgstr "Smash Balloon ijtimoiy fotosuratlar tasmasi"
+
+#: includes/plugin/one-click-demo-import/inc/PluginInstaller.php:113
+msgid ""
+"Display beautifully clean, customizable, and responsive Instagram feeds."
+msgstr ""
+"Chiroyli toza, sozlanishi va sezgir Instagram tasmalarini namoyish eting."
+
+#: includes/plugin/one-click-demo-import/inc/PluginInstaller.php:118
+msgid "WP Mail SMTP"
+msgstr "WP Mail SMTP"
+
+#: includes/plugin/one-click-demo-import/inc/PluginInstaller.php:119
+msgid ""
+"Make email delivery easy for WordPress. Connect with SMTP, Gmail, Outlook, "
+"Mailgun, and more."
+msgstr ""
+"WordPress uchun elektron pochta xabarlarini yetkazib berishni osonlashtiring."
+" SMTP, Gmail, Outlook, Mailgun va boshqalar bilan ulaning."
+
+#: includes/plugin/one-click-demo-import/inc/PluginInstaller.php:226
+msgid ""
+"Could not install the plugin. You don't have permission to install plugins."
+msgstr "Plaginni oʻrnatib boʻlmadi. Sizda plaginlarni oʻrnatishga ruxsat yoʻq."
+
+#: includes/plugin/one-click-demo-import/inc/PluginInstaller.php:232
+msgid "Could not install the plugin. Plugin slug is missing."
+msgstr "Plaginni oʻrnatib boʻlmadi. Plagin slug'i yo'q."
+
+#: includes/plugin/one-click-demo-import/inc/PluginInstaller.php:237
+msgid "Plugin is already installed and activated!"
+msgstr "Plagin allaqachon o'rnatilgan va faollashtirilgan!"
+
+#: includes/plugin/one-click-demo-import/inc/PluginInstaller.php:245
+msgid "Plugin was already installed! We activated it for you."
+msgstr "Plagin allaqachon o'rnatilgan! Biz uni siz uchun faollashtirdik."
+
+#: includes/plugin/one-click-demo-import/inc/PluginInstaller.php:253
+msgid "Could not install the plugin. Don't have file permission."
+msgstr "Plaginni oʻrnatib boʻlmadi. Faylga ruxsat yo'q."
+
+#: includes/plugin/one-click-demo-import/inc/PluginInstaller.php:293
+msgid "Plugin installed and activated succesfully."
+msgstr "Plagin o'rnatildi va muvaffaqiyatli faollashtirildi."
+
+#: includes/plugin/one-click-demo-import/inc/PluginInstaller.php:300
+msgid ""
+"Could not install the plugin. WP Plugin installer could not retrieve plugin "
+"information."
+msgstr ""
+"Plaginni oʻrnatib boʻlmadi. WP Plugin o'rnatuvchisi plagin ma'lumotlarini "
+"ololmadi."
+
+#: includes/plugin/one-click-demo-import/inc/CustomizerImporter.php:37
+#: includes/plugin/one-click-demo-import/inc/CustomizerImporter.php:45
+msgid "Importing customizer settings"
+msgstr "Sozlovchi sozlamalari import qilinmoqda"
+
+#: includes/plugin/one-click-demo-import/inc/CustomizerImporter.php:43
+msgid "Customizer settings import finished!"
+msgstr "Sozlagich sozlamalarini import qilish tugallandi!"
+
+#: includes/plugin/one-click-demo-import/inc/CustomizerImporter.php:73
+#, php-format
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr "Xato: moslashtiruvchi import fayli etishmayapti! Fayl yoʻli: %s"
+
+#: includes/plugin/one-click-demo-import/inc/CustomizerImporter.php:93
+msgid ""
+"Error: The customizer import file is not in a correct format. Please make "
+"sure to use the correct customizer import file."
+msgstr ""
+"Xato: moslashtiruvchi import fayli to'g'ri formatda emas. Iltimos, to'g'ri "
+"moslashtiruvchi import faylidan foydalanganingizga ishonch hosil qiling."
+
+#: includes/plugin/one-click-demo-import/inc/CustomizerImporter.php:99
+msgid ""
+"Error: The customizer import file is not suitable for current theme. You can "
+"only import customizer settings for the same theme or a child theme."
+msgstr ""
+"Xato: moslashtiruvchi import fayli joriy mavzu uchun mos emas. Siz faqat bir "
+"xil mavzu yoki bolalar mavzusi uchun moslashtiruvchi sozlamalarini import "
+"qilishingiz mumkin."
+
+#: includes/plugin/one-click-demo-import/inc/ReduxImporter.php:23
+msgid "The Redux plugin is not activated, so the Redux import was skipped!"
+msgstr ""
+"Redux plagini faollashtirilmagan, shuning uchun Redux importi o'tkazib "
+"yuborildi!"
+
+#: includes/plugin/one-click-demo-import/inc/ReduxImporter.php:32
+#: includes/plugin/one-click-demo-import/inc/ReduxImporter.php:53
+#: includes/plugin/one-click-demo-import/inc/ReduxImporter.php:66
+msgid "Importing Redux settings"
+msgstr "Redux sozlamalari import qilinmoqda"
+
+#: includes/plugin/one-click-demo-import/inc/ReduxImporter.php:51
+#, php-format
+msgid "Redux settings import for: %s finished successfully!"
+msgstr "Redux sozlamalarini import qilish: %s muvaffaqiyatli yakunlandi!"
+
+#: includes/plugin/one-click-demo-import/inc/ReduxImporter.php:57
+#, php-format
+msgid ""
+"The Redux option name: %s, was not found in this WP site, so it was not "
+"imported!"
+msgstr ""
+"Redux opsiya nomi: %s, ushbu WP saytida topilmadi, shuning uchun u import "
+"qilinmadi!"
+
+#: includes/plugin/one-click-demo-import/inc/WidgetImporter.php:40
+#: includes/plugin/one-click-demo-import/inc/WidgetImporter.php:52
+msgid "Importing widgets"
+msgstr "Vidjetlarni import qilish"
+
+#: includes/plugin/one-click-demo-import/inc/WidgetImporter.php:88
+msgid "Error: Widget import file could not be found."
+msgstr ""
+"Xato: vidjet import maʼlumotlarini oʻqib boʻlmadi. Boshqa faylni sinab "
+"koʻring."
+
+#: includes/plugin/one-click-demo-import/inc/WidgetImporter.php:118
+msgid ""
+"Error: Widget import data could not be read. Please try a different file."
+msgstr ""
+"Xato: vidjet import maʼlumotlarini oʻqib boʻlmadi. Boshqa faylni sinab "
+"koʻring."
+
+#: includes/plugin/one-click-demo-import/inc/WidgetImporter.php:157
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr "Mavzuda yon panel mavjud emas (vidjetni Nofaol holatga o'tkazish)"
+
+#: includes/plugin/one-click-demo-import/inc/WidgetImporter.php:178
+msgid "Site does not support widget"
+msgstr "Sayt vidjetni qo'llab-quvvatlamaydi"
+
+#: includes/plugin/one-click-demo-import/inc/WidgetImporter.php:211
+msgid "Widget already exists"
+msgstr "Vidjet allaqachon mavjud"
+
+#: includes/plugin/one-click-demo-import/inc/WidgetImporter.php:276
+msgid "Imported"
+msgstr "Vidjetlarni import qilish"
+
+#: includes/plugin/one-click-demo-import/inc/WidgetImporter.php:280
+msgid "Imported to Inactive"
+msgstr "Nofaolga import qilingan"
+
+#: includes/plugin/one-click-demo-import/inc/WidgetImporter.php:286
+msgid "No Title"
+msgstr "Sarlavha yo'q"
+
+#: includes/plugin/one-click-demo-import/inc/WidgetImporter.php:333
+msgid "No results for widget import!"
+msgstr "Vidjet importi uchun hech qanday natija yo'q!"
+
+#: includes/plugin/one-click-demo-import/inc/ViewHelpers.php:19
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:744
+msgid "One Click Demo Import"
+msgstr "Bir marta bosish demo importi"
+
+#: includes/plugin/one-click-demo-import/inc/ViewHelpers.php:21
+msgid "Questionmark icon"
+msgstr "Savol belgisi belgisi"
+
+#: includes/plugin/one-click-demo-import/inc/ViewHelpers.php:52
+msgid "Theme screenshot"
+msgstr "Mavzu skrinshoti"
+
+#: includes/plugin/one-click-demo-import/inc/Downloader.php:58
+msgid "Missing URL for downloading a file!"
+msgstr "Faylni yuklab olish uchun URL manzili etishmayapti!"
+
+#: includes/plugin/one-click-demo-import/inc/Downloader.php:76
+#, php-format
+msgid ""
+"An error occurred while fetching file from: %1$s%2$s%3$s!%4$sReason: %5$s - "
+"%6$s."
+msgstr ""
+"Faylni olishda xatolik yuz berdi: %1$s%2$s%3$s!%4$s Sabab: %5$s - %6$s."
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:221
+msgid "No preview image defined for this import."
+msgstr "Ushbu import uchun oldindan koʻrish tasviri aniqlanmagan."
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:222
+#: includes/plugin/codestar-framework/classes/setup.class.php:599
+msgid "Are you sure?"
+msgstr "Ishonchingiz komilmi?"
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:223
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:230
+#: includes/plugin/codestar-framework/classes/comment-options.class.php:217
+#: includes/plugin/codestar-framework/classes/metabox-options.class.php:295
+msgid "Cancel"
+msgstr "Bekor qilish"
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:224
+msgid "Yes, import!"
+msgstr "Ha, import!"
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:225
+msgid "Selected demo import:"
+msgstr "Tanlangan demo importi:"
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:226
+msgid "Installing..."
+msgstr "Oʻrnatilmoqda..."
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:228
+msgid "Successfully Imported!"
+msgstr "Muvaffaqiyatli import qilindi!"
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:229
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:224
+msgid "Install Plugin"
+msgstr "Plaginni o'rnating"
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:230
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:224
+msgid "Installed"
+msgstr "Oʻrnatilgan"
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:231
+msgid "Import Failed"
+msgstr "Import amalga oshmadi"
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:232
+msgid "Whoops, there was a problem importing your content."
+msgstr "Voy, kontentingizni import qilishda muammo yuz berdi."
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:233
+msgid ""
+"Looks like some of the plugins failed to install. Please try again. If this "
+"issue persists, please manually install the failing plugins and come back to "
+"this step to import the theme demo data."
+msgstr ""
+"Ba'zi plaginlarni o'rnatib bo'lmadi. Iltimos, yana bir bor urinib ko'ring. "
+"Agar bu muammo davom etsa, iltimos, muvaffaqiyatsiz plaginlarni qo'lda "
+"o'rnating va mavzu demo ma'lumotlarini import qilish uchun ushbu bosqichga "
+"qayting."
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:234
+msgid ""
+"Invalid file type detected! Please select an XML file for the Content Import."
+msgstr ""
+"Yaroqsiz fayl turi aniqlandi! Kontentni import qilish uchun XML faylini "
+"tanlang."
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:235
+msgid ""
+"Invalid file type detected! Please select a JSON or WIE file for the Widgets "
+"Import."
+msgstr ""
+"Yaroqsiz fayl turi aniqlandi! Vidjetlarni import qilish uchun JSON yoki WIE "
+"faylini tanlang."
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:236
+msgid ""
+"Invalid file type detected! Please select a DAT file for the Customizer "
+"Import."
+msgstr ""
+"Yaroqsiz fayl turi aniqlandi! Customizer importi uchun DAT faylini tanlang."
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:237
+msgid ""
+"Invalid file type detected! Please select a JSON file for the Redux Import."
+msgstr ""
+"Yaroqsiz fayl turi aniqlandi! Redux importi uchun JSON faylini tanlang."
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:254
+msgid ""
+"Manual import files are missing! Please select the import files and try "
+"again."
+msgstr ""
+"Qo'lda import fayllari etishmayapti! Import fayllarini tanlang va qaytadan "
+"urinib ko'ring."
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:269
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:314
+msgid "Manually uploaded files"
+msgstr "Qo'lda yuklangan fayllar"
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:327
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:338
+msgid "Downloaded files"
+msgstr "Yuklab olingan fayllar"
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:334
+#, php-format
+msgid "The import files for: %s were successfully downloaded!"
+msgstr "%s uchun import fayllari yuklab olindi!"
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:343
+msgid "No import files specified!"
+msgstr "Import fayllari belgilanmagan!"
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:460
+#: includes/plugin/one-click-demo-import/views/import.php:108
+msgid "Import Complete!"
+msgstr "Import tugallandi!"
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:461
+#: includes/plugin/one-click-demo-import/views/import.php:111
+msgid ""
+"Congrats, your demo was imported successfully. You can now begin editing "
+"your site."
+msgstr ""
+"Tabriklaymiz, demongiz muvaffaqiyatli import qilindi. Endi siz saytingizni "
+"tahrirlashni boshlashingiz mumkin."
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:462
+msgid "Successful Import"
+msgstr "Muvaffaqiyatli import"
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:465
+msgid "Your import completed, but some things may not have imported properly."
+msgstr ""
+"Importingiz tugallandi, lekin baʼzi narsalar toʻgʻri import qilinmagan "
+"boʻlishi mumkin."
+
+#: includes/plugin/one-click-demo-import/inc/OneClickDemoImport.php:469
+#, php-format
+msgid ""
+"<p><a href=\"%s\" target=\"_blank\">View error log</a> for more information."
+"</p>"
+msgstr ""
+"Qo'shimcha ma'lumot olish uchun <p><a href=\"%s\" target=\"_blank\">xatolar "
+"jurnalini ko'ring</a>.</p>"
+
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:201
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:244
+#, php-format
+msgid ""
+"An error occurred while writing file to your server! Tried to write a file "
+"to: %1$s%2$s."
+msgstr ""
+"Serveringizga fayl yozishda xatolik yuz berdi! Fayl yozishga harakat qildim: "
+"%1$s%2$s."
+
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:278
+#, php-format
+msgid ""
+"An error occurred while reading a file from your server! Tried reading file "
+"from path: %1$s%2$s."
+msgstr ""
+"Serveringizdan faylni oʻqishda xatolik yuz berdi! Faylni yoʻldan oʻqishga "
+"harakat qilindi: %1$s%2$s."
+
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:301
+#, php-format
+msgid ""
+"This WordPress page does not have %1$sdirect%2$s write file access. This "
+"plugin needs it in order to save the demo import xml file to the upload "
+"directory of your site. You can change this setting with these instructions: "
+"%3$s."
+msgstr ""
+"Ushbu WordPress sahifasida %1$sdirect%2$s fayl yozish huquqi yo‘q. Ushbu "
+"plagin demo import xml faylini saytingizning yuklash katalogiga saqlash "
+"uchun kerak. Bu sozlamani quyidagi koʻrsatmalar bilan oʻzgartirishingiz "
+"mumkin: %3$s."
+
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:318
+msgid ""
+"An error occurred while retrieving reading/writing permissions to your "
+"server (could not retrieve WP filesystem credentials)!"
+msgstr ""
+"Serveringizga oʻqish/yozish ruxsatnomalarini olishda xatolik yuz berdi (WP "
+"fayl tizimi hisob maʼlumotlarini ololmadi)!"
+
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:326
+msgid "Your WordPress login credentials don't allow to use WP_Filesystem!"
+msgstr ""
+"Sizning WordPress login ma'lumotlaringiz WP_Filesystem-dan foydalanishga "
+"ruxsat bermaydi!"
+
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:366
+msgid "One Click Demo Import - "
+msgstr "Bir marta bosish demo importi -"
+
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:400
+#, php-format
+msgid ""
+"%1$sYour user role isn't high enough. You don't have permission to import "
+"demo data.%2$s"
+msgstr ""
+"%1$sSizning foydalanuvchi rolingiz yetarli darajada yuqori emas. Demo "
+"maʼlumotlarni import qilishga ruxsatingiz yoʻq.%2$s"
+
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:433
+msgid "No file provided."
+msgstr "Hech qanday fayl berilmagan."
+
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:462
+#, php-format
+msgid "Content file was not uploaded. Error: %s"
+msgstr "Kontent fayli yuklanmadi. Xato: %s"
+
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:466
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:483
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:500
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:511
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:531
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:539
+msgid "Upload files"
+msgstr "Fayllarni yuklash"
+
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:479
+#, php-format
+msgid "Widget file was not uploaded. Error: %s"
+msgstr "Vidjet fayli yuklanmadi. Xato: %s"
+
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:496
+#, php-format
+msgid "Customizer file was not uploaded. Error: %s"
+msgstr "Moslashtiruvchi fayl yuklanmadi. Xato: %s"
+
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:509
+msgid "Missing Redux option name! Please also enter the Redux option name!"
+msgstr ""
+"Redux opsiyasi nomi etishmayapti! Iltimos, Redux opsiyasi nomini ham "
+"kiriting!"
+
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:527
+#, php-format
+msgid "Redux file was not uploaded. Error: %s"
+msgstr "Redux fayli yuklanmagan. Xato: %s"
+
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:537
+msgid "The import files were successfully uploaded!"
+msgstr "Import fayllari muvaffaqiyatli yuklandi!"
+
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:563
+#, php-format
+msgid "Initial max execution time = %s"
+msgstr "Dastlabki maksimal bajarilish vaqti = %s"
+
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:567
+#, php-format
+msgid ""
+"Files info:%1$sSite URL = %2$s%1$sData file = %3$s%1$sWidget file = "
+"%4$s%1$sCustomizer file = %5$s%1$sRedux files:%1$s%6$s"
+msgstr ""
+"Files info:%1$sSite URL = %2$s%1$sData file = %3$s%1$sWidget file = "
+"%4$s%1$sCustomizer file = %5$s%1$sRedux files:%1$s%6$s"
+
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:570
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:571
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:572
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:573
+msgid "not defined!"
+msgstr "aniqlanmagan!"
+
+#: includes/plugin/one-click-demo-import/inc/Helpers.php:745
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:244
+msgid "Import Demo Data"
+msgstr "Demo ma'lumotlarini import qilish"
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:46
+msgid "About Us"
+msgstr "Biz haqimizda"
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:47
+msgid ""
+"Introduce yourself and your business with a clean layout to reassure your "
+"leads and customers."
+msgstr ""
+"Etakchilaringiz va mijozlaringizni ishontirish uchun o'zingizni va "
+"biznesingizni toza tartib bilan tanishtiring."
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:53
+msgid "Book Now"
+msgstr "Hozir band qiling"
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:54
+msgid ""
+"Expand your reach by accepting appointments online plus detailing your "
+"services and staff."
+msgstr ""
+"Uchrashuvlarni onlayn qabul qilish hamda xizmatlaringiz va xodimlaringiz "
+"haqida batafsil ma'lumot berish orqali o'z doirangizni kengaytiring."
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:60
+msgid "Contact Us"
+msgstr "Biz bilan bog'lanish"
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:61
+msgid ""
+"Make it easy to get in touch with you through a completely customizable "
+"built-in contact form."
+msgstr ""
+"To'liq moslashtirilgan o'rnatilgan aloqa formasi orqali siz bilan "
+"bog'lanishni osonlashtiring."
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:67
+msgid "FAQ"
+msgstr "TSS"
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:68
+msgid ""
+"Lighten the load on your support team or your inbox by addressing frequently "
+"asked questions."
+msgstr ""
+"Tez-tez so'raladigan savollarga javob berish orqali qo'llab-quvvatlash "
+"jamoasi yoki pochta qutingizga yukni engillashtiring."
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:74
+msgid "Meet the Team"
+msgstr "Jamoa bilan tanishing"
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:75
+msgid ""
+"Help potential clients feel more at ease by showing off your hard-working "
+"and trustworthy team."
+msgstr ""
+"Mehnatsevar va ishonchli jamoangizni ko'rsatish orqali potentsial mijozlarga "
+"o'zlarini qulayroq his qilishlariga yordam bering."
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:81
+msgid "Menu"
+msgstr "Menyu"
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:82
+msgid ""
+"Display your delicious dishes online to entice website visitors to become "
+"restaurant customers."
+msgstr ""
+"Veb-saytga tashrif buyuruvchilarni restoran mijozlariga aylantirish uchun "
+"mazali taomlaringizni onlayn ko'rsating."
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:88
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:89
+msgid ""
+"Impress leads by visually showcasing your achievements, case studies, and "
+"past work."
+msgstr ""
+"Yutuqlaringizni, amaliy tadqiqotlaringizni va o'tmishdagi ishlarni vizual "
+"ko'rsatish orqali yetakchilarni hayratda qoldiring."
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:95
+msgid "Services"
+msgstr "Xizmatlar"
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:96
+msgid ""
+"Let the world know your services or products' cost and features in an "
+"organized pricing table."
+msgstr ""
+"Tashkil etilgan narxlar jadvalida xizmatlaringiz yoki mahsulotlaringiz narxi "
+"va xususiyatlari haqida dunyoga xabar bering."
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:102
+msgid "Shop"
+msgstr "Do'kon"
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:103
+msgid ""
+"Categorize and sell your products online while displaying reviews from happy "
+"customers."
+msgstr ""
+"Baxtli mijozlarning sharhlarini ko'rsatayotganda mahsulotlaringizni "
+"toifalarga ajrating va onlayn soting."
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:109
+msgid "Testimonials"
+msgstr "Guvohlar"
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:110
+msgid ""
+"Tap into the power of social proof by displaying real-life testimonials on "
+"your website."
+msgstr ""
+"Veb-saytingizda haqiqiy hayot guvohnomalarini ko'rsatish orqali ijtimoiy "
+"isbot kuchidan foydalaning."
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:151
+msgid ""
+"Could not complete the import process for this page. Required WPForms plugin "
+"is not activated."
+msgstr ""
+"Ushbu sahifani import qilish jarayoni tugallanmadi. Kerakli WPForms plagini "
+"faollashtirilmagan."
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:155
+msgid ""
+"Could not complete the import process for this page. Required WPForms plugin "
+"doesn't exist."
+msgstr ""
+"Ushbu sahifani import qilish jarayoni tugallanmadi. Kerakli WPForms plagini "
+"mavjud emas."
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:158
+msgid "Meet the Team Form"
+msgstr "Jamoa formasi bilan tanishing"
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:158
+msgid "Contact Form"
+msgstr "Aloqa shakli"
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:162
+msgid ""
+"Could not complete the import process for this page. Something went wrong "
+"while creating a WPForms contact form."
+msgstr ""
+"Ushbu sahifani import qilish jarayoni tugallanmadi. Kerakli WPForms plagini "
+"faollashtirilmagan."
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:168
+msgid ""
+"Could not complete the import process for this page. Could not update the "
+"imported page with correct WPForms form ID."
+msgstr ""
+"Ushbu sahifani import qilish jarayoni tugallanmadi. Import qilingan sahifani "
+"toʻgʻri WPForms forma identifikatori bilan yangilab boʻlmadi."
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:181
+msgid ""
+"Could not import this page. You don't have permission to import content."
+msgstr ""
+"Bu sahifani import qilib bo‘lmadi. Kontentni import qilishga ruxsatingiz "
+"yo‘q."
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:187
+msgid "Could not import this page. Page slug is missing."
+msgstr "Bu sahifani import qilib bo‘lmadi. Sahifa slug'i yo'q."
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:214
+#, php-format
+msgid "An error occured while importing this page: %s"
+msgstr "Ushbu sahifani import qilishda xatolik yuz berdi: %s"
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:254
+msgid "The demo content import file is missing."
+msgstr "Demo kontentini import qilish fayli yoʻq."
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:343
+msgid "Email"
+msgstr "Elektron pochta"
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:350
+msgid "Comment or Message"
+msgstr "Fikr yoki xabar"
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:372
+msgid "Thanks for contacting us! We will be in touch with you shortly."
+msgstr ""
+"Biz bilan bog'langaningiz uchun tashakkur! Tez orada siz bilan bog'lanamiz."
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:377
+msgid "Submit"
+msgstr "Yuborish"
+
+#: includes/plugin/one-click-demo-import/inc/CreateDemoContent/DemoContentCreator.php:378
+msgid "Sending..."
+msgstr "Yuborilmoqda..."
+
+#: includes/plugin/one-click-demo-import/views/import.php:31
+msgid "Before We Import Your Demo"
+msgstr "Demoingizni import qilishdan oldin"
+
+#: includes/plugin/one-click-demo-import/views/import.php:33
+msgid ""
+"To ensure the best experience, installing the following plugins is strongly "
+"recommended, and in some cases required."
+msgstr ""
+"Eng yaxshi tajribani ta'minlash uchun quyidagi plaginlarni o'rnatish tavsiya "
+"etiladi va ba'zi hollarda talab qilinadi."
+
+#: includes/plugin/one-click-demo-import/views/import.php:46
+msgid ""
+"All required/recommended plugins are already installed. You can import your "
+"demo content."
+msgstr ""
+"Barcha kerakli/tavsiya etilgan plaginlar allaqachon o'rnatilgan. Demo "
+"kontentingizni import qilishingiz mumkin."
+
+#: includes/plugin/one-click-demo-import/views/import.php:59
+msgid "Star icon"
+msgstr "Yulduzcha belgisi"
+
+#: includes/plugin/one-click-demo-import/views/import.php:74
+#: includes/plugin/one-click-demo-import/views/install-plugins.php:49
+#: includes/plugin/one-click-demo-import/views/create-content.php:50
+msgid "Checkmark icon"
+msgstr "Belgilash belgisi"
+
+#: includes/plugin/one-click-demo-import/views/import.php:76
+msgid "Lock icon"
+msgstr "Qulflash belgisi"
+
+#: includes/plugin/one-click-demo-import/views/import.php:78
+#: includes/plugin/one-click-demo-import/views/install-plugins.php:50
+#: includes/plugin/one-click-demo-import/views/create-content.php:51
+msgid "Loading..."
+msgstr "Yuklanmoqda..."
+
+#: includes/plugin/one-click-demo-import/views/import.php:88
+#: includes/plugin/one-click-demo-import/views/install-plugins.php:57
+#: includes/plugin/one-click-demo-import/views/create-content.php:66
+msgid "Back icon"
+msgstr "Orqaga belgisi"
+
+#: includes/plugin/one-click-demo-import/views/import.php:88
+#: includes/plugin/one-click-demo-import/views/install-plugins.php:57
+#: includes/plugin/one-click-demo-import/views/create-content.php:66
+msgid "Go Back"
+msgstr "Ortga qaytish"
+
+#: includes/plugin/one-click-demo-import/views/import.php:89
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:231
+msgid "Continue & Import"
+msgstr "Davom etish va import qilish"
+
+#: includes/plugin/one-click-demo-import/views/import.php:98
+msgid "Importing Content"
+msgstr "Kontentni import qilish"
+
+#: includes/plugin/one-click-demo-import/views/import.php:99
+msgid ""
+"Please sit tight while we import your content. Do not refresh the page or "
+"hit the back button."
+msgstr ""
+"Iltimos, kontentingizni import qilishimiz uchun mahkam o‘tiring. Sahifani "
+"yangilamang yoki orqaga tugmasini bosmang."
+
+#: includes/plugin/one-click-demo-import/views/import.php:102
+msgid "Importing animation"
+msgstr "Animatsiya import qilinmoqda"
+
+#: includes/plugin/one-click-demo-import/views/import.php:119
+msgid "Theme Settings"
+msgstr "Mavzu sozlamalari"
+
+#: includes/plugin/one-click-demo-import/views/import.php:120
+msgid "Visit Site"
+msgstr "Saytga tashrif buyuring"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:34
+#, php-format
+msgid ""
+"%1$sWarning: your server is using %2$sPHP safe mode%3$s. This means that you "
+"might experience server timeout errors.%4$s"
+msgstr ""
+"%1$sOgohlantirish: serveringiz %2$sPHP xavfsiz rejimidan%3$s foydalanmoqda. "
+"Bu shuni anglatadiki, siz serverda vaqt tugashi bilan bog'liq xatolarga duch "
+"kelishingiz mumkin.%4$s"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:52
+msgid ""
+"Importing demo data (post, pages, images, theme settings, etc.) is the "
+"quickest and easiest way to set up your new theme."
+msgstr ""
+"Namoyish maʼlumotlarini (post, sahifalar, rasmlar, mavzu sozlamalari va h.k.)"
+" import qilish yangi mavzuni oʻrnatishning eng tez va oson usuli hisoblanadi."
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:53
+msgid ""
+"It allows you to simply edit everything instead of creating content and "
+"layouts from scratch."
+msgstr ""
+"Bu sizga noldan tarkib va ​​tartib yaratish o'rniga hamma narsani oddiygina "
+"tahrirlash imkonini beradi."
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:54
+msgid "Learn more"
+msgstr "Ko'proq ma'lumot olish"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:67
+msgid ""
+"There are no predefined import files available for this theme. Please upload "
+"the import files manually below."
+msgstr ""
+"Ushbu mavzu uchun oldindan belgilangan import fayllari mavjud emas. Import "
+"fayllarini quyida qoʻlda yuklang."
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:75
+msgid "Manual Demo File Import"
+msgstr "Demo faylni qo'lda import qilish"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:84
+msgid "Content import icon"
+msgstr "Kontentni import qilish belgisi"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:86
+msgid "Import Content"
+msgstr "Kontentni import qilish"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:87
+msgid "Select an XML file to import."
+msgstr "Import qilish uchun XML faylini tanlang."
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:90
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:111
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:132
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:154
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:179
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:197
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:215
+msgid "Info icon"
+msgstr "Ma'lumot belgisi"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:95
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:116
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:137
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:159
+msgid "Select a File"
+msgstr "Faylni tanlang"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:105
+msgid "Widgets import icon"
+msgstr "Vidjetlarni import qilish belgisi"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:107
+msgid "Import Widgets"
+msgstr "Vidjetlarni import qilish"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:108
+msgid "Select a JSON/WIE file to import."
+msgstr "Import qilish uchun JSON/WIE faylini tanlang."
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:126
+msgid "Customizer import icon"
+msgstr "Moslashtiruvchi import belgisi"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:128
+msgid "Import Customizer"
+msgstr "Import Customizer"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:129
+msgid "Select a DAT file to import."
+msgstr "Import qilish uchun DAT faylini tanlang."
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:148
+msgid "Redux import icon"
+msgstr "Redux import belgisi"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:150
+msgid "Import Redux"
+msgstr "Redux-ni import qiling"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:151
+msgid "Select a JSON file and enter Redux option name."
+msgstr "JSON faylini tanlang va Redux opsiya nomini kiriting."
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:162
+msgid "Enter Option Name"
+msgstr "Variant nomini kiriting"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:173
+msgid "Recommended plugins icon"
+msgstr "Tavsiya etilgan plaginlar belgisi"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:175
+msgid "Recommended Plugins"
+msgstr "Tavsiya etilgan plaginlar"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:176
+msgid "Install our recommended plugins."
+msgstr "Tavsiya etilgan plaginlarimizni o'rnating."
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:183
+msgid "Install Plugins"
+msgstr "Plaginlarni o'rnating"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:191
+msgid "Create demo content icon"
+msgstr "Demo kontent belgisini yarating"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:193
+#: includes/plugin/one-click-demo-import/views/create-content.php:26
+msgid "Create Demo Content"
+msgstr "Demo kontentini yarating"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:194
+msgid "Create useful content with a few clicks."
+msgstr "Bir necha marta bosish bilan foydali kontent yarating."
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:201
+msgid "Create Content"
+msgstr "Kontent yaratish"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:209
+msgid "Create landing pages icon"
+msgstr "Ochilish sahifalari belgisini yarating"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:211
+msgid "Create Landing Pages"
+msgstr "Uchish sahifalarini yaratish"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:212
+msgid "Create beautiful converting pages."
+msgstr "Chiroyli konvertatsiya qiluvchi sahifalar yarating."
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:259
+msgid "All Demos"
+msgstr "Barcha demolar"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:272
+msgid "Search Demos..."
+msgstr "Demolarni qidirish..."
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:295
+msgid "No preview image."
+msgstr "Oldindan ko‘rish tasviri yo‘q."
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:302
+msgid "Preview"
+msgstr "Ko‘rib chiqish"
+
+#: includes/plugin/one-click-demo-import/views/plugin-page.php:304
+#: includes/plugin/one-click-demo-import/views/create-content.php:67
+#: includes/plugin/codestar-framework/fields/backup/backup.php:26
+msgid "Import"
+msgstr "Import"
+
+#: includes/plugin/one-click-demo-import/views/install-plugins.php:25
+msgid "Install Recommended Plugins"
+msgstr "Tavsiya etilgan plaginlarni o'rnating"
+
+#: includes/plugin/one-click-demo-import/views/install-plugins.php:27
+msgid ""
+"Want to use the best plugins for the job? Here is the list of awesome "
+"plugins that will help you achieve your goals."
+msgstr ""
+"Ish uchun eng yaxshi plaginlardan foydalanmoqchimisiz? Maqsadlaringizga "
+"erishishga yordam beradigan ajoyib plaginlar ro'yxati."
+
+#: includes/plugin/one-click-demo-import/views/install-plugins.php:58
+msgid "Install & Activate"
+msgstr "O'rnatish va faollashtirish"
+
+#: includes/plugin/one-click-demo-import/views/create-content.php:28
+msgid ""
+"Select which pre-built pages you want to import to use on your website. "
+"After that, all you need to do is customize the content to fit your needs "
+"and your page will be good to go."
+msgstr ""
+"Veb-saytingizda foydalanish uchun import qilmoqchi bo'lgan oldindan "
+"yaratilgan sahifalarni tanlang. Shundan so'ng, siz qilishingiz kerak bo'lgan "
+"yagona narsa tarkibni ehtiyojlaringizga mos ravishda sozlashdir va sizning "
+"sahifangiz yaxshi bo'ladi."
+
+#: includes/plugin/one-click-demo-import/views/create-content.php:60
+msgid "The following plugins will be installed for free: "
+msgstr "Quyidagi plaginlar bepul o'rnatiladi:"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/Importer.php:55
+msgid ""
+"The XMLReader class is missing! Please install the XMLReader PHP extension "
+"on your server"
+msgstr ""
+"XMLReader sinfi etishmayapti! XMLReader PHP kengaytmasini serveringizga "
+"o'rnating"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/Importer.php:68
+msgid "Could not open the XML file for parsing!"
+msgstr "XML faylni tahlil qilish uchun ochib bo'lmadi!"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/Importer.php:248
+msgid "Content import start error: "
+msgstr "Kontentni import qilishni boshlash xatosi:"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/Importer.php:280
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:173
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:291
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:375
+#, php-format
+msgid ""
+"This WXR file (version %s) is newer than the importer (version %s) and may "
+"not be supported. Please consider updating."
+msgstr ""
+"Ushbu WXR fayli (%s versiyasi) importerdan (%s versiyasi) yangiroq va "
+"qo‘llab-quvvatlanmasligi mumkin. Iltimos, yangilashni o'ylab ko'ring."
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:135
+msgid "Could not open the file for parsing"
+msgstr "Faylni tahlil qilish uchun ochib bo'lmadi"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:525
+msgid "The file does not exist, please try again."
+msgstr "Fayl mavjud emas, qayta urinib koʻring."
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:588
+msgid "Invalid author mapping"
+msgstr "Muallif xaritasi noto‘g‘ri"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:689
+msgid "Cannot import auto-draft posts"
+msgstr "Avtomatik qoralama postlarni import qilib bo‘lmaydi"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:781
+#, php-format
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr "“%s” import qilinmadi: noto‘g‘ri post turi %s"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:791
+#, php-format
+msgid "%s \"%s\" already exists."
+msgstr "%s \"%s\" allaqachon mavjud."
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:869
+#, php-format
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+"“%s” ilovasini o‘tkazib yuborish, biriktirmalarni olish o‘chirib qo‘yilgan"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:883
+#, php-format
+msgid "Failed to import \"%s\" (%s)"
+msgstr "“%s” import qilinmadi (%s)"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:915
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1833
+#, php-format
+msgid "Imported \"%s\" (%s)"
+msgstr "Import qilingan “%s” (%s)"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:920
+#, php-format
+msgid "Post %d remapped to %d"
+msgstr "%d post %d ga o‘zgartirildi"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:960
+#, php-format
+msgid "Failed to import term: %s - %s"
+msgstr "Termin import qilinmadi: %s - %s"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1105
+msgid "Invalid file type"
+msgstr "Fayl turi yaroqsiz"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1604
+#, php-format
+msgid "Failed to import user \"%s\""
+msgstr "“%s” foydalanuvchisini import qilib bo‘lmadi"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1625
+#, php-format
+msgid "Imported user \"%s\""
+msgstr "Import qilingan foydalanuvchi “%s”"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1629
+#, php-format
+msgid "User %d remapped to %d"
+msgstr "%d foydalanuvchi %d ga o‘zgartirildi"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1794
+#, php-format
+msgid "Failed to import %s %s"
+msgstr "%s %s import qilinmadi"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1838
+#, php-format
+msgid "Term %d remapped to %d"
+msgstr "%d atamasi %d ga o‘zgartirildi"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1897
+#, php-format
+msgid "Failed to add metakey: %s, metavalue: %s to term_id: %d"
+msgstr "Metakey: %s, metaqiymat: %s term_idga qo‘shib bo‘lmadi: %d"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1906
+#, php-format
+msgid "Meta for term_id %d : %s => %s ; successfully added!"
+msgstr "term_id %d uchun meta : %s => %s ; muvaffaqiyatli qo'shildi!"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1958
+#, php-format
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr "Masofaviy server %3$s uchun %1$d %2$s ni qaytardi"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1980
+msgid "Zero size file downloaded"
+msgstr ""
+"WordPress login ma'lumotlaringiz WP_Filesystem-dan qo'shishga ruxsat "
+"bermaydi!"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:1986
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr "Masofaviy fayl juda katta, chegarasi %s"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2011
+#, php-format
+msgid "Running post-processing for post %d"
+msgstr "%d post uchun post-processing ishga tushirilmoqda"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2024
+#, php-format
+msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgstr "“%s” uchun post ota-onasi topilmadi (post #%d)"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2029
+#, php-format
+msgid "Post %d was imported with parent %d, but could not be found"
+msgstr "%d posti asosiy %d bilan import qilingan, ammo topilmadi"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2043
+#, php-format
+msgid "Could not find the author for \"%s\" (post #%d)"
+msgstr "“%s” muallifini topib bo‘lmadi (post #%d)"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2048
+#, php-format
+msgid "Post %d was imported with author \"%s\", but could not be found"
+msgstr "%d post “%s” muallifi bilan import qilingan, ammo topilmadi"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2074
+#, php-format
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+"%d post post-qayta ishlash uchun belgilangan, lekin hech qanday talab "
+"qilinmadi."
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2085
+#, php-format
+msgid "Could not update \"%s\" (post #%d) with mapped data"
+msgstr "“%s”ni (post #%d) xaritalangan ma’lumotlar bilan yangilab bo‘lmadi"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2130
+#, php-format
+msgid "Could not find the menu object for \"%s\" (post #%d)"
+msgstr "“%s” uchun menyu obyektini topib bo‘lmadi (post #%d)"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2135
+#, php-format
+msgid ""
+"Post %d was imported with object \"%d\" of type \"%s\", but could not be "
+"found"
+msgstr ""
+"Post %d was imported with object \"%d\" of type \"%s\", but could not be "
+"found"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2157
+#, php-format
+msgid "Could not find the comment parent for comment #%d"
+msgstr "#%d sharhi uchun sharh ota-onasi topilmadi"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2161
+#, php-format
+msgid "Comment %d was imported with parent %d, but could not be found"
+msgstr "%d izoh asosiy %d bilan import qilingan, ammo topilmadi"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2175
+#, php-format
+msgid "Could not find the author for comment #%d"
+msgstr "#%d sharh uchun muallif topilmadi"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2179
+#, php-format
+msgid "Comment %d was imported with author %d, but could not be found"
+msgstr "%d sharh muallifi %d bilan import qilingan, ammo topilmadi"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2196
+#, php-format
+msgid "Could not update comment #%d with mapped data"
+msgstr "#%d sharhni xaritalangan maʼlumotlar bilan yangilab boʻlmadi"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2227
+#, php-format
+msgid "Faulty term_id provided in terms-to-be-remapped array %s"
+msgstr ""
+"Noto'g'ri term_id %s qayta ko'rsatilishi kerak bo'lgan massivda berilgan"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2237
+#, php-format
+msgid "No taxonomy provided in terms-to-be-remapped array for term #%d"
+msgstr ""
+"#%d atamasi uchun qayta ko'rsatilishi kerak bo'lgan massivda hech qanday "
+"taksonomiya berilmagan"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2247
+#, php-format
+msgid "No parent_slug identified in remapping-array for term: %d"
+msgstr "Termin uchun remapping-massivda parent_slug aniqlanmagan: %d"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2255
+#, php-format
+msgid "The term(%d)\"s parent_slug (%s) is not found in the remapping-array."
+msgstr "(%d)\"s parent_slug (%s) atamasi remapping-massivda topilmadi."
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2269
+#, php-format
+msgid "No data returned by get_term_by for term_id #%d"
+msgstr ""
+"get_term_by tomonidan term_id #%d uchun hech qanday ma'lumot qaytarilmadi"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2288
+#, php-format
+msgid "Could not update \"%s\" (term #%d) with mapped data"
+msgstr "“%s”ni (post #%d) xaritalangan ma’lumotlar bilan yangilab bo‘lmadi"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2298
+#, php-format
+msgid "Term %d was successfully updated with parent %d"
+msgstr "%d atamasi asosiy %d bilan muvaffaqiyatli yangilandi"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2333
+msgid "Starting remapping of featured images"
+msgstr "Taqdim etilgan rasmlarni qayta ishlashni boshlash"
+
+#: includes/plugin/one-click-demo-import/vendor/awesomemotive/wp-content-importer-v2/src/WXRImporter.php:2342
+#, php-format
+msgid "Remapping featured image ID %d to new ID %d for post ID %d"
+msgstr ""
+"%d identifikatori %d identifikatori uchun yangi %d identifikatoriga "
+"ko‘rsatilgan rasm identifikatorini o‘zgartirish"
+
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:230
+msgid "Error while saving the changes."
+msgstr "O'zgarishlarni saqlashda xatolik yuz berdi."
+
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:290
+msgid "Settings successfully imported."
+msgstr "Sozlamalar muvaffaqiyatli import qilindi."
+
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:302
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:318
+msgid "Default settings restored."
+msgstr "Standart sozlamalar tiklandi."
+
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:389
+msgid "Settings saved."
+msgstr "Sozlamalar saqlandi."
+
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:569
+msgid "You have unsaved changes, save your changes!"
+msgstr "Sizda saqlanmagan o'zgarishlar bor, o'zgarishlarni saqlang!"
+
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:571
+msgid "show all settings"
+msgstr "barcha sozlamalarni ko'rsatish"
+
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:573
+#: includes/plugin/codestar-framework/fields/map/map.php:23
+#: includes/plugin/codestar-framework/fields/icon/icon.php:57
+msgid "Search..."
+msgstr "Qidirmoq..."
+
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:576
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:699
+#: includes/currency/views/backend.php:200
+msgid "Save"
+msgstr "Saqlash"
+
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:576
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:699
+msgid "Saving..."
+msgstr "Saqlanmoqda..."
+
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:577
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:700
+msgid "Reset Section"
+msgstr "Bo'limni tiklash"
+
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:577
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:700
+msgid "Are you sure to reset this section options?"
+msgstr "Ushbu bo'lim parametrlarini qayta o'rnatishga ishonchingiz komilmi?"
+
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:578
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:701
+msgid "Reset All"
+msgstr "Hammasini tiklash"
+
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:578
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:701
+#: includes/plugin/codestar-framework/classes/comment-options.class.php:216
+#: includes/plugin/codestar-framework/classes/metabox-options.class.php:294
+#: includes/plugin/codestar-framework/fields/backup/backup.php:31
+msgid "Reset"
+msgstr "Qayta o'rnatish"
+
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:578
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:701
+msgid "Are you sure you want to reset all settings to default values?"
+msgstr ""
+"Haqiqatan ham barcha sozlamalarni standart qiymatlarga qaytarmoqchimisiz?"
+
+#: includes/plugin/codestar-framework/classes/admin-options.class.php:676
+#: includes/plugin/codestar-framework/classes/comment-options.class.php:199
+#: includes/plugin/codestar-framework/classes/metabox-options.class.php:277
+#: includes/plugin/codestar-framework/functions/actions.php:41
+#: includes/plugin/codestar-framework/fields/radio/radio.php:75
+#: includes/plugin/codestar-framework/fields/checkbox/checkbox.php:76
+#: includes/plugin/codestar-framework/fields/button_set/button_set.php:56
+#: includes/plugin/codestar-framework/fields/select/select.php:113
+msgid "No data available."
+msgstr "Maʼlumotlar mavjud emas."
+
+#: includes/plugin/codestar-framework/classes/comment-options.class.php:217
+#: includes/plugin/codestar-framework/classes/metabox-options.class.php:295
+msgid "update post"
+msgstr "postni yangilash"
+
+#: includes/plugin/codestar-framework/classes/setup.class.php:600
+#, php-format
+msgid "Please enter %s or more characters"
+msgstr "%s yoki undan ortiq belgi kiriting"
+
+#: includes/plugin/codestar-framework/classes/setup.class.php:601
+msgid "Searching..."
+msgstr "Qidirilmoqda..."
+
+#: includes/plugin/codestar-framework/classes/setup.class.php:602
+msgid "No results found."
+msgstr "Hech qanday natija topilmadi."
+
+#: includes/plugin/codestar-framework/classes/setup.class.php:703
+msgid "Oops! Not allowed."
+msgstr "Voy! Ruxsat berilmagan."
+
+#: includes/plugin/codestar-framework/classes/setup.class.php:775
+#: includes/plugin/codestar-framework/classes/setup.class.php:779
+msgid "Field not found!"
+msgstr "Maydon topilmadi!"
+
+#: includes/plugin/codestar-framework/classes/shortcode-options.class.php:253
+#: includes/plugin/codestar-framework/fields/group/group.php:23
+msgid "Add New"
+msgstr "Yangi qo'shish"
+
+#: includes/plugin/codestar-framework/classes/shortcode-options.class.php:290
+#: includes/plugin/codestar-framework/functions/actions.php:16
+#: includes/plugin/codestar-framework/functions/actions.php:68
+#: includes/plugin/codestar-framework/functions/actions.php:106
+#: includes/plugin/codestar-framework/functions/actions.php:141
+#: includes/plugin/codestar-framework/functions/actions.php:170
+msgid "Error: Invalid nonce verification."
+msgstr "Xato: kalit noto‘g‘ri."
+
+#: includes/plugin/codestar-framework/functions/actions.php:72
+#: includes/plugin/codestar-framework/functions/actions.php:110
+msgid "Error: Invalid key."
+msgstr "Xato: kalit noto‘g‘ri."
+
+#: includes/plugin/codestar-framework/functions/actions.php:114
+msgid "Error: The response is not a valid JSON response."
+msgstr "Xato: javob yaroqli JSON javobi emas."
+
+#: includes/plugin/codestar-framework/functions/actions.php:174
+msgid "Error: Invalid term ID."
+msgstr "Xato: atama identifikatori noto‘g‘ri."
+
+#: includes/plugin/codestar-framework/functions/actions.php:180
+msgid "Error: You do not have permission to do that."
+msgstr "Xato: buni amalga oshirish uchun ruxsatingiz yo'q."
+
+#: includes/plugin/codestar-framework/functions/validate.php:14
+#: includes/plugin/codestar-framework/functions/validate.php:86
+msgid "Please enter a valid email address."
+msgstr "Iltimos amaldagi e-pochta manzilingizni kiriting."
+
+#: includes/plugin/codestar-framework/functions/validate.php:32
+#: includes/plugin/codestar-framework/functions/validate.php:106
+msgid "Please enter a valid number."
+msgstr "Yaroqli raqam kiriting."
+
+#: includes/plugin/codestar-framework/functions/validate.php:50
+#: includes/plugin/codestar-framework/functions/validate.php:126
+msgid "This field is required."
+msgstr "Ushbu qator to'ldirilishi shart."
+
+#: includes/plugin/codestar-framework/functions/validate.php:68
+#: includes/plugin/codestar-framework/functions/validate.php:146
+msgid "Please enter a valid URL."
+msgstr "Yaroqli URL manzilini kiriting."
+
+#: includes/plugin/codestar-framework/fields/background/background.php:36
+#: includes/plugin/codestar-framework/fields/media/media.php:59
+msgid "Not selected"
+msgstr "Tanlanmagan"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:72
+#: includes/plugin/codestar-framework/fields/datetime/datetime.php:36
+#: includes/plugin/codestar-framework/fields/date/date.php:31
+msgid "From"
+msgstr "Kimdan"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:90
+#: includes/plugin/codestar-framework/fields/datetime/datetime.php:37
+#: includes/plugin/codestar-framework/fields/date/date.php:32
+msgid "To"
+msgstr "Kimga"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:108
+msgid "Direction"
+msgstr "Yo'nalish"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:114
+msgid "Gradient Direction"
+msgstr "Gradient yo'nalishi"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:115
+msgid "&#8659; top to bottom"
+msgstr "&#8659; yuqoridan pastga"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:116
+msgid "&#8658; left to right"
+msgstr "&#8658; chapdan o'ngga"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:117
+msgid "&#8664; corner top to right"
+msgstr "&#8664; burchak yuqoridan o'ngga"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:118
+msgid "&#8665; corner top to left"
+msgstr "&#8665; burchak yuqoridan chapga"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:161
+msgid "Background Position"
+msgstr "Fon holati"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:162
+msgid "Left Top"
+msgstr "Chap tepa"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:163
+msgid "Left Center"
+msgstr "Chap markaz"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:164
+msgid "Left Bottom"
+msgstr "Chap pastki"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:165
+msgid "Center Top"
+msgstr "Markaziy tepa"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:166
+msgid "Center Center"
+msgstr "Markaz markazi"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:167
+msgid "Center Bottom"
+msgstr "Markaziy pastki"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:168
+msgid "Right Top"
+msgstr "O'ng tepa"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:169
+msgid "Right Center"
+msgstr "O'ng markaz"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:170
+msgid "Right Bottom"
+msgstr "O'ng pastki"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:184
+msgid "Background Repeat"
+msgstr "Fonda takrorlash"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:185
+msgid "Repeat"
+msgstr "Takrorlang"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:186
+msgid "No Repeat"
+msgstr "Takrorlash yo'q"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:187
+msgid "Repeat Horizontally"
+msgstr "Gorizontal tarzda takrorlang"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:188
+msgid "Repeat Vertically"
+msgstr "Vertikal ravishda takrorlang"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:202
+msgid "Background Attachment"
+msgstr "Fon ilovasi"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:203
+msgid "Scroll"
+msgstr "aylantiring"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:204
+#: views/woocommerce/discount/add-price-rules-simple.php:25
+#: views/woocommerce/discount/add-price-rules-variation.php:27
+msgid "Fixed"
+msgstr "Tugallangan"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:218
+msgid "Background Size"
+msgstr "Fon hajmi"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:219
+msgid "Cover"
+msgstr "Qopqoq"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:220
+msgid "Contain"
+msgstr "Tarkibida"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:221
+msgid "Auto"
+msgstr "Avtomatik"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:235
+msgid "Background Origin"
+msgstr "Fonning kelib chiqishi"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:236
+#: includes/plugin/codestar-framework/fields/background/background.php:254
+msgid "Padding Box"
+msgstr "To'ldirish qutisi"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:237
+#: includes/plugin/codestar-framework/fields/background/background.php:253
+msgid "Border Box"
+msgstr "Chegara qutisi"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:238
+#: includes/plugin/codestar-framework/fields/background/background.php:255
+msgid "Content Box"
+msgstr "Kontent qutisi"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:252
+msgid "Background Clip"
+msgstr "Fon uchun klip"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:269
+msgid "Background Blend Mode"
+msgstr "Fon aralashtirish rejimi"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:270
+#: includes/plugin/codestar-framework/fields/link_color/link_color.php:36
+#: includes/plugin/codestar-framework/fields/typography/typography.php:186
+msgid "Normal"
+msgstr "Oddiy"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:271
+msgid "Multiply"
+msgstr "Ko'paytiring"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:272
+msgid "Screen"
+msgstr "Screen"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:273
+msgid "Overlay"
+msgstr "Overlay"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:274
+msgid "Darken"
+msgstr "Qorong'i"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:275
+msgid "Lighten"
+msgstr "Yengillashtiring"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:276
+msgid "Color Dodge"
+msgstr "Rangli Dodge"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:277
+msgid "Saturation"
+msgstr "To'yinganlik"
+
+#: includes/plugin/codestar-framework/fields/background/background.php:279
+msgid "Luminosity"
+msgstr "Yorqinlik"
+
+#: includes/plugin/codestar-framework/fields/border/border.php:25
+#: includes/plugin/codestar-framework/fields/spacing/spacing.php:25
+msgid "top"
+msgstr "yuqori"
+
+#: includes/plugin/codestar-framework/fields/border/border.php:26
+#: includes/plugin/codestar-framework/fields/spacing/spacing.php:26
+msgid "right"
+msgstr "to'g'ri"
+
+#: includes/plugin/codestar-framework/fields/border/border.php:27
+#: includes/plugin/codestar-framework/fields/spacing/spacing.php:27
+msgid "bottom"
+msgstr "pastki"
+
+#: includes/plugin/codestar-framework/fields/border/border.php:28
+#: includes/plugin/codestar-framework/fields/spacing/spacing.php:28
+msgid "left"
+msgstr "chap"
+
+#: includes/plugin/codestar-framework/fields/border/border.php:29
+#: includes/plugin/codestar-framework/fields/spacing/spacing.php:29
+msgid "all"
+msgstr "hammasi"
+
+#: includes/plugin/codestar-framework/fields/border/border.php:51
+#: includes/plugin/codestar-framework/fields/typography/typography.php:214
+msgid "Solid"
+msgstr "Qattiq"
+
+#: includes/plugin/codestar-framework/fields/border/border.php:52
+#: includes/plugin/codestar-framework/fields/typography/typography.php:217
+msgid "Dashed"
+msgstr "Chiziqli"
+
+#: includes/plugin/codestar-framework/fields/border/border.php:53
+#: includes/plugin/codestar-framework/fields/typography/typography.php:216
+msgid "Dotted"
+msgstr "Nuqtali"
+
+#: includes/plugin/codestar-framework/fields/border/border.php:54
+#: includes/plugin/codestar-framework/fields/typography/typography.php:215
+msgid "Double"
+msgstr "Ikki marta"
+
+#: includes/plugin/codestar-framework/fields/border/border.php:55
+msgid "Inset"
+msgstr "Kiritilgan"
+
+#: includes/plugin/codestar-framework/fields/border/border.php:56
+msgid "Outset"
+msgstr "Boshlanish"
+
+#: includes/plugin/codestar-framework/fields/border/border.php:57
+msgid "Groove"
+msgstr "Groove"
+
+#: includes/plugin/codestar-framework/fields/border/border.php:58
+msgid "ridge"
+msgstr "tizma"
+
+#: includes/plugin/codestar-framework/fields/border/border.php:59
+#: includes/plugin/codestar-framework/fields/typography/typography.php:199
+#: includes/plugin/codestar-framework/fields/typography/typography.php:213
+msgid "None"
+msgstr "Yo'q"
+
+#: includes/plugin/codestar-framework/fields/link_color/link_color.php:37
+msgid "Hover"
+msgstr "Hover"
+
+#: includes/plugin/codestar-framework/fields/link_color/link_color.php:38
+msgid "Active"
+msgstr "Faol"
+
+#: includes/plugin/codestar-framework/fields/link_color/link_color.php:39
+msgid "Visited"
+msgstr "tashrif buyurdi"
+
+#: includes/plugin/codestar-framework/fields/link_color/link_color.php:40
+msgid "Focus"
+msgstr "Diqqat"
+
+#: includes/plugin/codestar-framework/fields/sorter/sorter.php:21
+msgid "Enabled"
+msgstr "Elektron pochta"
+
+#: includes/plugin/codestar-framework/fields/sorter/sorter.php:22
+msgid "Disabled"
+msgstr "O‘chirilgan"
+
+#: includes/plugin/codestar-framework/fields/switcher/switcher.php:20
+msgid "On"
+msgstr "Yoniq"
+
+#: includes/plugin/codestar-framework/fields/switcher/switcher.php:21
+msgid "Off"
+msgstr "Oʻchirilgan"
+
+#: includes/plugin/codestar-framework/fields/group/group.php:35
+#: includes/plugin/codestar-framework/fields/repeater/repeater.php:27
+msgid "Error: Field ID conflict."
+msgstr "Xato: maydon identifikatori ziddiyati."
+
+#: includes/plugin/codestar-framework/fields/group/group.php:46
+#: includes/plugin/codestar-framework/fields/group/group.php:87
+#: includes/plugin/codestar-framework/fields/repeater/repeater.php:48
+#: includes/plugin/codestar-framework/fields/repeater/repeater.php:76
+msgid "Are you sure to delete this item?"
+msgstr "Ushbu elementni oʻchirib tashlashingizga ishonchingiz komilmi?"
+
+#: includes/plugin/codestar-framework/fields/group/group.php:121
+#: includes/plugin/codestar-framework/fields/repeater/repeater.php:89
+msgid "You cannot add more."
+msgstr "Siz ko'proq qo'sha olmaysiz."
+
+#: includes/plugin/codestar-framework/fields/group/group.php:122
+#: includes/plugin/codestar-framework/fields/repeater/repeater.php:90
+msgid "You cannot remove more."
+msgstr "Siz boshqasini olib tashlay olmaysiz."
+
+#: includes/plugin/codestar-framework/fields/gallery/gallery.php:20
+msgid "Add Gallery"
+msgstr "Galereya qo'shish"
+
+#: includes/plugin/codestar-framework/fields/gallery/gallery.php:21
+msgid "Edit Gallery"
+msgstr "Galereyani tahrirlash"
+
+#: includes/plugin/codestar-framework/fields/gallery/gallery.php:22
+msgid "Clear"
+msgstr "Toza"
+
+#: includes/plugin/codestar-framework/fields/map/map.php:24
+msgid "Latitude"
+msgstr "Kenglik"
+
+#: includes/plugin/codestar-framework/fields/map/map.php:25
+msgid "Longitude"
+msgstr "Uzunlik"
+
+#: includes/plugin/codestar-framework/fields/link/link.php:20
+msgid "Add Link"
+msgstr "Havola qo'shish"
+
+#: includes/plugin/codestar-framework/fields/link/link.php:21
+msgid "Edit Link"
+msgstr "Galereyani tahrirlash"
+
+#: includes/plugin/codestar-framework/fields/link/link.php:22
+msgid "Remove Link"
+msgstr "Havolani olib tashlash"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:96
+msgid "Font Family"
+msgstr "Shriftlar oilasi"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:97
+msgid "Select a font"
+msgstr "Shriftni tanlang"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:105
+msgid "Backup Font Family"
+msgstr "Zaxira shrift oilasi"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:119
+#: includes/plugin/codestar-framework/fields/typography/typography.php:132
+#: includes/plugin/codestar-framework/fields/typography/typography.php:145
+#: includes/plugin/codestar-framework/fields/typography/typography.php:160
+#: includes/plugin/codestar-framework/fields/typography/typography.php:176
+#: includes/plugin/codestar-framework/fields/typography/typography.php:189
+#: includes/plugin/codestar-framework/fields/typography/typography.php:203
+#: includes/plugin/codestar-framework/fields/typography/typography.php:221
+msgid "Default"
+msgstr "Standart"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:130
+msgid "Font Style"
+msgstr "Shrift uslubi"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:144
+#: includes/plugin/codestar-framework/fields/typography/typography.php:145
+msgid "Load Extra Styles"
+msgstr "Qo'shimcha uslublarni yuklash"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:158
+msgid "Subset"
+msgstr "Kichik toʻplam"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:168
+msgid "Text Align"
+msgstr "Matnni tekislash"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:170
+msgid "Inherit"
+msgstr "Meros"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:171
+msgid "Left"
+msgstr "Chapga"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:172
+msgid "Center"
+msgstr "Markaz"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:173
+msgid "Right"
+msgstr "To'g'ri"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:174
+msgid "Justify"
+msgstr "Ogohlantirish"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:175
+msgid "Initial"
+msgstr "Boshlang'ich"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:184
+msgid "Font Variant"
+msgstr "Shrift varianti"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:187
+msgid "Small Caps"
+msgstr "Kichik qalpoqchalar"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:188
+msgid "All Small Caps"
+msgstr "Barcha kichik harflar"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:197
+msgid "Text Transform"
+msgstr "Matnni aylantirish"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:200
+msgid "Capitalize"
+msgstr "Bosh harf bilan yozing"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:201
+msgid "Uppercase"
+msgstr "Katta harf"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:202
+msgid "Lowercase"
+msgstr "Kichik harf"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:211
+msgid "Text Decoration"
+msgstr "Matnni bezash"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:218
+msgid "Wavy"
+msgstr "To'lqinli"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:219
+msgid "Overline"
+msgstr "Yuqori chiziq"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:220
+msgid "Line-through"
+msgstr "Chiziq orqali"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:233
+msgid "Font Size"
+msgstr "Shrift hajmi"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:245
+msgid "Line Height"
+msgstr "Chiziq balandligi"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:257
+msgid "Letter Spacing"
+msgstr "Harf oralig'i"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:269
+msgid "Word Spacing"
+msgstr "So'z oralig'i"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:284
+msgid "Font Color"
+msgstr "Shrift rangi"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:295
+msgid "Custom Style"
+msgstr "Maxsus uslub"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:362
+msgid "Custom Web Fonts"
+msgstr "Maxsus veb-shriftlar"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:368
+msgid "Safe Web Fonts"
+msgstr "Xavfsiz veb-shriftlar"
+
+#: includes/plugin/codestar-framework/fields/typography/typography.php:388
+msgid "Google Web Fonts"
+msgstr "Google veb shriftlari"
+
+#: includes/plugin/codestar-framework/fields/icon/icon.php:20
+#: includes/plugin/codestar-framework/fields/icon/icon.php:53
+msgid "Add Icon"
+msgstr "Belgini qo'shish"
+
+#: includes/plugin/codestar-framework/fields/icon/icon.php:21
+msgid "Remove Icon"
+msgstr "Belgini olib tashlash"
+
+#: includes/plugin/codestar-framework/fields/dimensions/dimensions.php:22
+msgid "width"
+msgstr "kengligi"
+
+#: includes/plugin/codestar-framework/fields/dimensions/dimensions.php:23
+msgid "height"
+msgstr "balandlik"
+
+#: includes/plugin/codestar-framework/fields/backup/backup.php:29
+msgid "Export & Download"
+msgstr "Eksport va yuklab olish"
+
+#: includes/plugin/codestar-framework/fields/upload/upload.php:24
+#: includes/plugin/codestar-framework/fields/media/media.php:25
+msgid "Upload"
+msgstr "Yuklash"
+
+#: includes/shortcodes/brands.php:49
+msgid "Show All"
+msgstr "Hammasini ko'rsatish"
+
+#: includes/shortcodes/instagram.php:124
+msgid "Find us on Instagram"
+msgstr "Bizni Instagramda toping"
+
+#: includes/shortcodes/portfolio.php:60 includes/portfolio/views/archive.php:58
+msgid "All"
+msgstr "Hammasi"
+
+#: includes/shortcodes/blog.php:128 includes/shortcodes/blog.php:165
+#: includes/shortcodes/blog.php:198 includes/shortcodes/blog.php:232
+#: includes/shortcodes/blog.php:269
+#, php-format
+msgid "The photos should be at least %spx x %spx"
+msgstr "Rasmlar kamida %spx x %spx boʻlishi kerak"
+
+#: includes/shortcodes/blog.php:134 includes/shortcodes/blog.php:237
+#: includes/shortcodes/blog.php:279
+msgid "By "
+msgstr "tomonidan"
+
+#: includes/shortcodes/blog.php:135 includes/shortcodes/blog.php:170
+#: includes/shortcodes/blog.php:203 includes/shortcodes/blog.php:238
+msgid "on "
+msgstr "yoqilgan"
+
+#: includes/shortcodes/blog.php:278
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+#: includes/shortcodes/products.php:191
+#: includes/portfolio/views/archive.php:107
+msgid "Load More"
+msgstr "Ko'proq yuklang"
+
+#: includes/portfolio/init.php:46 includes/portfolio/init.php:47
+#: includes/portfolio/init.php:48 includes/portfolio/init.php:49
+msgctxt "kalles-addons"
+msgid "Portfolio"
+msgstr "Portfolio"
+
+#: includes/portfolio/init.php:50 includes/megamenu/init.php:55
+msgctxt "kalles-addons"
+msgid "Add New"
+msgstr "Yangi qo'shish"
+
+#: includes/portfolio/init.php:51
+msgid "Add New Portfolio"
+msgstr "Yangi portfel qo'shing"
+
+#: includes/portfolio/init.php:52
+msgid "New Portfolio"
+msgstr "Yangi portfel"
+
+#: includes/portfolio/init.php:53
+msgid "Edit Portfolio"
+msgstr "Portfelni tahrirlash"
+
+#: includes/portfolio/init.php:54
+msgid "View Portfolio"
+msgstr "Portfelni ko'rish"
+
+#: includes/portfolio/init.php:55
+msgid "All Portfolios"
+msgstr "Barcha portfellar"
+
+#: includes/portfolio/init.php:56
+msgid "Search Portfolios"
+msgstr "Portfellarni qidirish"
+
+#: includes/portfolio/init.php:57
+msgid "Parent Portfolios:"
+msgstr "Ota-onalar portfoliolari:"
+
+#: includes/portfolio/init.php:58 includes/megamenu/init.php:63
+msgid "No portfolios found."
+msgstr "Hech qanday portfel topilmadi."
+
+#: includes/portfolio/init.php:59 includes/megamenu/init.php:64
+msgid "No portfolios found in Trash."
+msgstr "Chiqindida portfel topilmadi."
+
+#: includes/portfolio/init.php:74
+msgctxt "kalles-addons"
+msgid "Categories"
+msgstr "Kategoriyalar"
+
+#: includes/portfolio/init.php:75
+msgctxt "kalles-addons"
+msgid "Category"
+msgstr "Turkum"
+
+#: includes/portfolio/init.php:76
+msgid "Search Categories"
+msgstr "Kategoriyalarni qidirish"
+
+#: includes/portfolio/init.php:77
+msgid "All Categories"
+msgstr "Barcha toifalar"
+
+#: includes/portfolio/init.php:78
+msgid "Parent Category"
+msgstr "Ota-onalar toifasi"
+
+#: includes/portfolio/init.php:79
+msgid "Parent Category:"
+msgstr "Ota-onalar toifasi:"
+
+#: includes/portfolio/init.php:80
+msgid "Edit Category"
+msgstr "Kategoriyani tahrirlash"
+
+#: includes/portfolio/init.php:81
+msgid "Update Category"
+msgstr "Kategoriyani yangilash"
+
+#: includes/portfolio/init.php:82
+msgid "Add New Category"
+msgstr "Yangi toifa qo'shing"
+
+#: includes/portfolio/init.php:83
+msgid "New Category Name"
+msgstr "Yangi toifa nomi"
+
+#: includes/portfolio/init.php:84
+msgid "Categories"
+msgstr "Kategoriyalar"
+
+#: includes/portfolio/init.php:99
+msgctxt "kalles-addons"
+msgid "Clients"
+msgstr "Mijozlar"
+
+#: includes/portfolio/init.php:100
+msgctxt "kalles-addons"
+msgid "Client"
+msgstr "Mijoz"
+
+#: includes/portfolio/init.php:101
+msgid "Search Clients"
+msgstr "Mijozlarni qidirish"
+
+#: includes/portfolio/init.php:102
+msgid "All Clients"
+msgstr "Barcha mijozlar"
+
+#: includes/portfolio/init.php:105
+msgid "Edit Client"
+msgstr "Mijozni tahrirlash"
+
+#: includes/portfolio/init.php:106
+msgid "Update Client"
+msgstr "Mijozni yangilash"
+
+#: includes/portfolio/init.php:107
+msgid "Add New Client"
+msgstr "Yangi mijoz qo'shing"
+
+#: includes/portfolio/init.php:108
+msgid "New Client Name"
+msgstr "Yangi mijoz nomi"
+
+#: includes/portfolio/init.php:109
+msgid "Separate client with commas"
+msgstr "Mijozni vergul bilan ajrating"
+
+#: includes/portfolio/init.php:110
+msgid "Add or remove client"
+msgstr "Mijoz qo'shing yoki o'chiring"
+
+#: includes/portfolio/init.php:111
+msgid "Choose from the most used client"
+msgstr "Eng ko'p ishlatiladigan mijozdan tanlang"
+
+#: includes/portfolio/init.php:112
+msgid "No client found."
+msgstr "Hech qanday mijoz topilmadi."
+
+#: includes/portfolio/init.php:113
+msgid "Clients"
+msgstr "Mijozlar"
+
+#: includes/portfolio/init.php:129
+msgctxt "kalles-addons"
+msgid "Tags"
+msgstr "Teglar"
+
+#: includes/portfolio/init.php:130
+msgctxt "kalles-addons"
+msgid "Tag"
+msgstr "Tag"
+
+#: includes/portfolio/init.php:131
+msgid "Search Tags"
+msgstr "Teglarni qidirish"
+
+#: includes/portfolio/init.php:132
+msgid "Popular Tags"
+msgstr "Plagin allaqachon o'zingizga! Biz uni siz uchun faollashtirdik."
+
+#: includes/portfolio/init.php:133
+msgid "All Tags"
+msgstr "Barcha teglar"
+
+#: includes/portfolio/init.php:136
+msgid "Edit Tag"
+msgstr "Tegni tahrirlash"
+
+#: includes/portfolio/init.php:137
+msgid "Update Tag"
+msgstr "Tegni yangilash"
+
+#: includes/portfolio/init.php:138
+msgid "Add New Tag"
+msgstr "Yangi teg qo'shing"
+
+#: includes/portfolio/init.php:139
+msgid "New Tag Name"
+msgstr "Yangi teg nomi"
+
+#: includes/portfolio/init.php:140
+msgid "Separate tag with commas"
+msgstr "Tegni vergul bilan ajrating"
+
+#: includes/portfolio/init.php:141
+msgid "Add or remove tag"
+msgstr "Teg qo'shing yoki o'chiring"
+
+#: includes/portfolio/init.php:142
+msgid "Choose from the most used tag"
+msgstr "Eng ko'p ishlatiladigan tegdan tanlang"
+
+#: includes/portfolio/init.php:143
+msgid "No tag found."
+msgstr "Hech qanday teg topilmadi."
+
+#: includes/portfolio/init.php:144
+msgid "Tags"
+msgstr "Teglar"
+
+#: includes/portfolio/init.php:222 includes/megamenu/init.php:150
+msgid "Related Portfolio"
+msgstr "Tegishli portfel"
+
+#: includes/portfolio/views/single.php:19
+msgid "Categories: "
+msgstr "Kategoriyalar:"
+
+#: includes/portfolio/views/single.php:20
+msgid "Clients: "
+msgstr "Mijozlar:"
+
+#: includes/portfolio/views/single.php:21
+msgid "Tags: "
+msgstr "Teglar:"
+
+#: includes/megamenu/init.php:51 includes/megamenu/init.php:52
+#: includes/megamenu/init.php:53 includes/megamenu/init.php:54
+msgctxt "kalles-addons"
+msgid "Megamenu"
+msgstr "Megamenyu"
+
+#: includes/megamenu/init.php:56
+msgid "Add menu block"
+msgstr "Menyu blokini qo'shing"
+
+#: includes/megamenu/init.php:57
+msgid "New Megamenu"
+msgstr "Yangi Megamenyu"
+
+#: includes/megamenu/init.php:58
+msgid "Edit Megamenu"
+msgstr "Megamenyuni tahrirlash"
+
+#: includes/megamenu/init.php:59
+msgid "View Megamenu"
+msgstr "Megamenyuni ko'rish"
+
+#: includes/megamenu/init.php:60
+msgid "All Megamenus"
+msgstr "Barcha Megamenuslar"
+
+#: includes/megamenu/init.php:61
+msgid "Search Megamenus"
+msgstr "Megamenuslarni qidiring"
+
+#: includes/megamenu/init.php:62
+msgid "Parent Megamenus:"
+msgstr "Ota-ona megamenulari:"
+
+#: includes/megamenu/init.php:83 includes/widgets/recent-posts.php:158
+msgid "Title"
+msgstr "Sarlavha"
+
+#: includes/megamenu/init.php:84
+msgid "Shortcode"
+msgstr "Qisqa kod"
+
+#: includes/megamenu/init.php:85
+msgid "Date"
+msgstr "Sana"
+
+#: includes/currency/init.php:70 includes/currency/views/backend.php:54
+msgid "All Currencies"
+msgstr "Barcha valyutalar"
+
+#: includes/currency/init.php:71
+msgid "Currencies"
+msgstr "Valyutalar"
+
+#: includes/currency/init.php:501
+#, php-format
+msgid "(includes %s)"
+msgstr "(%s oʻz ichiga oladi)"
+
+#: includes/currency/views/backend.php:60
+#: includes/currency/views/backend.php:163
+msgid "Currency"
+msgstr "Valyuta"
+
+#: includes/currency/views/backend.php:61
+#: includes/currency/views/backend.php:173
+msgid "Currency Position"
+msgstr "Valyuta pozitsiyasi"
+
+#: includes/currency/views/backend.php:62
+#: includes/currency/views/backend.php:184
+msgid "Thousand Separator"
+msgstr "Ming ajratuvchi"
+
+#: includes/currency/views/backend.php:63
+#: includes/currency/views/backend.php:188
+msgid "Decimal Separator"
+msgstr "O'nlik ajratuvchi"
+
+#: includes/currency/views/backend.php:64
+#: includes/currency/views/backend.php:192
+msgid "Number of Decimals"
+msgstr "O'nlik kasrlar soni"
+
+#: includes/currency/views/backend.php:65
+#, php-format
+msgid "Exchange Rate(In %s)"
+msgstr "Valyuta kursi (%s da)"
+
+#: includes/currency/views/backend.php:66
+msgid "Action"
+msgstr "Harakat"
+
+#: includes/currency/views/backend.php:71
+msgid "No currency found ..."
+msgstr "Hech qanday valyuta topilmadi ..."
+
+#: includes/currency/views/backend.php:78
+msgid "Update Rate"
+msgstr "Yangilanish tezligi"
+
+#: includes/currency/views/backend.php:79
+#: includes/currency/views/backend.php:151
+msgid "New Currency"
+msgstr "Yangi valyuta"
+
+#: includes/currency/views/backend.php:89
+msgid "Auto update currency"
+msgstr "Valyutani avtomatik yangilash"
+
+#: includes/currency/views/backend.php:104
+msgid "Api Key"
+msgstr "Api Key"
+
+#: includes/currency/views/backend.php:108
+msgid ""
+"Get Free Api Key from <a href=\"https://fixer.io/signup/free\" "
+"target=\"_blank\">Fixer.io</a>"
+msgstr ""
+"<a href=\"https://fixer.io/signup/free\" target=\"_blank\">Fixer.io</a> dan "
+"bepul Api kalitini oling."
+
+#: includes/currency/views/backend.php:113
+msgid "Auto update after"
+msgstr "Keyin avtomatik yangilash"
+
+#: includes/currency/views/backend.php:117
+msgid "Type 0 if you want to disable this function."
+msgstr "Agar siz ushbu funktsiyani o'chirib qo'ymoqchi bo'lsangiz, 0 kiriting."
+
+#: includes/currency/views/backend.php:122
+msgid "Last update:"
+msgstr "Oxirgi yangilanish:"
+
+#: includes/currency/views/backend.php:176
+msgid "Left ($99.99)"
+msgstr "Chap ($99,99)"
+
+#: includes/currency/views/backend.php:177
+msgid "Right (99.99$)"
+msgstr "O'ng (99,99$)"
+
+#: includes/currency/views/backend.php:178
+msgid "Left with space ($ 99.99)"
+msgstr "Bo'sh joy qoldi ($ 99,99)"
+
+#: includes/currency/views/backend.php:179
+msgid "Right with space (99.99 $)"
+msgstr "To'g'ri bo'sh joy bilan (99,99 $)"
+
+#: includes/currency/views/backend.php:196
+msgid "Exchange Rate"
+msgstr "Valyuta kursi"
+
+#: includes/widgets/recent-posts.php:32
+msgid "Your site&#8217;s most recent Posts."
+msgstr "Saytingizning eng oxirgi xabarlari."
+
+#: includes/widgets/recent-posts.php:35
+msgid "Kalles Recent Posts"
+msgstr "Kalles so'nggi xabarlar"
+
+#: includes/widgets/recent-posts.php:53
+msgid "Recent Posts"
+msgstr "Oxirgi xabarlar"
+
+#: includes/widgets/recent-posts.php:163
+msgid "All categories"
+msgstr "Barcha toifalar"
+
+#: includes/widgets/recent-posts.php:170
+msgid "Number of posts to show:"
+msgstr "Ko'rsatiladigan postlar soni:"
+
+#: includes/widgets/recent-posts.php:173
+msgid "Display post date?"
+msgstr "Post sanasi koʻrsatilsinmi?"
+
+#: views/woocommerce/discount/add-price-rules-simple.php:14
+#: views/woocommerce/discount/add-price-rules-variation.php:15
+msgid "Discount label"
+msgstr "Discount label"
+
+#: views/woocommerce/discount/add-price-rules-simple.php:22
+#: views/woocommerce/discount/add-price-rules-variation.php:23
+msgid "Discount pricing type"
+msgstr "Chegirmali narxlash turi"
+
+#: views/woocommerce/discount/add-price-rules-simple.php:26
+#: views/woocommerce/discount/add-price-rules-variation.php:28
+msgid "Percentage"
+msgstr "Foiz"
+
+#: views/woocommerce/discount/add-price-rules-simple.php:32
+#: views/woocommerce/discount/add-price-rules-simple.php:71
+#: views/woocommerce/discount/add-price-rules-variation.php:36
+#: views/woocommerce/discount/add-price-rules-variation.php:83
+msgid "Discount price rule"
+msgstr "Chegirmali narx qoidasi"
+
+#: views/woocommerce/discount/add-price-rules-simple.php:40
+#: views/woocommerce/discount/add-price-rules-simple.php:56
+#: views/woocommerce/discount/add-price-rules-simple.php:77
+#: views/woocommerce/discount/add-price-rules-simple.php:92
+#: views/woocommerce/discount/add-price-rules-variation.php:48
+#: views/woocommerce/discount/add-price-rules-variation.php:68
+#: views/woocommerce/discount/add-price-rules-variation.php:93
+#: views/woocommerce/discount/add-price-rules-variation.php:111
+msgid "Quantity"
+msgstr "Miqdori"
+
+#: views/woocommerce/discount/add-price-rules-simple.php:42
+#: views/woocommerce/discount/add-price-rules-simple.php:58
+#: views/woocommerce/discount/add-price-rules-variation.php:51
+#: views/woocommerce/discount/add-price-rules-variation.php:70
+msgid "Price"
+msgstr "Narxi"
+
+#: views/woocommerce/discount/add-price-rules-simple.php:65
+#: views/woocommerce/discount/add-price-rules-simple.php:101
+#: views/woocommerce/discount/add-price-rules-variation.php:77
+#: views/woocommerce/discount/add-price-rules-variation.php:120
+msgid "New rule"
+msgstr "Yangi qoida"
+
+#: views/woocommerce/discount/add-price-rules-simple.php:80
+#: views/woocommerce/discount/add-price-rules-simple.php:94
+#: views/woocommerce/discount/add-price-rules-variation.php:96
+#: views/woocommerce/discount/add-price-rules-variation.php:113
+msgid "Percent discount"
+msgstr "Foiz chegirma"
+
+#: views/woocommerce/discount/price-fixed-view.php:11
+msgid "Buy more save more !"
+msgstr "Ko'proq sotib oling, ko'proq tejang!"
+
+#: views/woocommerce/discount/price-fixed-view.php:63
+#: views/woocommerce/discount/price-fixed-view.php:81
+msgid "OFF"
+msgstr "O‘CHIRISH"
+
+#: views/woocommerce/discount/price-fixed-view.php:67
+#: views/woocommerce/discount/price-fixed-view.php:85
+msgid "on each product"
+msgstr "har bir mahsulotda"
+
+#: views/woocommerce/discount/price-fixed-view.php:73
+#: views/woocommerce/discount/price-fixed-view.php:91
+msgid "Add"
+msgstr "Qo'shish"

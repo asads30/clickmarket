@@ -1,0 +1,24 @@
+#wpadminbar .replain-top-link > .ab-item:before {
+	content: '';
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    width: 34px;
+    height: 16px;
+    background-color: transparent;
+    background-image: url(../img/replain-logo-white.svg) !important;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+	margin-right: 6px;
+    top: -2px;
+    float: none;
+	opacity: .65;
+}
+
+.replain-bot-link {
+	padding-bottom: 5px;
+    display: inline-block;
+	font-weight: bold;
+}
+

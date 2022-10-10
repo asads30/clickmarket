@@ -1,0 +1,3373 @@
+# Copyright (C) 2022 Advanced Custom Fields
+# This file is distributed under the same license as the Advanced Custom Fields package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Custom Fields\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Uzbek\n"
+"Report-Msgid-Bugs-To: https://support.advancedcustomfields.com\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:"
+"1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"POT-Creation-Date: 2022-09-06 08:09+0000\n"
+"PO-Revision-Date: 2022-09-06 12:01+0000\n"
+"Last-Translator: \n"
+"Language: uz_UZ\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.2; wp-6.0"
+
+#: acf.php:3, pro/acf-pro.php:27
+msgid "Advanced Custom Fields PRO"
+msgstr "Advanced Custom Fields PRO"
+
+#: acf.php:4, acf.php:8
+msgid "https://www.advancedcustomfields.com"
+msgstr "https://www.advancedcustomfields.com"
+
+#: acf.php:5
+msgid "Customize WordPress with powerful, professional and intuitive fields."
+msgstr ""
+"WordPress-ni kuchli, professional va intuitiv sohalar bilan moslashtiring."
+
+#: acf.php:7
+msgid "Delicious Brains"
+msgstr "Tartibni o'chirish"
+
+#: acf.php:71
+msgid "Advanced Custom Fields"
+msgstr "Kengaytirilgan maxsus maydonlar"
+
+#: acf.php:360, includes/admin/admin.php:50, includes/admin/admin.php:50
+msgid "Field Groups"
+msgstr "Maydon guruhlari"
+
+#: acf.php:361
+msgid "Field Group"
+msgstr "Maydon guruhi"
+
+#: acf.php:362, acf.php:396, includes/admin/admin.php:51,
+#: includes/admin/admin.php:51,
+#: pro/fields/class-acf-field-flexible-content.php:554
+msgid "Add New"
+msgstr "Add New"
+
+#: acf.php:363
+msgid "Add New Field Group"
+msgstr "Yangi maydon guruhini qo'shish"
+
+#: acf.php:364
+msgid "Edit Field Group"
+msgstr "Maydonlar guruhini tahrirlash"
+
+#: acf.php:365
+msgid "New Field Group"
+msgstr "Yangi maydon guruhi"
+
+#: acf.php:366
+msgid "View Field Group"
+msgstr "Maydonlar guruhini ko'rish"
+
+#: acf.php:367
+msgid "Search Field Groups"
+msgstr "Qidiruv maydon guruhlari"
+
+#: acf.php:368
+msgid "No Field Groups found"
+msgstr "Hech qanday maydon guruhlari topilmadi"
+
+#: acf.php:369
+msgid "No Field Groups found in Trash"
+msgstr "Chiqindida hech qanday maydon guruhlari topilmadi"
+
+#: acf.php:394, includes/admin/admin-field-group.php:233,
+#: includes/admin/admin-field-groups.php:266,
+#: pro/fields/class-acf-field-clone.php:814
+msgid "Fields"
+msgstr "Maydonlar"
+
+#: acf.php:395
+msgid "Field"
+msgstr "Maydon"
+
+#: acf.php:397
+msgid "Add New Field"
+msgstr "Yangi maydon qo'shish"
+
+#: acf.php:398
+msgid "Edit Field"
+msgstr "Maydonni tahrirlash"
+
+#: acf.php:399, includes/admin/views/field-group-fields.php:56
+msgid "New Field"
+msgstr "Yangi maydon"
+
+#: acf.php:400
+msgid "View Field"
+msgstr "Ko‘rish maydoni"
+
+#: acf.php:401
+msgid "Search Fields"
+msgstr "Qidiruv maydonlari"
+
+#: acf.php:402
+msgid "No Fields found"
+msgstr "Hech qanday maydon topilmadi"
+
+#: acf.php:403
+msgid "No Fields found in Trash"
+msgstr "Chiqindida hech qanday maydon topilmadi"
+
+#: acf.php:441, includes/admin/admin-field-group.php:385,
+#: includes/admin/admin-field-groups.php:230
+msgctxt "post status"
+msgid "Disabled"
+msgstr "O'chirilgan"
+
+#: acf.php:446
+msgid "Disabled <span class=\"count\">(%s)</span>"
+msgid_plural "Disabled <span class=\"count\">(%s)</span>"
+msgstr[0] "O‘chirilgan <span class=\"count\">(%s)</span>"
+msgstr[1] "O‘chirilgan <span class=\"count\">(%s)</span>"
+
+#: acf.php:496
+msgid ""
+"Advanced Custom Fields and Advanced Custom Fields PRO should not be active "
+"at the same time. We've automatically deactivated Advanced Custom Fields."
+msgstr ""
+"Advanced Custom Fields va Advanced Custom Fields PRO bir vaqtning o'zida "
+"faol bo'lmasligi kerak. Biz kengaytirilgan maxsus maydonlarni avtomatik "
+"ravishda o'chirib qo'ydik."
+
+#: acf.php:498
+msgid ""
+"Advanced Custom Fields and Advanced Custom Fields PRO should not be active "
+"at the same time. We've automatically deactivated Advanced Custom Fields PRO."
+msgstr ""
+"Advanced Custom Fields va Advanced Custom Fields PRO bir vaqtning o'zida "
+"faol bo'lmasligi kerak. Biz Advanced Custom Fields PRO-ni avtomatik ravishda "
+"o'chirib qo'ydik."
+
+#: includes/acf-field-functions.php:841,
+#: includes/admin/admin-field-group.php:171
+msgid "(no label)"
+msgstr "(yorliqsiz)"
+
+#: includes/acf-field-group-functions.php:846,
+#: includes/admin/admin-field-group.php:173
+msgid "copy"
+msgstr "nusxa ko'chirish"
+
+#: includes/acf-value-functions.php:374
+msgid ""
+"<strong>%1$s</strong> - We've detected one or more calls to retrieve ACF "
+"field values before ACF has been initialized. This is not supported and can "
+"result in malformed or missing data. <a href=\"%2$s\" target=\"_blank\">"
+"Learn how to fix this</a>."
+msgstr ""
+"<strong>%1$s</strong> - ACF ishga tushirilgunga qadar ACF maydoni "
+"qiymatlarini olish uchun bir yoki bir nechta qo‘ng‘iroqlarni aniqladik. Bu "
+"qo'llab-quvvatlanmaydi va noto'g'ri shakllangan yoki etishmayotgan "
+"ma'lumotlarga olib kelishi mumkin. <a href=\"%2$s\" target=\"_blank\">Buni "
+"qanday tuzatish haqida bilib oling</a>."
+
+#: includes/acf-wp-functions.php:41
+msgid "Posts"
+msgstr "Xabarlar"
+
+#: includes/acf-wp-functions.php:54
+msgid "Taxonomies"
+msgstr "Taksonomiyalar"
+
+#: includes/acf-wp-functions.php:59
+msgid "Attachments"
+msgstr "Qo'shimchalar"
+
+#: includes/acf-wp-functions.php:63,
+#: includes/admin/views/field-group-options.php:144
+msgid "Comments"
+msgstr "Izohlar"
+
+#: includes/acf-wp-functions.php:67
+msgid "Widgets"
+msgstr "Vidjetlar"
+
+#: includes/acf-wp-functions.php:71,
+#: includes/locations/class-acf-location-nav-menu.php:89
+msgid "Menus"
+msgstr "Menyular"
+
+#: includes/acf-wp-functions.php:75
+msgid "Menu items"
+msgstr "Menyu elementlari"
+
+#: includes/acf-wp-functions.php:79
+msgid "Users"
+msgstr "Foydalanuvchilar"
+
+#: includes/acf-wp-functions.php:83, pro/options-page.php:47
+msgid "Options"
+msgstr "Variantlar"
+
+#: includes/acf-wp-functions.php:87
+msgid "Blocks"
+msgstr "Bloklar"
+
+#: includes/assets.php:348
+msgid "Are you sure?"
+msgstr "Ishonchingiz komilmi?"
+
+#: includes/assets.php:349, includes/fields/class-acf-field-true_false.php:80,
+#: includes/fields/class-acf-field-true_false.php:176,
+#: pro/admin/views/html-settings-updates.php:104
+msgid "Yes"
+msgstr "Ha"
+
+#: includes/assets.php:350, includes/fields/class-acf-field-true_false.php:83,
+#: includes/fields/class-acf-field-true_false.php:193,
+#: pro/admin/views/html-settings-updates.php:116
+msgid "No"
+msgstr "Yo'q"
+
+#: includes/assets.php:351, includes/fields/class-acf-field-file.php:159,
+#: includes/fields/class-acf-field-image.php:139,
+#: includes/fields/class-acf-field-link.php:142,
+#: pro/fields/class-acf-field-gallery.php:336,
+#: pro/fields/class-acf-field-gallery.php:491
+msgid "Remove"
+msgstr "O'chirish"
+
+#: includes/assets.php:352
+msgid "Cancel"
+msgstr "Bekor qilish"
+
+#: includes/assets.php:362
+msgid "The changes you made will be lost if you navigate away from this page"
+msgstr ""
+"Agar siz ushbu sahifadan uzoqlashsangiz, kiritilgan o'zgarishlar yo'qoladi"
+
+#: includes/assets.php:365
+msgid "Validation successful"
+msgstr "Tasdiqlash muvaffaqiyatli"
+
+#: includes/assets.php:366, includes/validation.php:286,
+#: includes/validation.php:296
+msgid "Validation failed"
+msgstr "Tasdiqlash amalga oshmadi"
+
+#: includes/assets.php:367
+msgid "1 field requires attention"
+msgstr "1 ta maydon diqqatni talab qiladi"
+
+#: includes/assets.php:368
+msgid "%d fields require attention"
+msgstr "%d ta maydon diqqatni talab qiladi"
+
+#: includes/assets.php:371, includes/forms/form-comment.php:160,
+#: pro/admin/admin-options-page.php:309
+msgid "Edit field group"
+msgstr "Maydonlar guruhini tahrirlash"
+
+#: includes/fields.php:313
+msgid "Field type does not exist"
+msgstr "Maydon turi mavjud emas"
+
+#: includes/fields.php:313
+msgid "Unknown"
+msgstr "Noma'lum"
+
+#: includes/fields.php:354
+msgid "Basic"
+msgstr "Asosiy"
+
+#: includes/fields.php:355, includes/forms/form-front.php:49
+msgid "Content"
+msgstr "Tarkib"
+
+#: includes/fields.php:356
+msgid "Choice"
+msgstr "Tanlov"
+
+#: includes/fields.php:357
+msgid "Relational"
+msgstr "Aloqaviy"
+
+#: includes/fields.php:358
+msgid "jQuery"
+msgstr "jQuery"
+
+#: includes/fields.php:359,
+#: includes/fields/class-acf-field-button-group.php:181,
+#: includes/fields/class-acf-field-checkbox.php:377,
+#: includes/fields/class-acf-field-group.php:462,
+#: includes/fields/class-acf-field-radio.php:256,
+#: pro/fields/class-acf-field-clone.php:850,
+#: pro/fields/class-acf-field-flexible-content.php:549,
+#: pro/fields/class-acf-field-flexible-content.php:604,
+#: pro/fields/class-acf-field-repeater.php:451
+msgid "Layout"
+msgstr "Tartib"
+
+#: includes/locations.php:25
+msgid "Class \"%s\" does not exist."
+msgstr "“%s” sinfi mavjud emas."
+
+#: includes/locations.php:36
+msgid "Location type \"%s\" is already registered."
+msgstr "“%s” joylashuv turi allaqachon ro‘yxatdan o‘tgan."
+
+#: includes/locations.php:99, includes/locations/class-acf-location-post.php:22
+msgid "Post"
+msgstr "Post"
+
+#: includes/locations.php:100,
+#: includes/locations/class-acf-location-page.php:22
+msgid "Page"
+msgstr "Sahifa"
+
+#: includes/locations.php:101, includes/fields/class-acf-field-user.php:20
+msgid "User"
+msgstr "Foydalanuvchi"
+
+#: includes/locations.php:102
+msgid "Forms"
+msgstr "Shakllar"
+
+#: includes/media.php:48, includes/fields/class-acf-field-select.php:255
+msgctxt "verb"
+msgid "Select"
+msgstr "Tanlang"
+
+#: includes/media.php:49
+msgctxt "verb"
+msgid "Edit"
+msgstr "Tahrirlash"
+
+#: includes/media.php:50
+msgctxt "verb"
+msgid "Update"
+msgstr "Yangilash"
+
+#: includes/media.php:51
+msgid "Uploaded to this post"
+msgstr "Ushbu postga yuklangan"
+
+#: includes/media.php:52
+msgid "Expand Details"
+msgstr "Ko'chirma"
+
+#: includes/media.php:53
+msgid "Collapse Details"
+msgstr "Tafsilotlarni yig'ish"
+
+#: includes/media.php:54
+msgid "Restricted"
+msgstr "Cheklangan"
+
+#: includes/media.php:55, includes/fields/class-acf-field-image.php:67
+msgid "All images"
+msgstr "Barcha rasmlar"
+
+#: includes/validation.php:364
+msgid "%s value is required"
+msgstr "%s qiymati talab qilinadi"
+
+#: pro/blocks.php:37
+msgid "Block type name is required."
+msgstr "Blok turi nomi talab qilinadi."
+
+#: pro/blocks.php:44
+msgid "Block type \"%s\" is already registered."
+msgstr "“%s” blok turi allaqachon ro‘yxatdan o‘tgan."
+
+#: pro/blocks.php:496
+msgid "Switch to Edit"
+msgstr "Tahrirga oʻtish"
+
+#: pro/blocks.php:497
+msgid "Switch to Preview"
+msgstr "Ko‘rib chiqishga o‘tish"
+
+#: pro/blocks.php:498
+msgid "Change content alignment"
+msgstr "Kontentni tekislashni o'zgartiring"
+
+#. translators: %s: Block type title
+#: pro/blocks.php:501
+msgid "%s settings"
+msgstr "%s sozlamalari"
+
+#: pro/options-page.php:77, includes/forms/form-front.php:106,
+#: pro/fields/class-acf-field-gallery.php:523
+msgid "Update"
+msgstr "Yangilash"
+
+#: pro/options-page.php:78
+msgid "Options Updated"
+msgstr "Variantlar yangilandi"
+
+#: pro/updates.php:99
+msgid ""
+"To enable updates, please enter your license key on the <a href=\"%1$s\">"
+"Updates</a> page. If you don't have a licence key, please see <a "
+"href=\"%2$s\" target=\"_blank\">details & pricing</a>."
+msgstr ""
+"Yangilanishlarni yoqish uchun <a href=\"%1$s\">Yangilanishlar</a> sahifasida "
+"litsenziya kalitingizni kiriting. Agar sizda litsenziya kaliti boʻlmasa, <a "
+"href=\"%2$s\" target=\"_blank\">batafsil maʼlumotlar va narxlarni</a> "
+"koʻring."
+
+#: pro/updates.php:159
+msgid ""
+"<b>ACF Activation Error</b>. Your defined license key has changed, but an "
+"error occurred when deactivating your old licence"
+msgstr ""
+"<b>ACF faollashtirish xatosi</b>. Belgilangan litsenziya kalitingiz oʻzgardi,"
+" lekin eski litsenziyani oʻchirishda xatolik yuz berdi"
+
+#: pro/updates.php:154
+msgid ""
+"<b>ACF Activation Error</b>. Your defined license key has changed, but an "
+"error occurred when connecting to activation server"
+msgstr ""
+"<b>ACF faollashtirish xatosi</b>. Belgilangan litsenziya kalitingiz o'zgardi,"
+" lekin faollashtirish serveriga ulanishda xatolik yuz berdi"
+
+#: pro/updates.php:192
+msgid "<b>ACF Activation Error</b>"
+msgstr "<b>ACF faollashtirish xatosi</b>"
+
+#: pro/updates.php:187
+msgid ""
+"<b>ACF Activation Error</b>. An error occurred when connecting to activation "
+"server"
+msgstr ""
+"<b>ACF faollashtirish xatosi</b>. Faollashtirish serveriga ulanishda xatolik "
+"yuz berdi"
+
+#: pro/updates.php:279, pro/admin/views/html-settings-updates.php:117
+msgid "Check Again"
+msgstr "Yana tekshiring"
+
+#: pro/updates.php:561
+msgid "<b>ACF Activation Error</b>. Could not connect to activation server"
+msgstr ""
+"<b>ACF faollashtirish xatosi</b>. Faollashtirish serveriga ulanib bo'lmadi"
+
+#: includes/admin/admin-field-group.php:84,
+#: includes/admin/admin-field-group.php:85,
+#: includes/admin/admin-field-group.php:87
+msgid "Field group updated."
+msgstr "Maydonlar guruhi yangilandi."
+
+#: includes/admin/admin-field-group.php:86
+msgid "Field group deleted."
+msgstr "Maydonlar guruhi oʻchirildi."
+
+#: includes/admin/admin-field-group.php:89
+msgid "Field group published."
+msgstr "Dala guruhi chop etildi."
+
+#: includes/admin/admin-field-group.php:90
+msgid "Field group saved."
+msgstr "Maydon guruhi saqlandi."
+
+#: includes/admin/admin-field-group.php:91
+msgid "Field group submitted."
+msgstr "Maydon guruhi yuborildi."
+
+#: includes/admin/admin-field-group.php:92
+msgid "Field group scheduled for."
+msgstr "Dala guruhi uchun rejalashtirilgan."
+
+#: includes/admin/admin-field-group.php:93
+msgid "Field group draft updated."
+msgstr "Dala guruhi loyihasi yangilandi."
+
+#: includes/admin/admin-field-group.php:164
+msgid "The string \"field_\" may not be used at the start of a field name"
+msgstr "Maydon nomining boshida \"field_\" qatoridan foydalanilmasligi mumkin"
+
+#: includes/admin/admin-field-group.php:165
+msgid "This field cannot be moved until its changes have been saved"
+msgstr "Oʻzgarishlar saqlanmaguncha bu maydonni koʻchirib boʻlmaydi"
+
+#: includes/admin/admin-field-group.php:166
+msgid "Field group title is required"
+msgstr "Maydon guruhi sarlavhasi shart"
+
+#: includes/admin/admin-field-group.php:167
+msgid "Move to trash. Are you sure?"
+msgstr "Chiqindiga o'tkazing. Ishonchingiz komilmi?"
+
+#: includes/admin/admin-field-group.php:168
+msgid "No toggle fields available"
+msgstr "Hech qanday almashtirish maydonlari mavjud emas"
+
+#: includes/admin/admin-field-group.php:169
+msgid "Move Custom Field"
+msgstr "Maxsus maydonni ko'chirish"
+
+#: includes/admin/admin-field-group.php:170
+msgid "Checked"
+msgstr "Tekshirildi"
+
+#: includes/admin/admin-field-group.php:172
+msgid "(this field)"
+msgstr "(bu maydon)"
+
+#: includes/admin/admin-field-group.php:174, includes/api/api-helpers.php:3409,
+#: includes/admin/views/field-group-field-conditional-logic.php:60,
+#: includes/admin/views/field-group-field-conditional-logic.php:170,
+#: includes/admin/views/field-group-locations.php:36,
+#: includes/admin/views/html-location-group.php:3
+msgid "or"
+msgstr "yoki"
+
+#: includes/admin/admin-field-group.php:175,
+#: includes/admin/views/html-location-group.php:3
+msgid "Show this field group if"
+msgstr "Agar bo'lsa, ushbu maydon guruhini ko'rsating"
+
+#: includes/admin/admin-field-group.php:176
+msgid "Null"
+msgstr "Null"
+
+#: includes/admin/admin-field-group.php:179
+msgid "Has any value"
+msgstr "Har qanday qiymatga ega"
+
+#: includes/admin/admin-field-group.php:180
+msgid "Has no value"
+msgstr "Qiymati yo'q"
+
+#: includes/admin/admin-field-group.php:181
+msgid "Value is equal to"
+msgstr "Qiymat ga teng"
+
+#: includes/admin/admin-field-group.php:182
+msgid "Value is not equal to"
+msgstr "Qiymat ga teng emas"
+
+#: includes/admin/admin-field-group.php:183
+msgid "Value matches pattern"
+msgstr "Qiymat naqshga mos keladi"
+
+#: includes/admin/admin-field-group.php:184
+msgid "Value contains"
+msgstr "Qiymat o'z ichiga oladi"
+
+#: includes/admin/admin-field-group.php:185
+msgid "Value is greater than"
+msgstr "Qiymat dan katta"
+
+#: includes/admin/admin-field-group.php:186
+msgid "Value is less than"
+msgstr "Qiymat dan kichik"
+
+#: includes/admin/admin-field-group.php:187
+msgid "Selection is greater than"
+msgstr "Tanlangan har bir natijada ko'rinish"
+
+#: includes/admin/admin-field-group.php:188
+msgid "Selection is less than"
+msgstr "Tanlov kamroq"
+
+#: includes/admin/admin-field-group.php:191
+msgid "Repeater (Pro only)"
+msgstr "Takrorlagich (faqat Pro)"
+
+#: includes/admin/admin-field-group.php:192
+msgid "Flexible Content (Pro only)"
+msgstr "Moslashuvchan kontent (faqat Pro uchun)"
+
+#: includes/admin/admin-field-group.php:193
+msgid "Clone (Pro only)"
+msgstr "Klonlash (faqat Pro)"
+
+#: includes/admin/admin-field-group.php:194
+msgid "Gallery (Pro only)"
+msgstr "Galereya (faqat Pro)"
+
+#: includes/admin/admin-field-group.php:234,
+#: includes/admin/admin-field-groups.php:265
+msgid "Location"
+msgstr "Manzil"
+
+#: includes/admin/admin-field-group.php:235,
+#: includes/admin/tools/class-acf-admin-tool-export.php:288
+msgid "Settings"
+msgstr "Settings"
+
+#: includes/admin/admin-field-group.php:361
+msgid "Field Keys"
+msgstr "Maydon tugmalari"
+
+#: includes/admin/admin-field-group.php:385
+msgctxt "post status"
+msgid "Active"
+msgstr "Faol"
+
+#: includes/admin/admin-field-group.php:752
+msgid "Move Complete."
+msgstr "Ko‘chirish tugallandi."
+
+#: includes/admin/admin-field-group.php:754
+msgid "The %1$s field can now be found in the %2$s field group"
+msgstr "Endi %1$s maydonini %2$s maydonlar guruhida topish mumkin"
+
+#: includes/admin/admin-field-group.php:758
+msgid "Close Window"
+msgstr "Oynani yopish"
+
+#: includes/admin/admin-field-group.php:797
+msgid "Please select the destination for this field"
+msgstr "Iltimos, ushbu maydon uchun maqsadni tanlang"
+
+#: includes/admin/admin-field-group.php:804
+msgid "Move Field"
+msgstr "Maydonni ko'chirish"
+
+#: includes/admin/admin-field-groups.php:116
+msgid "Active <span class=\"count\">(%s)</span>"
+msgid_plural "Active <span class=\"count\">(%s)</span>"
+msgstr[0] "Faol <span class=\"count\">(%s)</span>"
+msgstr[1] "Faol <span class=\"count\">(%s)</span>"
+
+#: includes/admin/admin-field-groups.php:196
+msgid "Review local JSON changes"
+msgstr "Mahalliy JSON oʻzgarishlarini koʻrib chiqing"
+
+#: includes/admin/admin-field-groups.php:197
+msgid "Loading diff"
+msgstr "Yuklash farqi"
+
+#: includes/admin/admin-field-groups.php:198,
+#: includes/admin/admin-field-groups.php:533
+msgid "Sync changes"
+msgstr "O'zgarishlarni sinxronlash"
+
+#: includes/admin/admin-field-groups.php:263,
+#: pro/fields/class-acf-field-gallery.php:388,
+#: includes/admin/views/field-group-options.php:127,
+#: includes/admin/views/html-admin-page-upgrade-network.php:38,
+#: includes/admin/views/html-admin-page-upgrade-network.php:49
+msgid "Description"
+msgstr "Tavsif"
+
+#: includes/admin/admin-field-groups.php:264,
+#: includes/admin/views/field-group-fields.php:7
+msgid "Key"
+msgstr "Kalit"
+
+#: includes/admin/admin-field-groups.php:269
+msgid "Local JSON"
+msgstr "Mahalliy JSON"
+
+#: includes/admin/admin-field-groups.php:419
+msgid "Various"
+msgstr "Har xil"
+
+#: includes/admin/admin-field-groups.php:449
+msgid "Located in: %s"
+msgstr "Joylashgan: %s"
+
+#: includes/admin/admin-field-groups.php:445
+msgid "Located in plugin: %s"
+msgstr "Plaginda joylashgan: %s"
+
+#: includes/admin/admin-field-groups.php:441
+msgid "Located in theme: %s"
+msgstr "Mavzuda joylashgan: %s"
+
+#: includes/admin/admin-field-groups.php:484
+msgid "Awaiting save"
+msgstr "Saqlash kutilmoqda"
+
+#: includes/admin/admin-field-groups.php:481
+msgid "Saved"
+msgstr "Saqlangan"
+
+#: includes/admin/admin-field-groups.php:469,
+#: includes/admin/admin-field-groups.php:687
+msgid "Sync available"
+msgstr "Sinxronizatsiya mavjud"
+
+#: includes/admin/admin-field-groups.php:477
+msgid "Import"
+msgstr "Import"
+
+#: includes/admin/admin-field-groups.php:472
+msgid "Sync"
+msgstr "Sinxronlash"
+
+#: includes/admin/admin-field-groups.php:473
+msgid "Review changes"
+msgstr "Qaytish uchun"
+
+#: includes/admin/admin-field-groups.php:505
+msgid "Duplicate this item"
+msgstr "Ushbu elementni takrorlang"
+
+#: includes/admin/admin-field-groups.php:505,
+#: includes/admin/admin-field-groups.php:525,
+#: pro/fields/class-acf-field-flexible-content.php:553,
+#: includes/admin/views/field-group-field.php:57
+msgid "Duplicate"
+msgstr "Dublikat"
+
+#: includes/admin/admin-field-groups.php:555
+msgid "Field group duplicated."
+msgid_plural "%s field groups duplicated."
+msgstr[0] "Maydonlar guruhi takrorlandi."
+msgstr[1] "%s maydon guruhlari takrorlandi."
+
+#: includes/admin/admin-field-groups.php:612
+msgid "Field group synchronised."
+msgid_plural "%s field groups synchronised."
+msgstr[0] "Maydonlar guruhi sinxronlashtirildi."
+msgstr[1] "%s maydon guruhlari sinxronlashtirildi."
+
+#: includes/admin/admin-field-groups.php:800
+msgid "Select %s"
+msgstr "%s ni tanlang"
+
+#: includes/admin/admin-tools.php:119, includes/admin/admin-tools.php:119,
+#: includes/admin/views/html-admin-tools.php:21
+msgid "Tools"
+msgstr "Tools"
+
+#: includes/admin/admin-upgrade.php:51, includes/admin/admin-upgrade.php:51,
+#: includes/admin/admin-upgrade.php:113, includes/admin/admin-upgrade.php:114,
+#: includes/admin/admin-upgrade.php:177,
+#: includes/admin/views/html-admin-page-upgrade-network.php:24,
+#: includes/admin/views/html-admin-page-upgrade.php:26
+msgid "Upgrade Database"
+msgstr "Ma'lumotlar bazasini yangilash"
+
+#: includes/admin/admin-upgrade.php:201
+msgid "Review sites & upgrade"
+msgstr "Mahalliy JSON oʻzgarishlarini koʻrib chiqing"
+
+#: includes/admin/admin.php:49, includes/admin/admin.php:49,
+#: includes/admin/views/field-group-options.php:142
+msgid "Custom Fields"
+msgstr "Maxsus maydonlar"
+
+#: includes/admin/admin.php:129, includes/admin/admin.php:131
+msgid "Overview"
+msgstr "Umumiy koʻrinish"
+
+#: includes/admin/admin.php:132
+msgid ""
+"The Advanced Custom Fields plugin provides a visual form builder to "
+"customize WordPress edit screens with extra fields, and an intuitive API to "
+"display custom field values in any theme template file."
+msgstr ""
+"Advanced Custom Fields plagini qo'shimcha maydonlar bilan WordPress "
+"tahrirlash ekranlarini sozlash uchun vizual shakl yaratuvchisini va har "
+"qanday mavzu shablon faylida maxsus maydon qiymatlarini ko'rsatish uchun "
+"intuitiv APIni taqdim etadi."
+
+#: includes/admin/admin.php:134
+msgid ""
+"Before creating your first Field Group, we recommend first reading our <a "
+"href=\"%s\" target=\"_blank\">Getting started</a> guide to familiarize "
+"yourself with the plugin's philosophy and best practises."
+msgstr ""
+"Birinchi Field Group yaratishdan oldin plagin falsafasi va eng yaxshi "
+"amaliyotlari bilan tanishish uchun <a href=\"%s\" target=\"_blank\">Ishga "
+"kirishish</a> qo‘llanmamizni o‘qib chiqishingizni tavsiya qilamiz."
+
+#: includes/admin/admin.php:137
+msgid ""
+"Please use the Help & Support tab to get in touch should you find yourself "
+"requiring assistance."
+msgstr ""
+"Agar yordamga muhtoj boʻlsangiz, bogʻlanish uchun “Yordam va qoʻllab-"
+"quvvatlash” sahifasidan foydalaning."
+
+#: includes/admin/admin.php:146, includes/admin/admin.php:148
+msgid "Help & Support"
+msgstr "Yordam va qo‘llab-quvvatlash"
+
+#: includes/admin/admin.php:149
+msgid ""
+"We are fanatical about support, and want you to get the best out of your "
+"website with ACF. If you run into any difficulties, there are several places "
+"you can find help:"
+msgstr ""
+"Biz qo'llab-quvvatlashga fanatikmiz va ACF bilan veb-saytingizdan eng "
+"yaxshisini olishingizni xohlaymiz. Agar biron bir qiyinchilikka duch "
+"kelsangiz, yordam topishingiz mumkin bo'lgan bir nechta joy mavjud:"
+
+#: includes/admin/admin.php:152
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Documentation</a>. Our extensive "
+"documentation contains references and guides for most situations you may "
+"encounter."
+msgstr ""
+"<a href=\"%s\" target=\"_blank\">Hujjatlar</a>. Bizning keng qamrovli "
+"hujjatlarimiz siz duch kelishi mumkin bo'lgan ko'p holatlar uchun havolalar "
+"va qo'llanmalarni o'z ichiga oladi."
+
+#: includes/admin/admin.php:156
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Discussions</a>. We have an active and "
+"friendly community on our Community Forums who may be able to help you "
+"figure out the ‘how-tos’ of the ACF world."
+msgstr ""
+"<a href=\"%s\" target=\"_blank\">Munozaralar</a>. Bizning hamjamiyat "
+"forumlarida faol va do'stona hamjamiyat mavjud bo'lib, ular sizga ACF "
+"dunyosining \"qanday qilish\" ni aniqlashga yordam berishi mumkin."
+
+#: includes/admin/admin.php:160
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Help Desk</a>. The support professionals on "
+"our Help Desk will assist with your more in depth, technical challenges."
+msgstr ""
+"<a href=\"%s\" target=\"_blank\">Yordam stoli</a>. Yordam stolimizdagi "
+"qo'llab-quvvatlash mutaxassislari sizga chuqurroq, texnik muammolarni hal "
+"qilishda yordam beradi."
+
+#: includes/admin/admin.php:169
+msgid "Information"
+msgstr "Ma `lumot"
+
+#: includes/admin/admin.php:170
+msgid "Version %s"
+msgstr "Versiya %s"
+
+#: includes/admin/admin.php:171
+msgid "View details"
+msgstr "Tafsilotlarni ko'rish"
+
+#: includes/admin/admin.php:172
+msgid "Visit website"
+msgstr "Veb-saytga tashrif buyuring"
+
+#: includes/admin/admin.php:201,
+#: includes/admin/views/field-group-field-conditional-logic.php:157,
+#: includes/admin/views/html-location-rule.php:92
+msgid "and"
+msgstr "va"
+
+#: includes/ajax/class-acf-ajax-local-json-diff.php:36
+msgid "Invalid field group parameter(s)."
+msgstr "Maydon guruhi parametr(lar)i yaroqsiz."
+
+#: includes/ajax/class-acf-ajax-local-json-diff.php:43
+msgid "Invalid field group ID."
+msgstr "Maydon guruhi identifikatori yaroqsiz."
+
+#: includes/ajax/class-acf-ajax-local-json-diff.php:53
+msgid "Sorry, this field group is unavailable for diff comparison."
+msgstr "Kechirasiz, bu maydon guruhi farqni taqqoslash uchun mavjud emas."
+
+#: includes/ajax/class-acf-ajax-local-json-diff.php:59
+msgid "Last updated: %s"
+msgstr "Oxirgi yangilangan: %s"
+
+#: includes/ajax/class-acf-ajax-local-json-diff.php:64
+msgid "Original field group"
+msgstr "Asl maydon guruhi"
+
+#: includes/ajax/class-acf-ajax-local-json-diff.php:68
+msgid "JSON field group (newer)"
+msgstr "JSON maydon guruhi (yangiroq)"
+
+#: includes/ajax/class-acf-ajax-upgrade.php:34,
+#: includes/admin/views/html-admin-page-upgrade.php:94
+msgid "No updates available."
+msgstr "Hech qanday maydonlar mavjud emas"
+
+#: includes/ajax/class-acf-ajax.php:157
+msgid "Invalid nonce."
+msgstr "Nonce yaroqsiz."
+
+#: includes/api/api-helpers.php:821
+msgid "Thumbnail"
+msgstr "Eskiz"
+
+#: includes/api/api-helpers.php:822
+msgid "Medium"
+msgstr "O'rta"
+
+#: includes/api/api-helpers.php:823
+msgid "Large"
+msgstr "Katta"
+
+#: includes/api/api-helpers.php:864
+msgid "Full Size"
+msgstr "Toʻliq oʻlcham"
+
+#: includes/api/api-helpers.php:1569, includes/api/api-term.php:147,
+#: pro/fields/class-acf-field-clone.php:1005
+msgid "(no title)"
+msgstr "(sarlavha yo'q)"
+
+#: includes/api/api-helpers.php:3343
+msgid "Image width must not exceed %dpx."
+msgstr "Rasm kengligi %dpx dan oshmasligi kerak."
+
+#: includes/api/api-helpers.php:3338
+msgid "Image width must be at least %dpx."
+msgstr "Rasm kengligi kamida %dpx boʻlishi kerak."
+
+#: includes/api/api-helpers.php:3362
+msgid "Image height must not exceed %dpx."
+msgstr "Rasm balandligi %dpx dan oshmasligi kerak."
+
+#: includes/api/api-helpers.php:3357
+msgid "Image height must be at least %dpx."
+msgstr "Rasm balandligi kamida %dpx boʻlishi kerak."
+
+#: includes/api/api-helpers.php:3382
+msgid "File size must not exceed %s."
+msgstr "Fayl hajmi %s dan oshmasligi kerak."
+
+#: includes/api/api-helpers.php:3377
+msgid "File size must be at least %s."
+msgstr "Fayl hajmi kamida %s boʻlishi kerak."
+
+#: includes/api/api-helpers.php:3413
+msgid "File type must be %s."
+msgstr "Fayl turi %s boʻlishi kerak."
+
+#: includes/fields/class-acf-field-accordion.php:25
+msgid "Accordion"
+msgstr "Akkordeon"
+
+#: includes/fields/class-acf-field-accordion.php:102
+msgid "Open"
+msgstr "Ochiq"
+
+#: includes/fields/class-acf-field-accordion.php:103
+msgid "Display this accordion as open on page load."
+msgstr "Ushbu akkordeonni sahifa yuklanganda ochiq sifatida ko'rsating."
+
+#: includes/fields/class-acf-field-accordion.php:114
+msgid "Multi-expand"
+msgstr "Ko'p kengaytirish"
+
+#: includes/fields/class-acf-field-accordion.php:115
+msgid "Allow this accordion to open without closing others."
+msgstr "Bu akkordeonni boshqalarni yopmasdan ochishga ruxsat bering."
+
+#: includes/fields/class-acf-field-accordion.php:126,
+#: includes/fields/class-acf-field-tab.php:117
+msgid "Endpoint"
+msgstr "Yakuniy nuqta"
+
+#: includes/fields/class-acf-field-accordion.php:127
+msgid ""
+"Define an endpoint for the previous accordion to stop. This accordion will "
+"not be visible."
+msgstr ""
+"Oldingi akkordeonning to'xtash nuqtasini belgilang. Bu akkordeon ko'rinmaydi."
+
+#: includes/fields/class-acf-field-button-group.php:24
+msgid "Button Group"
+msgstr "Tugmalar guruhi"
+
+#: includes/fields/class-acf-field-button-group.php:147,
+#: includes/fields/class-acf-field-checkbox.php:324,
+#: includes/fields/class-acf-field-radio.php:191,
+#: includes/fields/class-acf-field-select.php:364
+msgid "Choices"
+msgstr "Tanlovlar"
+
+#: includes/fields/class-acf-field-button-group.php:148,
+#: includes/fields/class-acf-field-checkbox.php:325,
+#: includes/fields/class-acf-field-radio.php:192,
+#: includes/fields/class-acf-field-select.php:365
+msgid "Enter each choice on a new line."
+msgstr "Har bir tanlovni yangi qatorga kiriting."
+
+#: includes/fields/class-acf-field-button-group.php:148,
+#: includes/fields/class-acf-field-checkbox.php:325,
+#: includes/fields/class-acf-field-radio.php:192,
+#: includes/fields/class-acf-field-select.php:365
+msgid "For more control, you may specify both a value and label like this:"
+msgstr ""
+"Batafsil nazorat qilish uchun siz qiymat va yorliqni quyidagi kabi "
+"belgilashingiz mumkin:"
+
+#: includes/fields/class-acf-field-button-group.php:148,
+#: includes/fields/class-acf-field-checkbox.php:325,
+#: includes/fields/class-acf-field-radio.php:192,
+#: includes/fields/class-acf-field-select.php:365
+msgid "red : Red"
+msgstr "qizil: qizil"
+
+#: includes/fields/class-acf-field-button-group.php:158,
+#: includes/fields/class-acf-field-page_link.php:482,
+#: includes/fields/class-acf-field-post_object.php:394,
+#: includes/fields/class-acf-field-radio.php:202,
+#: includes/fields/class-acf-field-select.php:386,
+#: includes/fields/class-acf-field-taxonomy.php:748,
+#: includes/fields/class-acf-field-user.php:68
+msgid "Allow Null?"
+msgstr "Nullga ruxsat berilsinmi?"
+
+#: includes/fields/class-acf-field-button-group.php:170,
+#: includes/fields/class-acf-field-checkbox.php:366,
+#: includes/fields/class-acf-field-color_picker.php:155,
+#: includes/fields/class-acf-field-email.php:117,
+#: includes/fields/class-acf-field-number.php:125,
+#: includes/fields/class-acf-field-radio.php:245,
+#: includes/fields/class-acf-field-range.php:163,
+#: includes/fields/class-acf-field-select.php:375,
+#: includes/fields/class-acf-field-text.php:97,
+#: includes/fields/class-acf-field-textarea.php:103,
+#: includes/fields/class-acf-field-true_false.php:148,
+#: includes/fields/class-acf-field-url.php:101,
+#: includes/fields/class-acf-field-wysiwyg.php:334
+msgid "Default Value"
+msgstr "Standart qiymat"
+
+#: includes/fields/class-acf-field-button-group.php:171,
+#: includes/fields/class-acf-field-email.php:118,
+#: includes/fields/class-acf-field-number.php:126,
+#: includes/fields/class-acf-field-radio.php:246,
+#: includes/fields/class-acf-field-range.php:164,
+#: includes/fields/class-acf-field-text.php:98,
+#: includes/fields/class-acf-field-textarea.php:104,
+#: includes/fields/class-acf-field-url.php:102,
+#: includes/fields/class-acf-field-wysiwyg.php:335
+msgid "Appears when creating a new post"
+msgstr "Yangi post yaratishda paydo bo'ladi"
+
+#: includes/fields/class-acf-field-button-group.php:187,
+#: includes/fields/class-acf-field-checkbox.php:384,
+#: includes/fields/class-acf-field-radio.php:263
+msgid "Horizontal"
+msgstr "Gorizontal"
+
+#: includes/fields/class-acf-field-button-group.php:188,
+#: includes/fields/class-acf-field-checkbox.php:383,
+#: includes/fields/class-acf-field-radio.php:262
+msgid "Vertical"
+msgstr "Vertikal"
+
+#: includes/fields/class-acf-field-button-group.php:197,
+#: includes/fields/class-acf-field-checkbox.php:405,
+#: includes/fields/class-acf-field-file.php:227,
+#: includes/fields/class-acf-field-link.php:170,
+#: includes/fields/class-acf-field-radio.php:272,
+#: includes/fields/class-acf-field-taxonomy.php:801
+msgid "Return Value"
+msgstr "Qaytish qiymati"
+
+#: includes/fields/class-acf-field-button-group.php:198,
+#: includes/fields/class-acf-field-checkbox.php:406,
+#: includes/fields/class-acf-field-file.php:228,
+#: includes/fields/class-acf-field-link.php:171,
+#: includes/fields/class-acf-field-radio.php:273
+msgid "Specify the returned value on front end"
+msgstr "Old tomonda qaytarilgan qiymatni belgilang"
+
+#: includes/fields/class-acf-field-button-group.php:203,
+#: includes/fields/class-acf-field-checkbox.php:411,
+#: includes/fields/class-acf-field-radio.php:278,
+#: includes/fields/class-acf-field-select.php:444
+msgid "Value"
+msgstr "Qiymat"
+
+#: includes/fields/class-acf-field-button-group.php:204,
+#: includes/fields/class-acf-field-checkbox.php:412,
+#: includes/fields/class-acf-field-radio.php:279,
+#: includes/fields/class-acf-field-select.php:445,
+#: pro/fields/class-acf-field-flexible-content.php:581,
+#: includes/admin/views/field-group-fields.php:5
+msgid "Label"
+msgstr "Yorliq"
+
+#: includes/fields/class-acf-field-button-group.php:205,
+#: includes/fields/class-acf-field-checkbox.php:413,
+#: includes/fields/class-acf-field-radio.php:280,
+#: includes/fields/class-acf-field-select.php:446
+msgid "Both (Array)"
+msgstr "Ikkala (massiv)"
+
+#: includes/fields/class-acf-field-checkbox.php:25,
+#: includes/fields/class-acf-field-taxonomy.php:733
+msgid "Checkbox"
+msgstr "Belgilash katagi"
+
+#: includes/fields/class-acf-field-checkbox.php:144
+msgid "Toggle All"
+msgstr "Hammasini almashtirish"
+
+#: includes/fields/class-acf-field-checkbox.php:207
+msgid "Add new choice"
+msgstr "Yangi tanlov qo'shing"
+
+#: includes/fields/class-acf-field-checkbox.php:335
+msgid "Allow Custom"
+msgstr "Custom-ga ruxsat berish"
+
+#: includes/fields/class-acf-field-checkbox.php:340
+msgid "Allow 'custom' values to be added"
+msgstr "\"Maxsus\" qiymatlarni qo'shishga ruxsat bering"
+
+#: includes/fields/class-acf-field-checkbox.php:348
+msgid "Save Custom"
+msgstr "Maxsus saqlash"
+
+#: includes/fields/class-acf-field-checkbox.php:353
+msgid "Save 'custom' values to the field's choices"
+msgstr "\"Maxsus\" qiymatlarni maydon tanlovlariga saqlang"
+
+#: includes/fields/class-acf-field-checkbox.php:367,
+#: includes/fields/class-acf-field-select.php:376
+msgid "Enter each default value on a new line"
+msgstr "Har bir standart qiymatni yangi qatorga kiriting"
+
+#: includes/fields/class-acf-field-checkbox.php:393
+msgid "Toggle"
+msgstr "Oʻchirish"
+
+#: includes/fields/class-acf-field-checkbox.php:394
+msgid "Prepend an extra checkbox to toggle all choices"
+msgstr "Barcha variantlarni almashtirish uchun qo'shimcha katakchani qo'ying"
+
+#: includes/fields/class-acf-field-color_picker.php:25
+msgid "Color Picker"
+msgstr "Rang tanlash"
+
+#: includes/fields/class-acf-field-color_picker.php:69
+msgid "Clear"
+msgstr "Toza"
+
+#: includes/fields/class-acf-field-color_picker.php:70
+msgid "Clear color"
+msgstr "Aniq rang"
+
+#: includes/fields/class-acf-field-color_picker.php:71
+msgid "Default"
+msgstr "Standart"
+
+#: includes/fields/class-acf-field-color_picker.php:72
+msgid "Select default color"
+msgstr "Standart rangni tanlang"
+
+#: includes/fields/class-acf-field-color_picker.php:73
+msgid "Select Color"
+msgstr "Rangni tanlang"
+
+#: includes/fields/class-acf-field-color_picker.php:74
+msgid "Color value"
+msgstr "Rang qiymati"
+
+#: includes/fields/class-acf-field-color_picker.php:95,
+#: includes/fields/class-acf-field-color_picker.php:185
+msgid "Hex String"
+msgstr "Hex String"
+
+#: includes/fields/class-acf-field-color_picker.php:96
+msgid "RGBA String"
+msgstr "RGBA string"
+
+#: includes/fields/class-acf-field-color_picker.php:167
+msgid "Enable Transparency"
+msgstr "Shaffoflikni yoqing"
+
+#: includes/fields/class-acf-field-color_picker.php:179,
+#: includes/fields/class-acf-field-date_picker.php:216,
+#: includes/fields/class-acf-field-date_time_picker.php:201,
+#: includes/fields/class-acf-field-image.php:204,
+#: includes/fields/class-acf-field-post_object.php:418,
+#: includes/fields/class-acf-field-relationship.php:662,
+#: includes/fields/class-acf-field-select.php:439,
+#: includes/fields/class-acf-field-time_picker.php:131,
+#: includes/fields/class-acf-field-user.php:90,
+#: pro/fields/class-acf-field-gallery.php:573
+msgid "Return Format"
+msgstr "Qaytish formati"
+
+#: includes/fields/class-acf-field-color_picker.php:186
+msgid "RGBA Array"
+msgstr "RGBA massivi"
+
+#: includes/fields/class-acf-field-date_picker.php:25
+msgid "Date Picker"
+msgstr "Sana tanlash"
+
+#: includes/fields/class-acf-field-date_picker.php:60
+msgctxt "Date Picker JS closeText"
+msgid "Done"
+msgstr "Bajarildi"
+
+#: includes/fields/class-acf-field-date_picker.php:61
+msgctxt "Date Picker JS currentText"
+msgid "Today"
+msgstr "Bugun"
+
+#: includes/fields/class-acf-field-date_picker.php:62
+msgctxt "Date Picker JS nextText"
+msgid "Next"
+msgstr "Keyingisi"
+
+#: includes/fields/class-acf-field-date_picker.php:63
+msgctxt "Date Picker JS prevText"
+msgid "Prev"
+msgstr "Oldingi"
+
+#: includes/fields/class-acf-field-date_picker.php:64
+msgctxt "Date Picker JS weekHeader"
+msgid "Wk"
+msgstr "Wk"
+
+#: includes/fields/class-acf-field-date_picker.php:181,
+#: includes/fields/class-acf-field-date_time_picker.php:182,
+#: includes/fields/class-acf-field-time_picker.php:114
+msgid "Display Format"
+msgstr "Displey formati"
+
+#: includes/fields/class-acf-field-date_picker.php:182,
+#: includes/fields/class-acf-field-date_time_picker.php:183,
+#: includes/fields/class-acf-field-time_picker.php:115
+msgid "The format displayed when editing a post"
+msgstr ""
+"Quyidagi saytlar ma'lumotlar bazasini yangilashni talab qiladi. "
+"Yangilanmoqchi bo'lganlarini tekshiring va keyin %s tugmasini bosing."
+
+#: includes/fields/class-acf-field-date_picker.php:190,
+#: includes/fields/class-acf-field-date_picker.php:226,
+#: includes/fields/class-acf-field-date_time_picker.php:192,
+#: includes/fields/class-acf-field-date_time_picker.php:211,
+#: includes/fields/class-acf-field-time_picker.php:122,
+#: includes/fields/class-acf-field-time_picker.php:139
+msgid "Custom:"
+msgstr "Maxsus:"
+
+#: includes/fields/class-acf-field-date_picker.php:217,
+#: includes/fields/class-acf-field-date_time_picker.php:202,
+#: includes/fields/class-acf-field-time_picker.php:132
+msgid "The format returned via template functions"
+msgstr "Shablon funksiyalari orqali qaytarilgan format"
+
+#: includes/fields/class-acf-field-date_picker.php:202
+msgid "Save Format"
+msgstr "Formatni saqlash"
+
+#: includes/fields/class-acf-field-date_picker.php:203
+msgid "The format used when saving a value"
+msgstr "Qiymatni saqlashda foydalaniladigan format"
+
+#: includes/fields/class-acf-field-date_picker.php:237,
+#: includes/fields/class-acf-field-date_time_picker.php:220
+msgid "Week Starts On"
+msgstr "Haftaning boshlanishi"
+
+#: includes/fields/class-acf-field-date_time_picker.php:25
+msgid "Date Time Picker"
+msgstr "Sana vaqtni tanlash"
+
+#: includes/fields/class-acf-field-date_time_picker.php:68
+msgctxt "Date Time Picker JS timeOnlyTitle"
+msgid "Choose Time"
+msgstr "Vaqtni tanlang"
+
+#: includes/fields/class-acf-field-date_time_picker.php:69
+msgctxt "Date Time Picker JS timeText"
+msgid "Time"
+msgstr "Vaqt"
+
+#: includes/fields/class-acf-field-date_time_picker.php:70
+msgctxt "Date Time Picker JS hourText"
+msgid "Hour"
+msgstr "Soat"
+
+#: includes/fields/class-acf-field-date_time_picker.php:71
+msgctxt "Date Time Picker JS minuteText"
+msgid "Minute"
+msgstr "Daqiqa"
+
+#: includes/fields/class-acf-field-date_time_picker.php:72
+msgctxt "Date Time Picker JS secondText"
+msgid "Second"
+msgstr "Ikkinchi"
+
+#: includes/fields/class-acf-field-date_time_picker.php:73
+msgctxt "Date Time Picker JS millisecText"
+msgid "Millisecond"
+msgstr "Millisoniya"
+
+#: includes/fields/class-acf-field-date_time_picker.php:74
+msgctxt "Date Time Picker JS microsecText"
+msgid "Microsecond"
+msgstr "Mikrosoniya"
+
+#: includes/fields/class-acf-field-date_time_picker.php:75
+msgctxt "Date Time Picker JS timezoneText"
+msgid "Time Zone"
+msgstr "Vaqt zonasi"
+
+#: includes/fields/class-acf-field-date_time_picker.php:76
+msgctxt "Date Time Picker JS currentText"
+msgid "Now"
+msgstr "Hozir"
+
+#: includes/fields/class-acf-field-date_time_picker.php:77
+msgctxt "Date Time Picker JS closeText"
+msgid "Done"
+msgstr "Bajarildi"
+
+#: includes/fields/class-acf-field-date_time_picker.php:78
+msgctxt "Date Time Picker JS selectText"
+msgid "Select"
+msgstr "Tanlang"
+
+#: includes/fields/class-acf-field-date_time_picker.php:80
+msgctxt "Date Time Picker JS amText"
+msgid "AM"
+msgstr "AM"
+
+#: includes/fields/class-acf-field-date_time_picker.php:81
+msgctxt "Date Time Picker JS amTextShort"
+msgid "A"
+msgstr "A"
+
+#: includes/fields/class-acf-field-date_time_picker.php:84
+msgctxt "Date Time Picker JS pmText"
+msgid "PM"
+msgstr ""
+
+#: includes/fields/class-acf-field-date_time_picker.php:85
+msgctxt "Date Time Picker JS pmTextShort"
+msgid "P"
+msgstr ""
+
+#: includes/fields/class-acf-field-email.php:25
+msgid "Email"
+msgstr "Elektron pochta"
+
+#: includes/fields/class-acf-field-email.php:128,
+#: includes/fields/class-acf-field-number.php:136,
+#: includes/fields/class-acf-field-password.php:73,
+#: includes/fields/class-acf-field-text.php:108,
+#: includes/fields/class-acf-field-textarea.php:114,
+#: includes/fields/class-acf-field-url.php:112
+msgid "Placeholder Text"
+msgstr "To'ldiruvchi matn"
+
+#: includes/fields/class-acf-field-email.php:129,
+#: includes/fields/class-acf-field-number.php:137,
+#: includes/fields/class-acf-field-password.php:74,
+#: includes/fields/class-acf-field-text.php:109,
+#: includes/fields/class-acf-field-textarea.php:115,
+#: includes/fields/class-acf-field-url.php:113
+msgid "Appears within the input"
+msgstr "Kirish ichida paydo bo'ladi"
+
+#: includes/fields/class-acf-field-email.php:139,
+#: includes/fields/class-acf-field-number.php:147,
+#: includes/fields/class-acf-field-password.php:84,
+#: includes/fields/class-acf-field-range.php:210,
+#: includes/fields/class-acf-field-text.php:119
+msgid "Prepend"
+msgstr "Oldindan yozing"
+
+#: includes/fields/class-acf-field-email.php:140,
+#: includes/fields/class-acf-field-number.php:148,
+#: includes/fields/class-acf-field-password.php:85,
+#: includes/fields/class-acf-field-range.php:211,
+#: includes/fields/class-acf-field-text.php:120
+msgid "Appears before the input"
+msgstr "Kirishdan oldin paydo bo'ladi"
+
+#: includes/fields/class-acf-field-email.php:150,
+#: includes/fields/class-acf-field-number.php:158,
+#: includes/fields/class-acf-field-password.php:95,
+#: includes/fields/class-acf-field-range.php:221,
+#: includes/fields/class-acf-field-text.php:130
+msgid "Append"
+msgstr "Qo'shish"
+
+#: includes/fields/class-acf-field-email.php:151,
+#: includes/fields/class-acf-field-number.php:159,
+#: includes/fields/class-acf-field-password.php:96,
+#: includes/fields/class-acf-field-range.php:222,
+#: includes/fields/class-acf-field-text.php:131
+msgid "Appears after the input"
+msgstr "Kirishdan keyin paydo bo'ladi"
+
+#: includes/fields/class-acf-field-email.php:175
+msgid "'%s' is not a valid email address"
+msgstr "'%s' haqiqiy e-pochta manzili emas"
+
+#: includes/fields/class-acf-field-file.php:25
+msgid "File"
+msgstr "Fayl"
+
+#: includes/fields/class-acf-field-file.php:58,
+#: includes/admin/tools/class-acf-admin-tool-import.php:55
+msgid "Select File"
+msgstr "Faylni tanlang"
+
+#: includes/fields/class-acf-field-file.php:59
+msgid "Edit File"
+msgstr "Faylni tahrirlash"
+
+#: includes/fields/class-acf-field-file.php:60
+msgid "Update File"
+msgstr "Faylni yangilash"
+
+#: includes/fields/class-acf-field-file.php:147
+msgid "File name"
+msgstr "Fayl nomi"
+
+#: includes/fields/class-acf-field-file.php:151,
+#: includes/fields/class-acf-field-file.php:264,
+#: includes/fields/class-acf-field-file.php:277,
+#: includes/fields/class-acf-field-image.php:276,
+#: includes/fields/class-acf-field-image.php:313,
+#: pro/fields/class-acf-field-gallery.php:682,
+#: pro/fields/class-acf-field-gallery.php:719
+msgid "File size"
+msgstr "Fayl hajmi"
+
+#: includes/fields/class-acf-field-file.php:157,
+#: includes/fields/class-acf-field-image.php:137,
+#: includes/fields/class-acf-field-link.php:142,
+#: pro/fields/class-acf-field-gallery.php:335,
+#: includes/admin/views/field-group-field.php:56
+msgid "Edit"
+msgstr "Tahrirlash"
+
+#: includes/fields/class-acf-field-file.php:182,
+#: includes/admin/tools/class-acf-admin-tool-import.php:89
+msgid "No file selected"
+msgstr "Hech qanday fayl tanlanmagan"
+
+#: includes/fields/class-acf-field-file.php:182
+msgid "Add File"
+msgstr "Fayl qo'shish"
+
+#: includes/fields/class-acf-field-file.php:233
+msgid "File Array"
+msgstr "Fayl massivi"
+
+#: includes/fields/class-acf-field-file.php:234
+msgid "File URL"
+msgstr "Fayl URL manzili"
+
+#: includes/fields/class-acf-field-file.php:235
+msgid "File ID"
+msgstr "Fayl identifikatori"
+
+#: includes/fields/class-acf-field-file.php:244,
+#: includes/fields/class-acf-field-image.php:233,
+#: pro/fields/class-acf-field-gallery.php:617
+msgid "Library"
+msgstr "Kutubxona"
+
+#: includes/fields/class-acf-field-file.php:245,
+#: includes/fields/class-acf-field-image.php:234,
+#: pro/fields/class-acf-field-gallery.php:618
+msgid "Limit the media library choice"
+msgstr "Media kutubxona tanlovini cheklang"
+
+#: includes/fields/class-acf-field-file.php:250,
+#: includes/fields/class-acf-field-image.php:239,
+#: includes/locations/class-acf-location-attachment.php:73,
+#: includes/locations/class-acf-location-comment.php:61,
+#: includes/locations/class-acf-location-nav-menu.php:74,
+#: includes/locations/class-acf-location-taxonomy.php:63,
+#: includes/locations/class-acf-location-user-form.php:71,
+#: includes/locations/class-acf-location-user-role.php:78,
+#: includes/locations/class-acf-location-widget.php:65,
+#: pro/fields/class-acf-field-gallery.php:623,
+#: pro/locations/class-acf-location-block.php:66
+msgid "All"
+msgstr "Hammasi"
+
+#: includes/fields/class-acf-field-file.php:251,
+#: includes/fields/class-acf-field-image.php:240,
+#: pro/fields/class-acf-field-gallery.php:624
+msgid "Uploaded to post"
+msgstr "Postga yuklangan"
+
+#: includes/fields/class-acf-field-file.php:260,
+#: includes/fields/class-acf-field-image.php:249,
+#: pro/fields/class-acf-field-gallery.php:655
+msgid "Minimum"
+msgstr "Eng kam"
+
+#: includes/fields/class-acf-field-file.php:261,
+#: includes/fields/class-acf-field-file.php:274
+msgid "Restrict which files can be uploaded"
+msgstr "Qaysi fayllarni yuklashni cheklash"
+
+#: includes/fields/class-acf-field-file.php:273,
+#: includes/fields/class-acf-field-image.php:286,
+#: pro/fields/class-acf-field-gallery.php:692
+msgid "Maximum"
+msgstr "Maksimal"
+
+#: includes/fields/class-acf-field-file.php:286,
+#: includes/fields/class-acf-field-image.php:323,
+#: pro/fields/class-acf-field-gallery.php:729
+msgid "Allowed file types"
+msgstr "Ruxsat berilgan fayl turlari"
+
+#: includes/fields/class-acf-field-file.php:287,
+#: includes/fields/class-acf-field-image.php:324,
+#: pro/fields/class-acf-field-gallery.php:730
+msgid "Comma separated list. Leave blank for all types"
+msgstr "Vergul bilan ajratilgan roʻyxat. Barcha turlar uchun bo'sh qoldiring"
+
+#: includes/fields/class-acf-field-file.php:469
+msgid "%s requires a valid attachment ID."
+msgstr "%s toʻgʻri biriktirma identifikatorini talab qiladi."
+
+#: includes/fields/class-acf-field-google-map.php:25
+msgid "Google Map"
+msgstr "Google xarita"
+
+#: includes/fields/class-acf-field-google-map.php:60
+msgid "Sorry, this browser does not support geolocation"
+msgstr "Kechirasiz, bu brauzer geolokatsiyani qo‘llab-quvvatlamaydi"
+
+#: includes/fields/class-acf-field-google-map.php:155,
+#: includes/fields/class-acf-field-relationship.php:615
+msgid "Search"
+msgstr "Qidirmoq"
+
+#: includes/fields/class-acf-field-google-map.php:156
+msgid "Clear location"
+msgstr "Joylashuvni tozalash"
+
+#: includes/fields/class-acf-field-google-map.php:157
+msgid "Find current location"
+msgstr "Joriy joylashuvni toping"
+
+#: includes/fields/class-acf-field-google-map.php:160
+msgid "Search for address..."
+msgstr "Manzil qidirish..."
+
+#: includes/fields/class-acf-field-google-map.php:192,
+#: includes/fields/class-acf-field-google-map.php:205
+msgid "Center"
+msgstr "Markaz"
+
+#: includes/fields/class-acf-field-google-map.php:193,
+#: includes/fields/class-acf-field-google-map.php:206
+msgid "Center the initial map"
+msgstr "Dastlabki xaritani markazga qo'ying"
+
+#: includes/fields/class-acf-field-google-map.php:219
+msgid "Zoom"
+msgstr "Kattalashtirish"
+
+#: includes/fields/class-acf-field-google-map.php:220
+msgid "Set the initial zoom level"
+msgstr "Boshlang‘ich masshtab darajasini o‘rnating"
+
+#: includes/fields/class-acf-field-google-map.php:231,
+#: includes/fields/class-acf-field-image.php:264,
+#: includes/fields/class-acf-field-image.php:301,
+#: includes/fields/class-acf-field-oembed.php:292,
+#: pro/fields/class-acf-field-gallery.php:670,
+#: pro/fields/class-acf-field-gallery.php:707
+msgid "Height"
+msgstr "Balandligi"
+
+#: includes/fields/class-acf-field-google-map.php:232
+msgid "Customize the map height"
+msgstr "Xarita balandligini moslashtiring"
+
+#: includes/fields/class-acf-field-group.php:25
+msgid "Group"
+msgstr "Guruh"
+
+#: includes/fields/class-acf-field-group.php:446,
+#: pro/fields/class-acf-field-repeater.php:381
+msgid "Sub Fields"
+msgstr "Pastki maydonlar"
+
+#: includes/fields/class-acf-field-group.php:463,
+#: pro/fields/class-acf-field-clone.php:851
+msgid "Specify the style used to render the selected fields"
+msgstr ""
+"Tanlangan maydonlarni ko'rsatish uchun foydalaniladigan uslubni belgilang"
+
+#: includes/fields/class-acf-field-group.php:468,
+#: pro/fields/class-acf-field-clone.php:856,
+#: pro/fields/class-acf-field-flexible-content.php:617,
+#: pro/fields/class-acf-field-repeater.php:459,
+#: pro/locations/class-acf-location-block.php:22
+msgid "Block"
+msgstr "Bloklash"
+
+#: includes/fields/class-acf-field-group.php:469,
+#: pro/fields/class-acf-field-clone.php:857,
+#: pro/fields/class-acf-field-flexible-content.php:616,
+#: pro/fields/class-acf-field-repeater.php:458
+msgid "Table"
+msgstr "Jadval"
+
+#: includes/fields/class-acf-field-group.php:470,
+#: pro/fields/class-acf-field-clone.php:858,
+#: pro/fields/class-acf-field-flexible-content.php:618,
+#: pro/fields/class-acf-field-repeater.php:460
+msgid "Row"
+msgstr "Qator"
+
+#: includes/fields/class-acf-field-image.php:25
+msgid "Image"
+msgstr "Rasm"
+
+#: includes/fields/class-acf-field-image.php:64
+msgid "Select Image"
+msgstr "Rasmni tanlang"
+
+#: includes/fields/class-acf-field-image.php:65
+msgid "Edit Image"
+msgstr "Rasmni tahrirlash"
+
+#: includes/fields/class-acf-field-image.php:66
+msgid "Update Image"
+msgstr "Rasmni yangilash"
+
+#: includes/fields/class-acf-field-image.php:158
+msgid "No image selected"
+msgstr "Formatlash yo'q"
+
+#: includes/fields/class-acf-field-image.php:158
+msgid "Add Image"
+msgstr "Rasm qo'shish"
+
+#: includes/fields/class-acf-field-image.php:210,
+#: pro/fields/class-acf-field-gallery.php:579
+msgid "Image Array"
+msgstr "Rasmlar massivi"
+
+#: includes/fields/class-acf-field-image.php:211,
+#: pro/fields/class-acf-field-gallery.php:580
+msgid "Image URL"
+msgstr "Rasm URL"
+
+#: includes/fields/class-acf-field-image.php:212,
+#: pro/fields/class-acf-field-gallery.php:581
+msgid "Image ID"
+msgstr "Rasm identifikatori"
+
+#: includes/fields/class-acf-field-image.php:221,
+#: pro/fields/class-acf-field-gallery.php:590
+msgid "Preview Size"
+msgstr "Ko‘rib chiqish hajmi"
+
+#: includes/fields/class-acf-field-image.php:250,
+#: includes/fields/class-acf-field-image.php:287,
+#: pro/fields/class-acf-field-gallery.php:656,
+#: pro/fields/class-acf-field-gallery.php:693
+msgid "Restrict which images can be uploaded"
+msgstr "Qaysi tasvirlarni yuklashni cheklash"
+
+#: includes/fields/class-acf-field-image.php:253,
+#: includes/fields/class-acf-field-image.php:290,
+#: includes/fields/class-acf-field-oembed.php:279,
+#: pro/fields/class-acf-field-gallery.php:659,
+#: pro/fields/class-acf-field-gallery.php:696
+msgid "Width"
+msgstr "Kengligi"
+
+#: includes/fields/class-acf-field-link.php:25
+msgid "Link"
+msgstr "Havola"
+
+#: includes/fields/class-acf-field-link.php:137
+msgid "Select Link"
+msgstr "Bog'lanishni tanlang"
+
+#: includes/fields/class-acf-field-link.php:142
+msgid "Opens in a new window/tab"
+msgstr "Yangi oynada/tabda ochiladi"
+
+#: includes/fields/class-acf-field-link.php:176
+msgid "Link Array"
+msgstr "Havola massivi"
+
+#: includes/fields/class-acf-field-link.php:177
+msgid "Link URL"
+msgstr "Havola URL"
+
+#: includes/fields/class-acf-field-message.php:26,
+#: includes/fields/class-acf-field-message.php:100,
+#: includes/fields/class-acf-field-true_false.php:137
+msgid "Message"
+msgstr "Xabar"
+
+#: includes/fields/class-acf-field-message.php:111,
+#: includes/fields/class-acf-field-textarea.php:148
+msgid "New Lines"
+msgstr "Yangi qatorlar"
+
+#: includes/fields/class-acf-field-message.php:112,
+#: includes/fields/class-acf-field-textarea.php:149
+msgid "Controls how new lines are rendered"
+msgstr "Yangi qatorlar qanday ko'rsatilishini boshqaradi"
+
+#: includes/fields/class-acf-field-message.php:116,
+#: includes/fields/class-acf-field-textarea.php:153
+msgid "Automatically add paragraphs"
+msgstr "Paragraflarni avtomatik ravishda qo'shish"
+
+#: includes/fields/class-acf-field-message.php:117,
+#: includes/fields/class-acf-field-textarea.php:154
+msgid "Automatically add &lt;br&gt;"
+msgstr "Avtomatik ravishda &lt;br&gt;"
+
+#: includes/fields/class-acf-field-message.php:118,
+#: includes/fields/class-acf-field-textarea.php:155
+msgid "No Formatting"
+msgstr "Formatlash yo'q"
+
+#: includes/fields/class-acf-field-message.php:127
+msgid "Escape HTML"
+msgstr "HTMLdan qochish"
+
+#: includes/fields/class-acf-field-message.php:128
+msgid "Allow HTML markup to display as visible text instead of rendering"
+msgstr ""
+"HTML belgilashga renderlash oʻrniga koʻrinadigan matn sifatida koʻrsatishga "
+"ruxsat bering"
+
+#: includes/fields/class-acf-field-number.php:25
+msgid "Number"
+msgstr "Raqam"
+
+#: includes/fields/class-acf-field-number.php:169,
+#: includes/fields/class-acf-field-range.php:174
+msgid "Minimum Value"
+msgstr "Minimal qiymat"
+
+#: includes/fields/class-acf-field-number.php:180,
+#: includes/fields/class-acf-field-range.php:186
+msgid "Maximum Value"
+msgstr "Maksimal qiymat"
+
+#: includes/fields/class-acf-field-number.php:191,
+#: includes/fields/class-acf-field-range.php:198
+msgid "Step Size"
+msgstr "Qadam hajmi"
+
+#: includes/fields/class-acf-field-number.php:229
+msgid "Value must be a number"
+msgstr "Qiymat raqam bo'lishi kerak"
+
+#: includes/fields/class-acf-field-number.php:244
+msgid "Value must be equal to or higher than %d"
+msgstr "Qiymat %d ga teng yoki undan yuqori bo‘lishi kerak"
+
+#: includes/fields/class-acf-field-number.php:251
+msgid "Value must be equal to or lower than %d"
+msgstr "Qiymat %d ga teng yoki undan kichik bo‘lishi kerak"
+
+#: includes/fields/class-acf-field-oembed.php:25
+msgid "oEmbed"
+msgstr "oEmbed"
+
+#: includes/fields/class-acf-field-oembed.php:230
+msgid "Enter URL"
+msgstr "URL manzilini kiriting"
+
+#: includes/fields/class-acf-field-oembed.php:276,
+#: includes/fields/class-acf-field-oembed.php:289
+msgid "Embed Size"
+msgstr "O'rnatish hajmi"
+
+#: includes/fields/class-acf-field-page_link.php:25
+msgid "Page Link"
+msgstr "Sahifa atributlari"
+
+#: includes/fields/class-acf-field-page_link.php:165
+msgid "Archives"
+msgstr "Arxivlar"
+
+#: includes/fields/class-acf-field-page_link.php:249,
+#: includes/fields/class-acf-field-post_object.php:250,
+#: includes/fields/class-acf-field-taxonomy.php:948
+msgid "Parent"
+msgstr "Ota-ona"
+
+#: includes/fields/class-acf-field-page_link.php:450,
+#: includes/fields/class-acf-field-post_object.php:362,
+#: includes/fields/class-acf-field-relationship.php:578
+msgid "Filter by Post Type"
+msgstr "Post turi bo'yicha filtrlash"
+
+#: includes/fields/class-acf-field-page_link.php:458,
+#: includes/fields/class-acf-field-post_object.php:370,
+#: includes/fields/class-acf-field-relationship.php:586
+msgid "All post types"
+msgstr "Barcha post turlari"
+
+#: includes/fields/class-acf-field-page_link.php:466,
+#: includes/fields/class-acf-field-post_object.php:378,
+#: includes/fields/class-acf-field-relationship.php:594
+msgid "Filter by Taxonomy"
+msgstr "Taksonomiya bo'yicha filtrlash"
+
+#: includes/fields/class-acf-field-page_link.php:474,
+#: includes/fields/class-acf-field-post_object.php:386,
+#: includes/fields/class-acf-field-relationship.php:602
+msgid "All taxonomies"
+msgstr "Barcha taksonomiyalar"
+
+#: includes/fields/class-acf-field-page_link.php:494
+msgid "Allow Archives URLs"
+msgstr "Arxiv URL manzillariga ruxsat bering"
+
+#: includes/fields/class-acf-field-page_link.php:506,
+#: includes/fields/class-acf-field-post_object.php:406,
+#: includes/fields/class-acf-field-select.php:398,
+#: includes/fields/class-acf-field-user.php:79
+msgid "Select multiple values?"
+msgstr "Bir nechta qiymat tanlansinmi?"
+
+#: includes/fields/class-acf-field-password.php:25
+msgid "Password"
+msgstr "Parol"
+
+#: includes/fields/class-acf-field-post_object.php:25,
+#: includes/fields/class-acf-field-post_object.php:423,
+#: includes/fields/class-acf-field-relationship.php:667
+msgid "Post Object"
+msgstr "Post ob'ekti"
+
+#: includes/fields/class-acf-field-post_object.php:424,
+#: includes/fields/class-acf-field-relationship.php:668
+msgid "Post ID"
+msgstr "Post ID"
+
+#: includes/fields/class-acf-field-post_object.php:642
+msgid "%1$s must have a valid post ID."
+msgstr "%1$s to‘g‘ri post identifikatoriga ega bo‘lishi kerak."
+
+#: includes/fields/class-acf-field-post_object.php:651
+msgid "%1$s must be of post type %2$s."
+msgid_plural "%1$s must be of one of the following post types: %2$s"
+msgstr[0] "%1$s post turi %2$s bo‘lishi kerak."
+msgstr[1] "%1$s quyidagi post turlaridan biri boʻlishi kerak: %2$s"
+
+#: includes/fields/class-acf-field-post_object.php:667
+msgid "%1$s must have term %2$s."
+msgid_plural "%1$s must have one of the following terms: %2$s"
+msgstr[0] "%1$sda %2$s atamasi boʻlishi kerak."
+msgstr[1] "%1$s quyidagi shartlardan biriga ega boʻlishi kerak: %2$s"
+
+#: includes/fields/class-acf-field-radio.php:25
+msgid "Radio Button"
+msgstr "Radio tugmasi"
+
+#: includes/fields/class-acf-field-radio.php:214
+msgid "Other"
+msgstr "Boshqa"
+
+#: includes/fields/class-acf-field-radio.php:219
+msgid "Add 'other' choice to allow for custom values"
+msgstr "Maxsus qiymatlarga ruxsat berish uchun \"boshqa\" tanlovni qo'shing"
+
+#: includes/fields/class-acf-field-radio.php:227
+msgid "Save Other"
+msgstr "Boshqalarni saqlang"
+
+#: includes/fields/class-acf-field-radio.php:232
+msgid "Save 'other' values to the field's choices"
+msgstr "\"Boshqa\" qiymatlarni maydon tanlovlariga saqlang"
+
+#: includes/fields/class-acf-field-range.php:25
+msgid "Range"
+msgstr "Diapazon"
+
+#: includes/fields/class-acf-field-relationship.php:25
+msgid "Relationship"
+msgstr "Aloqa"
+
+#: includes/fields/class-acf-field-relationship.php:63
+msgid "Maximum values reached ( {max} values )"
+msgstr "Maksimal qiymatga erishildi ( {max} qiymat )"
+
+#: includes/fields/class-acf-field-relationship.php:64
+msgid "Loading"
+msgstr "Yuklanmoqda"
+
+#: includes/fields/class-acf-field-relationship.php:65
+msgid "No matches found"
+msgstr "Hech qanday moslik topilmadi"
+
+#: includes/fields/class-acf-field-relationship.php:390
+msgid "Select post type"
+msgstr "Xabar turini tanlang"
+
+#: includes/fields/class-acf-field-relationship.php:399
+msgid "Select taxonomy"
+msgstr "Taksonomiyani tanlang"
+
+#: includes/fields/class-acf-field-relationship.php:469
+msgid "Search..."
+msgstr "Qidirmoq..."
+
+#: includes/fields/class-acf-field-relationship.php:610
+msgid "Filters"
+msgstr "Filtrlar"
+
+#: includes/fields/class-acf-field-relationship.php:616,
+#: includes/locations/class-acf-location-post-type.php:22
+msgid "Post Type"
+msgstr "Post turi"
+
+#: includes/fields/class-acf-field-relationship.php:617,
+#: includes/fields/class-acf-field-taxonomy.php:28,
+#: includes/fields/class-acf-field-taxonomy.php:714,
+#: includes/locations/class-acf-location-taxonomy.php:22
+msgid "Taxonomy"
+msgstr "Taksonomiya"
+
+#: includes/fields/class-acf-field-relationship.php:626
+msgid "Elements"
+msgstr "Elementlar"
+
+#: includes/fields/class-acf-field-relationship.php:627
+msgid "Selected elements will be displayed in each result"
+msgstr "Tanlangan elementlar har bir natijada ko'rsatiladi"
+
+#: includes/fields/class-acf-field-relationship.php:631,
+#: includes/admin/views/field-group-options.php:150
+msgid "Featured Image"
+msgstr "Tavsiya etilgan rasm"
+
+#: includes/fields/class-acf-field-relationship.php:640
+msgid "Minimum posts"
+msgstr "Minimal postlar"
+
+#: includes/fields/class-acf-field-relationship.php:651
+msgid "Maximum posts"
+msgstr "Maksimal postlar"
+
+#: includes/fields/class-acf-field-relationship.php:752,
+#: pro/fields/class-acf-field-gallery.php:832
+msgid "%1$s requires at least %2$s selection"
+msgid_plural "%1$s requires at least %2$s selections"
+msgstr[0] "%1$s kamida %2$s tanlovini talab qiladi"
+msgstr[1] "%1$s kamida %2$s tanlovni talab qiladi"
+
+#: includes/fields/class-acf-field-select.php:25,
+#: includes/fields/class-acf-field-taxonomy.php:738
+msgctxt "noun"
+msgid "Select"
+msgstr "Tanlang"
+
+#: includes/fields/class-acf-field-select.php:107
+msgctxt "Select2 JS matches_1"
+msgid "One result is available, press enter to select it."
+msgstr "Bitta natija mavjud, uni tanlash uchun enter tugmasini bosing."
+
+#: includes/fields/class-acf-field-select.php:108
+msgctxt "Select2 JS matches_n"
+msgid "%d results are available, use up and down arrow keys to navigate."
+msgstr ""
+"%d ta natija mavjud, navigatsiya qilish uchun yuqoriga va pastga strelka "
+"tugmalaridan foydalaning."
+
+#: includes/fields/class-acf-field-select.php:109
+msgctxt "Select2 JS matches_0"
+msgid "No matches found"
+msgstr "Hech qanday moslik topilmadi"
+
+#: includes/fields/class-acf-field-select.php:110
+msgctxt "Select2 JS input_too_short_1"
+msgid "Please enter 1 or more characters"
+msgstr "1 yoki undan ortiq belgi kiriting"
+
+#: includes/fields/class-acf-field-select.php:111
+msgctxt "Select2 JS input_too_short_n"
+msgid "Please enter %d or more characters"
+msgstr "%d yoki undan ortiq belgi kiriting"
+
+#: includes/fields/class-acf-field-select.php:112
+msgctxt "Select2 JS input_too_long_1"
+msgid "Please delete 1 character"
+msgstr "1 ta belgini oʻchirib tashlang"
+
+#: includes/fields/class-acf-field-select.php:113
+msgctxt "Select2 JS input_too_long_n"
+msgid "Please delete %d characters"
+msgstr "%d ta belgini oʻchirib tashlang"
+
+#: includes/fields/class-acf-field-select.php:114
+msgctxt "Select2 JS selection_too_long_1"
+msgid "You can only select 1 item"
+msgstr "Siz faqat 1 ta elementni tanlashingiz mumkin"
+
+#: includes/fields/class-acf-field-select.php:115
+msgctxt "Select2 JS selection_too_long_n"
+msgid "You can only select %d items"
+msgstr "Siz faqat %d ta elementni tanlashingiz mumkin"
+
+#: includes/fields/class-acf-field-select.php:116
+msgctxt "Select2 JS load_more"
+msgid "Loading more results&hellip;"
+msgstr "Yana natijalar yuklanmoqda&hellip;"
+
+#: includes/fields/class-acf-field-select.php:117
+msgctxt "Select2 JS searching"
+msgid "Searching&hellip;"
+msgstr "Qidirilmoqda&hellip;"
+
+#: includes/fields/class-acf-field-select.php:118
+msgctxt "Select2 JS load_fail"
+msgid "Loading failed"
+msgstr "Yuklanmadi"
+
+#: includes/fields/class-acf-field-select.php:410,
+#: includes/fields/class-acf-field-true_false.php:159
+msgid "Stylised UI"
+msgstr "Stillashtirilgan UI"
+
+#: includes/fields/class-acf-field-select.php:422
+msgid "Use AJAX to lazy load choices?"
+msgstr "AJAX dan dangasa yuk tanlash uchun foydalanasizmi?"
+
+#: includes/fields/class-acf-field-select.php:440
+msgid "Specify the value returned"
+msgstr "Qaytarilgan qiymatni belgilang"
+
+#: includes/fields/class-acf-field-select.php:663
+msgid "%1$s is not one of %2$s"
+msgstr "%1$s bu %2$s dan biri emas"
+
+#: includes/fields/class-acf-field-separator.php:25
+msgid "Separator"
+msgstr "Ajratuvchi"
+
+#: includes/fields/class-acf-field-tab.php:26
+msgid "Tab"
+msgstr "Tab"
+
+#: includes/fields/class-acf-field-tab.php:103
+msgid "Placement"
+msgstr "Joylashtirish"
+
+#: includes/fields/class-acf-field-tab.php:107,
+#: includes/admin/views/field-group-options.php:87
+msgid "Top aligned"
+msgstr "Tepaga tekislangan"
+
+#: includes/fields/class-acf-field-tab.php:108,
+#: includes/admin/views/field-group-options.php:88
+msgid "Left aligned"
+msgstr "Chapga tekislangan"
+
+#: includes/fields/class-acf-field-tab.php:118
+msgid ""
+"Define an endpoint for the previous tabs to stop. This will start a new "
+"group of tabs."
+msgstr ""
+"Oldingi yorliqlarni to'xtatish uchun oxirgi nuqtani belgilang. Bu yangi "
+"varaqlar guruhini boshlaydi."
+
+#: includes/fields/class-acf-field-taxonomy.php:673
+msgctxt "No terms"
+msgid "No %s"
+msgstr "%s yo‘q"
+
+#: includes/fields/class-acf-field-taxonomy.php:715
+msgid "Select the taxonomy to be displayed"
+msgstr "Ko'rsatiladigan taksonomiyani tanlang"
+
+#: includes/fields/class-acf-field-taxonomy.php:726
+msgid "Appearance"
+msgstr "Appearance"
+
+#: includes/fields/class-acf-field-taxonomy.php:727
+msgid "Select the appearance of this field"
+msgstr "Ushbu maydonning ko'rinishini tanlang"
+
+#: includes/fields/class-acf-field-taxonomy.php:732
+msgid "Multiple Values"
+msgstr "Bir nechta qiymatlar"
+
+#: includes/fields/class-acf-field-taxonomy.php:734
+msgid "Multi Select"
+msgstr "Ko'p tanlov"
+
+#: includes/fields/class-acf-field-taxonomy.php:736
+msgid "Single Value"
+msgstr "Yagona qiymat"
+
+#: includes/fields/class-acf-field-taxonomy.php:737
+msgid "Radio Buttons"
+msgstr "Radio tugmalari"
+
+#: includes/fields/class-acf-field-taxonomy.php:765
+msgid "Create Terms"
+msgstr "Shartlar yaratish"
+
+#: includes/fields/class-acf-field-taxonomy.php:766
+msgid "Allow new terms to be created whilst editing"
+msgstr "Tahrirlash vaqtida yangi atamalarni yaratishga ruxsat bering"
+
+#: includes/fields/class-acf-field-taxonomy.php:777
+msgid "Save Terms"
+msgstr "Shartlarni saqlash"
+
+#: includes/fields/class-acf-field-taxonomy.php:778
+msgid "Connect selected terms to the post"
+msgstr "Tanlangan shartlarni postga ulang"
+
+#: includes/fields/class-acf-field-taxonomy.php:789
+msgid "Load Terms"
+msgstr "Yuklash shartlari"
+
+#: includes/fields/class-acf-field-taxonomy.php:790
+msgid "Load value from posts terms"
+msgstr "Xabar shartlaridan qiymatni yuklash"
+
+#: includes/fields/class-acf-field-taxonomy.php:806
+msgid "Term Object"
+msgstr "Muddat ob'ekti"
+
+#: includes/fields/class-acf-field-taxonomy.php:807
+msgid "Term ID"
+msgstr "Muddat identifikatori"
+
+#: includes/fields/class-acf-field-taxonomy.php:862
+msgid "User unable to add new %s"
+msgstr "Foydalanuvchi yangi %s qo‘sha olmadi"
+
+#: includes/fields/class-acf-field-taxonomy.php:874
+msgid "%s already exists"
+msgstr "%s allaqachon mavjud"
+
+#: includes/fields/class-acf-field-taxonomy.php:910
+msgid "%s added"
+msgstr "%s qo‘shildi"
+
+#: includes/fields/class-acf-field-taxonomy.php:926,
+#: pro/fields/class-acf-field-flexible-content.php:597,
+#: includes/admin/views/field-group-fields.php:6
+msgid "Name"
+msgstr "Ism"
+
+#: includes/fields/class-acf-field-taxonomy.php:961,
+#: includes/locations/class-acf-location-user-form.php:72
+msgid "Add"
+msgstr "Qo'shish"
+
+#: includes/fields/class-acf-field-text.php:25
+msgid "Text"
+msgstr "Matn"
+
+#: includes/fields/class-acf-field-text.php:141,
+#: includes/fields/class-acf-field-textarea.php:125
+msgid "Character Limit"
+msgstr "Belgilar chegarasi"
+
+#: includes/fields/class-acf-field-text.php:142,
+#: includes/fields/class-acf-field-textarea.php:126
+msgid "Leave blank for no limit"
+msgstr "Cheklanmagan holda bo'sh qoldiring"
+
+#: includes/fields/class-acf-field-text.php:168,
+#: includes/fields/class-acf-field-textarea.php:221
+msgid "Value must not exceed %d characters"
+msgstr "Qiymat %d ga teng yoki undan kichik bo‘lishi kerak"
+
+#: includes/fields/class-acf-field-textarea.php:25
+msgid "Text Area"
+msgstr "Matn maydoni"
+
+#: includes/fields/class-acf-field-textarea.php:136
+msgid "Rows"
+msgstr "Qatorlar"
+
+#: includes/fields/class-acf-field-textarea.php:137
+msgid "Sets the textarea height"
+msgstr "Boshlang‘ich masshtab dori o‘rnating"
+
+#: includes/fields/class-acf-field-time_picker.php:25
+msgid "Time Picker"
+msgstr "Vaqtni tanlash"
+
+#: includes/fields/class-acf-field-true_false.php:25
+msgid "True / False"
+msgstr "To'g'ri / noto'g'ri"
+
+#: includes/fields/class-acf-field-true_false.php:138
+msgid "Displays text alongside the checkbox"
+msgstr "Matnni belgilash katakchasi yonida ko'rsatadi"
+
+#: includes/fields/class-acf-field-true_false.php:172
+msgid "On Text"
+msgstr "Matn ustida"
+
+#: includes/fields/class-acf-field-true_false.php:173
+msgid "Text shown when active"
+msgstr "Matn faol bo'lganda ko'rsatiladi"
+
+#: includes/fields/class-acf-field-true_false.php:189
+msgid "Off Text"
+msgstr "Oʻchirilgan matn"
+
+#: includes/fields/class-acf-field-true_false.php:190
+msgid "Text shown when inactive"
+msgstr "Matn nofaol bo'lganda ko'rsatiladi"
+
+#: includes/fields/class-acf-field-url.php:25
+msgid "Url"
+msgstr "Url"
+
+#: includes/fields/class-acf-field-url.php:154
+msgid "Value must be a valid URL"
+msgstr "Qiymat yaroqli URL boʻlishi kerak"
+
+#: includes/fields/class-acf-field-user.php:53
+msgid "Filter by role"
+msgstr "Rol bo'yicha filtrlash"
+
+#: includes/fields/class-acf-field-user.php:61
+msgid "All user roles"
+msgstr "Barcha foydalanuvchi rollari"
+
+#: includes/fields/class-acf-field-user.php:95
+msgid "User Array"
+msgstr "Foydalanuvchi massivi"
+
+#: includes/fields/class-acf-field-user.php:96
+msgid "User Object"
+msgstr "Foydalanuvchi ob'ekti"
+
+#: includes/fields/class-acf-field-user.php:97
+msgid "User ID"
+msgstr "foydalanuvchi IDsi"
+
+#: includes/fields/class-acf-field-user.php:350
+msgid "Error loading field."
+msgstr "Maydonni yuklashda xatolik yuz berdi."
+
+#: includes/fields/class-acf-field-user.php:355
+msgid "Invalid request."
+msgstr "So‘rov noto‘g‘ri."
+
+#: includes/fields/class-acf-field-user.php:517
+msgid "%1$s must have a valid user ID."
+msgstr "%1$s foydalanuvchi identifikatoriga ega bo‘lishi kerak."
+
+#: includes/fields/class-acf-field-user.php:526
+msgid "%1$s must have a user with the %2$s role."
+msgid_plural "%1$s must have a user with one of the following roles: %2$s"
+msgstr[0] "%1$s foydalanuvchisi %2$s roliga ega boʻlishi kerak."
+msgstr[1] ""
+"%1$s foydalanuvchisi quyidagi rollardan biriga ega boʻlishi kerak: %2$s"
+
+#: includes/fields/class-acf-field-wysiwyg.php:25
+msgid "Wysiwyg Editor"
+msgstr "Wysiwyg muharriri"
+
+#: includes/fields/class-acf-field-wysiwyg.php:282
+msgid "Visual"
+msgstr "Vizual"
+
+#: includes/fields/class-acf-field-wysiwyg.php:283
+msgctxt "Name for the Text editor tab (formerly HTML)"
+msgid "Text"
+msgstr "Matn"
+
+#: includes/fields/class-acf-field-wysiwyg.php:289
+msgid "Click to initialize TinyMCE"
+msgstr "TinyMCE-ni ishga tushirish uchun bosing"
+
+#: includes/fields/class-acf-field-wysiwyg.php:345
+msgid "Tabs"
+msgstr "Yorliqlar"
+
+#: includes/fields/class-acf-field-wysiwyg.php:350
+msgid "Visual & Text"
+msgstr "Vizual va matn"
+
+#: includes/fields/class-acf-field-wysiwyg.php:351
+msgid "Visual Only"
+msgstr "Vizual va matn"
+
+#: includes/fields/class-acf-field-wysiwyg.php:352
+msgid "Text Only"
+msgstr "Faqat matn"
+
+#: includes/fields/class-acf-field-wysiwyg.php:361
+msgid "Toolbar"
+msgstr "Asboblar paneli"
+
+#: includes/fields/class-acf-field-wysiwyg.php:378
+msgid "Show Media Upload Buttons?"
+msgstr "Media yuklash tugmalari koʻrsatilsinmi?"
+
+#: includes/fields/class-acf-field-wysiwyg.php:390
+msgid "Delay initialization?"
+msgstr "Boshlash kechiksinmi?"
+
+#: includes/fields/class-acf-field-wysiwyg.php:391
+msgid "TinyMCE will not be initialized until field is clicked"
+msgstr "Maydon bosilmaguncha TinyMCE ishga tushirilmaydi"
+
+#: includes/forms/form-front.php:40, pro/fields/class-acf-field-gallery.php:352
+msgid "Title"
+msgstr "Sarlavha"
+
+#: includes/forms/form-front.php:57
+msgid "Validate Email"
+msgstr "Elektron pochtani tasdiqlash"
+
+#: includes/forms/form-front.php:107
+msgid "Post updated"
+msgstr "Post yangilandi"
+
+#: includes/forms/form-front.php:236
+msgid "Spam Detected"
+msgstr "Spam aniqlandi"
+
+#: includes/forms/form-user.php:353
+msgid "<strong>Error</strong>: %s"
+msgstr "<strong>Xato</strong>: %s"
+
+#: includes/locations/abstract-acf-location.php:105
+msgid "is equal to"
+msgstr "ga teng"
+
+#: includes/locations/abstract-acf-location.php:106
+msgid "is not equal to"
+msgstr "ga teng emas"
+
+#: includes/locations/class-acf-location-attachment.php:22
+msgid "Attachment"
+msgstr "Qo'shimcha"
+
+#: includes/locations/class-acf-location-attachment.php:84
+msgid "All %s formats"
+msgstr "Barcha %s formatlari"
+
+#: includes/locations/class-acf-location-comment.php:22
+msgid "Comment"
+msgstr "Izoh"
+
+#: includes/locations/class-acf-location-current-user-role.php:22
+msgid "Current User Role"
+msgstr "Joriy foydalanuvchi roli"
+
+#: includes/locations/class-acf-location-current-user-role.php:77
+msgid "Super Admin"
+msgstr "Super Admin"
+
+#: includes/locations/class-acf-location-current-user.php:22
+msgid "Current User"
+msgstr "Joriy foydalanuvchi"
+
+#: includes/locations/class-acf-location-current-user.php:71
+msgid "Logged in"
+msgstr "Tizimga kirgan"
+
+#: includes/locations/class-acf-location-current-user.php:72
+msgid "Viewing front end"
+msgstr "Old qismni ko'rish"
+
+#: includes/locations/class-acf-location-current-user.php:73
+msgid "Viewing back end"
+msgstr "Orqa tomonni ko'rish"
+
+#: includes/locations/class-acf-location-nav-menu-item.php:22
+msgid "Menu Item"
+msgstr "Menyu elementi"
+
+#: includes/locations/class-acf-location-nav-menu.php:22
+msgid "Menu"
+msgstr "Menyu"
+
+#: includes/locations/class-acf-location-nav-menu.php:80
+msgid "Menu Locations"
+msgstr "Menyu joylari"
+
+#: includes/locations/class-acf-location-page-parent.php:22
+msgid "Page Parent"
+msgstr "Sahifa ota-onasi"
+
+#: includes/locations/class-acf-location-page-template.php:22
+msgid "Page Template"
+msgstr "Sahifa shabloni"
+
+#: includes/locations/class-acf-location-page-template.php:73,
+#: includes/locations/class-acf-location-post-template.php:85
+msgid "Default Template"
+msgstr "Standart shablon"
+
+#: includes/locations/class-acf-location-page-type.php:22
+msgid "Page Type"
+msgstr "Sahifa turi"
+
+#: includes/locations/class-acf-location-page-type.php:110
+msgid "Front Page"
+msgstr "Old sahifa"
+
+#: includes/locations/class-acf-location-page-type.php:111
+msgid "Posts Page"
+msgstr "Xabarlar sahifasi"
+
+#: includes/locations/class-acf-location-page-type.php:112
+msgid "Top Level Page (no parent)"
+msgstr "Yuqori darajali sahifa (ota-onasiz)"
+
+#: includes/locations/class-acf-location-page-type.php:113
+msgid "Parent Page (has children)"
+msgstr "Ota-ona sahifasi (bolalar bor)"
+
+#: includes/locations/class-acf-location-page-type.php:114
+msgid "Child Page (has parent)"
+msgstr "Child sahifasi (ota-onasi bor)"
+
+#: includes/locations/class-acf-location-post-category.php:22
+msgid "Post Category"
+msgstr "Post toifasi"
+
+#: includes/locations/class-acf-location-post-format.php:22
+msgid "Post Format"
+msgstr "Post formati"
+
+#: includes/locations/class-acf-location-post-status.php:22
+msgid "Post Status"
+msgstr "Post holati"
+
+#: includes/locations/class-acf-location-post-taxonomy.php:22
+msgid "Post Taxonomy"
+msgstr "Post taksonomiya"
+
+#: includes/locations/class-acf-location-post-template.php:22
+msgid "Post Template"
+msgstr "Post shabloni"
+
+#: includes/locations/class-acf-location-user-form.php:22
+msgid "User Form"
+msgstr "Foydalanuvchi shakli"
+
+#: includes/locations/class-acf-location-user-form.php:73
+msgid "Add / Edit"
+msgstr "Qo'shish / Tahrirlash"
+
+#: includes/locations/class-acf-location-user-form.php:74
+msgid "Register"
+msgstr "Roʻyxatdan oʻtish"
+
+#: includes/locations/class-acf-location-user-role.php:24
+msgid "User Role"
+msgstr "Foydalanuvchi roli"
+
+#: includes/locations/class-acf-location-widget.php:22
+msgid "Widget"
+msgstr "Vidjet"
+
+#: pro/admin/admin-options-page.php:195
+msgid "Publish"
+msgstr "Nashr qilish"
+
+#: pro/admin/admin-options-page.php:199
+msgid ""
+"No Custom Field Groups found for this options page. <a href=\"%s\">Create a "
+"Custom Field Group</a>"
+msgstr ""
+"Ushbu parametrlar sahifasi uchun maxsus maydon guruhlari topilmadi. <a "
+"href=\"%s\">Maxsus maydonlar guruhini yarating</a>"
+
+#: pro/admin/admin-updates.php:52
+msgid "<b>Error</b>. Could not connect to update server"
+msgstr "<b>Xato</b>. Yangilash serveriga ulanib bo'lmadi"
+
+#: pro/admin/admin-updates.php:122, pro/admin/admin-updates.php:122,
+#: pro/admin/views/html-settings-updates.php:12
+msgid "Updates"
+msgstr "Yangilanishlar"
+
+#: pro/admin/admin-updates.php:209
+msgid ""
+"<b>Error</b>. Could not authenticate update package. Please check again or "
+"deactivate and reactivate your ACF PRO license."
+msgstr ""
+"<b>Xato</b>. Yangilash paketini autentifikatsiya qilib bo‘lmadi. Iltimos, "
+"yana tekshiring yoki ACF PRO litsenziyangizni o‘chiring va qayta "
+"faollashtiring."
+
+#: pro/admin/admin-updates.php:196
+msgid ""
+"<b>Error</b>. Your license for this site has expired or been deactivated. "
+"Please reactivate your ACF PRO license."
+msgstr ""
+"<b>Xato</b>. Ushbu sayt uchun litsenziyangiz muddati tugagan yoki "
+"o‘chirilgan. ACF PRO litsenziyangizni qayta faollashtiring."
+
+#: pro/fields/class-acf-field-clone.php:25
+msgctxt "noun"
+msgid "Clone"
+msgstr "Klonlash"
+
+#: pro/fields/class-acf-field-clone.php:815
+msgid "Select one or more fields you wish to clone"
+msgstr "Klonlashni xohlagan bir yoki bir nechta maydonlarni tanlang"
+
+#: pro/fields/class-acf-field-clone.php:834
+msgid "Display"
+msgstr "Displey"
+
+#: pro/fields/class-acf-field-clone.php:835
+msgid "Specify the style used to render the clone field"
+msgstr "Klon maydonini ko'rsatish uchun foydalaniladigan uslubni belgilang"
+
+#: pro/fields/class-acf-field-clone.php:840
+msgid "Group (displays selected fields in a group within this field)"
+msgstr "Guruh (shu maydon ichidagi guruhdagi tanlangan maydonlarni ko'rsatadi)"
+
+#: pro/fields/class-acf-field-clone.php:841
+msgid "Seamless (replaces this field with selected fields)"
+msgstr "Uzluksiz (bu maydonni tanlangan maydonlar bilan almashtiradi)"
+
+#: pro/fields/class-acf-field-clone.php:864
+msgid "Labels will be displayed as %s"
+msgstr "Yorliqlar %s sifatida ko'rsatiladi"
+
+#: pro/fields/class-acf-field-clone.php:869
+msgid "Prefix Field Labels"
+msgstr "Prefiks maydon belgilari"
+
+#: pro/fields/class-acf-field-clone.php:880
+msgid "Values will be saved as %s"
+msgstr "Qiymatlar %s sifatida saqlanadi"
+
+#: pro/fields/class-acf-field-clone.php:885
+msgid "Prefix Field Names"
+msgstr "Prefiks maydon nomlari"
+
+#: pro/fields/class-acf-field-clone.php:1001
+msgid "Unknown field"
+msgstr "Noma'lum maydon"
+
+#: pro/fields/class-acf-field-clone.php:1038
+msgid "Unknown field group"
+msgstr "Noma'lum maydon guruhi"
+
+#: pro/fields/class-acf-field-clone.php:1042
+msgid "All fields from %s field group"
+msgstr "%s maydon guruhidagi barcha maydonlar"
+
+#: pro/fields/class-acf-field-flexible-content.php:25,
+#: includes/admin/views/html-notice-upgrade.php:12
+msgid "Flexible Content"
+msgstr "Moslashuvchan tarkib"
+
+#: pro/fields/class-acf-field-flexible-content.php:31,
+#: pro/fields/class-acf-field-repeater.php:182,
+#: pro/fields/class-acf-field-repeater.php:473
+msgid "Add Row"
+msgstr "Qator qo'shish"
+
+#: pro/fields/class-acf-field-flexible-content.php:71,
+#: pro/fields/class-acf-field-flexible-content.php:917,
+#: pro/fields/class-acf-field-flexible-content.php:996
+msgid "layout"
+msgid_plural "layouts"
+msgstr[0] "tartib"
+msgstr[1] "maketlar"
+
+#: pro/fields/class-acf-field-flexible-content.php:72
+msgid "layouts"
+msgstr "maketlar"
+
+#: pro/fields/class-acf-field-flexible-content.php:75,
+#: pro/fields/class-acf-field-flexible-content.php:916,
+#: pro/fields/class-acf-field-flexible-content.php:995
+msgid "This field requires at least {min} {label} {identifier}"
+msgstr "Bu maydonga kamida {min} {label} {identifikator} kerak"
+
+#: pro/fields/class-acf-field-flexible-content.php:76
+msgid "This field has a limit of {max} {label} {identifier}"
+msgstr "Bu maydon {max} {label} {identifikator} chegarasiga ega"
+
+#: pro/fields/class-acf-field-flexible-content.php:79
+msgid "{available} {label} {identifier} available (max {max})"
+msgstr "{mavjud} {label} {identifikator} mavjud (maksimal {max})"
+
+#: pro/fields/class-acf-field-flexible-content.php:80
+msgid "{required} {label} {identifier} required (min {min})"
+msgstr "{mavjud} {label} {identifikator} mavjud (maksimal {max})"
+
+#: pro/fields/class-acf-field-flexible-content.php:83
+msgid "Flexible Content requires at least 1 layout"
+msgstr "Moslashuvchan kontent kamida 1 tartibni talab qiladi"
+
+#: pro/fields/class-acf-field-flexible-content.php:276
+msgid "Click the \"%s\" button below to start creating your layout"
+msgstr "Shaklni yaratishni boshlash uchun quyidagi “%s” tugmasini bosing"
+
+#: pro/fields/class-acf-field-flexible-content.php:410,
+#: pro/fields/class-acf-field-repeater.php:295,
+#: includes/admin/views/field-group-field.php:49
+msgid "Drag to reorder"
+msgstr "Qayta tartiblash uchun torting"
+
+#: pro/fields/class-acf-field-flexible-content.php:413
+msgid "Add layout"
+msgstr "Tartib qo'shing"
+
+#: pro/fields/class-acf-field-flexible-content.php:414
+msgid "Duplicate layout"
+msgstr "Ikki nusxadagi tartib"
+
+#: pro/fields/class-acf-field-flexible-content.php:415
+msgid "Remove layout"
+msgstr "Tartibni olib tashlang"
+
+#: pro/fields/class-acf-field-flexible-content.php:416,
+#: pro/fields/class-acf-field-repeater.php:297
+msgid "Click to toggle"
+msgstr "Oʻchirish uchun bosing"
+
+#: pro/fields/class-acf-field-flexible-content.php:551
+msgid "Reorder Layout"
+msgstr "Tartibni qayta tartiblash"
+
+#: pro/fields/class-acf-field-flexible-content.php:551
+msgid "Reorder"
+msgstr "Qayta tartiblash"
+
+#: pro/fields/class-acf-field-flexible-content.php:552
+msgid "Delete Layout"
+msgstr "Tartibni o'chirish"
+
+#: pro/fields/class-acf-field-flexible-content.php:552,
+#: includes/admin/views/field-group-field.php:59
+msgid "Delete"
+msgstr "Oʻchirish"
+
+#: pro/fields/class-acf-field-flexible-content.php:553
+msgid "Duplicate Layout"
+msgstr "Ikki nusxadagi tartib"
+
+#: pro/fields/class-acf-field-flexible-content.php:554
+msgid "Add New Layout"
+msgstr "Yangi tartib qo'shing"
+
+#: pro/fields/class-acf-field-flexible-content.php:635
+msgid "Min"
+msgstr "Min"
+
+#: pro/fields/class-acf-field-flexible-content.php:650
+msgid "Max"
+msgstr "Maks"
+
+#: pro/fields/class-acf-field-flexible-content.php:679,
+#: pro/fields/class-acf-field-repeater.php:469
+msgid "Button Label"
+msgstr "Tugma yorlig'i"
+
+#: pro/fields/class-acf-field-flexible-content.php:690
+msgid "Minimum Layouts"
+msgstr "Minimal tartiblar"
+
+#: pro/fields/class-acf-field-flexible-content.php:701
+msgid "Maximum Layouts"
+msgstr "Maksimal tartiblar"
+
+#: pro/fields/class-acf-field-flexible-content.php:1704,
+#: pro/fields/class-acf-field-repeater.php:1108
+msgid "%s must be of type array or null."
+msgstr "%s massiv yoki null turi bo‘lishi kerak."
+
+#: pro/fields/class-acf-field-flexible-content.php:1715
+msgid "%1$s must contain at least %2$s %3$s layout."
+msgid_plural "%1$s must contain at least %2$s %3$s layouts."
+msgstr[0] "%1$s kamida %2$s %3$s tartibini o‘z ichiga olishi kerak."
+msgstr[1] "%1$s kamida %2$s %3$s maketdan iborat bo‘lishi kerak."
+
+#: pro/fields/class-acf-field-flexible-content.php:1731
+msgid "%1$s must contain at most %2$s %3$s layout."
+msgid_plural "%1$s must contain at most %2$s %3$s layouts."
+msgstr[0] "%1$s ko‘pi bilan %2$s %3$s tartibini o‘z ichiga olishi kerak."
+msgstr[1] "%1$s ichida koʻpi bilan %2$s %3$s tartib boʻlishi kerak."
+
+#: pro/fields/class-acf-field-gallery.php:25,
+#: includes/admin/views/html-notice-upgrade.php:15
+msgid "Gallery"
+msgstr "Galereya"
+
+#: pro/fields/class-acf-field-gallery.php:73
+msgid "Add Image to Gallery"
+msgstr "Galereyaga rasm qo'shing"
+
+#: pro/fields/class-acf-field-gallery.php:74
+msgid "Maximum selection reached"
+msgstr "Maksimal tanlovga erishildi"
+
+#: pro/fields/class-acf-field-gallery.php:320
+msgid "Length"
+msgstr "Uzunlik"
+
+#: pro/fields/class-acf-field-gallery.php:364
+msgid "Caption"
+msgstr "Sarlavha"
+
+#: pro/fields/class-acf-field-gallery.php:376
+msgid "Alt Text"
+msgstr "Muqobil matn"
+
+#: pro/fields/class-acf-field-gallery.php:500
+msgid "Add to gallery"
+msgstr "Galereyaga qo'shish"
+
+#: pro/fields/class-acf-field-gallery.php:504
+msgid "Bulk actions"
+msgstr "Ommaviy harakatlar"
+
+#: pro/fields/class-acf-field-gallery.php:505
+msgid "Sort by date uploaded"
+msgstr "Yuklangan sana bo'yicha saralash"
+
+#: pro/fields/class-acf-field-gallery.php:506
+msgid "Sort by date modified"
+msgstr "Oʻzgartirilgan sana boʻyicha saralash"
+
+#: pro/fields/class-acf-field-gallery.php:507
+msgid "Sort by title"
+msgstr "Sarlavha bo'yicha saralash"
+
+#: pro/fields/class-acf-field-gallery.php:508
+msgid "Reverse current order"
+msgstr "Qaytish uchun"
+
+#: pro/fields/class-acf-field-gallery.php:520
+msgid "Close"
+msgstr "Yopish"
+
+#: pro/fields/class-acf-field-gallery.php:602
+msgid "Insert"
+msgstr "Kiritmoq"
+
+#: pro/fields/class-acf-field-gallery.php:603
+msgid "Specify where new attachments are added"
+msgstr "Yangi qo'shimchalar qo'shilgan joyni belgilang"
+
+#: pro/fields/class-acf-field-gallery.php:607
+msgid "Append to the end"
+msgstr "Oxirigacha qo'shing"
+
+#: pro/fields/class-acf-field-gallery.php:608
+msgid "Prepend to the beginning"
+msgstr "Boshiga oldindan qo'ying"
+
+#: pro/fields/class-acf-field-gallery.php:633
+msgid "Minimum Selection"
+msgstr "Minimal tanlov"
+
+#: pro/fields/class-acf-field-gallery.php:644
+msgid "Maximum Selection"
+msgstr "Maksimal tanlov"
+
+#: pro/fields/class-acf-field-repeater.php:25,
+#: includes/admin/views/html-notice-upgrade.php:9
+msgid "Repeater"
+msgstr "Takrorlovchi"
+
+#: pro/fields/class-acf-field-repeater.php:64,
+#: pro/fields/class-acf-field-repeater.php:659
+msgid "Minimum rows reached ({min} rows)"
+msgstr "Minimal satrga yetdi ({min} qator)"
+
+#: pro/fields/class-acf-field-repeater.php:65
+msgid "Maximum rows reached ({max} rows)"
+msgstr "Maksimal satrga yetdi ({max} qator)"
+
+#: pro/fields/class-acf-field-repeater.php:334
+msgid "Add row"
+msgstr "Qator qo'shing"
+
+#: pro/fields/class-acf-field-repeater.php:335
+msgid "Duplicate row"
+msgstr "Ikki nusxadagi qator"
+
+#: pro/fields/class-acf-field-repeater.php:336
+msgid "Remove row"
+msgstr "Qatorni olib tashlang"
+
+#: pro/fields/class-acf-field-repeater.php:414
+msgid "Collapsed"
+msgstr "Yiqildi"
+
+#: pro/fields/class-acf-field-repeater.php:415
+msgid "Select a sub field to show when row is collapsed"
+msgstr "Qator yig'ilganda ko'rsatish uchun pastki maydonni tanlang"
+
+#: pro/fields/class-acf-field-repeater.php:427
+msgid "Minimum Rows"
+msgstr "Minimal qatorlar"
+
+#: pro/fields/class-acf-field-repeater.php:439
+msgid "Maximum Rows"
+msgstr "Maksimal qatorlar"
+
+#: pro/locations/class-acf-location-block.php:71
+msgid "No block types exist"
+msgstr "Blok turlari mavjud emas"
+
+#: pro/locations/class-acf-location-options-page.php:22,
+#: includes/admin/views/html-notice-upgrade.php:18
+msgid "Options Page"
+msgstr "Variantlar sahifasi"
+
+#: pro/locations/class-acf-location-options-page.php:70
+msgid "No options pages exist"
+msgstr "Variantlar sahifalari mavjud emas"
+
+#: tests/basic/test-blocks.php:456
+msgid "Hero"
+msgstr "Qahramon"
+
+#: tests/basic/test-blocks.php:457
+msgid "Display a random hero image."
+msgstr "Tasodifiy qahramon tasvirini ko'rsatish."
+
+#: tests/basic/test-blocks.php:630
+msgid "Test JS"
+msgstr "JS sinovi"
+
+#: tests/basic/test-blocks.php:631
+msgid "A block for testing JS."
+msgstr "JS ni sinash uchun blok."
+
+#: includes/admin/tools/class-acf-admin-tool-export.php:35
+msgid "Export Field Groups"
+msgstr "Maydon guruhlarini eksport qilish"
+
+#: includes/admin/tools/class-acf-admin-tool-export.php:39,
+#: includes/admin/tools/class-acf-admin-tool-export.php:335,
+#: includes/admin/tools/class-acf-admin-tool-export.php:364
+msgid "Generate PHP"
+msgstr "PHP yaratish"
+
+#: includes/admin/tools/class-acf-admin-tool-export.php:96,
+#: includes/admin/tools/class-acf-admin-tool-export.php:131
+msgid "No field groups selected"
+msgstr "Hech qanday maydon guruhlari tanlanmagan"
+
+#: includes/admin/tools/class-acf-admin-tool-export.php:167
+msgid "Exported 1 field group."
+msgid_plural "Exported %s field groups."
+msgstr[0] "1 ta maydon guruhi eksport qilindi."
+msgstr[1] "%s maydon guruhi eksport qilindi."
+
+#: includes/admin/tools/class-acf-admin-tool-export.php:233,
+#: includes/admin/tools/class-acf-admin-tool-export.php:262
+msgid "Select Field Groups"
+msgstr "Maydon guruhlarini tanlang"
+
+#: includes/admin/tools/class-acf-admin-tool-export.php:329
+msgid ""
+"Select the field groups you would like to export and then select your export "
+"method. Use the download button to export to a .json file which you can then "
+"import to another ACF installation. Use the generate button to export to PHP "
+"code which you can place in your theme."
+msgstr ""
+"Eksport qilmoqchi bo'lgan maydon guruhlarini tanlang va keyin eksport "
+"usulingizni tanlang. .json fayliga eksport qilish uchun yuklab olish "
+"tugmasidan foydalaning, keyin uni boshqa ACF oʻrnatishiga import qilishingiz "
+"mumkin. Mavzuingizga joylashtirishingiz mumkin bo'lgan PHP kodiga eksport "
+"qilish uchun yaratish tugmasidan foydalaning."
+
+#: includes/admin/tools/class-acf-admin-tool-export.php:334
+msgid "Export File"
+msgstr "Faylni eksport qilish"
+
+#: includes/admin/tools/class-acf-admin-tool-export.php:405
+msgid ""
+"The following code can be used to register a local version of the selected "
+"field group(s). A local field group can provide many benefits such as faster "
+"load times, version control & dynamic fields/settings. Simply copy and paste "
+"the following code to your theme's functions.php file or include it within "
+"an external file."
+msgstr ""
+"Tanlangan maydon(lar)ning mahalliy versiyasini ro'yxatdan o'tkazish uchun "
+"quyidagi koddan foydalanish mumkin. Mahalliy maydon guruhi tezroq yuklash "
+"vaqtlari, versiyalarni boshqarish va dinamik maydonlar/sozlamalar kabi "
+"ko'plab afzalliklarni taqdim etishi mumkin. Quyidagi kodni shunchaki nusxa "
+"ko‘chiring va mavzuingizning functions.php fayliga joylashtiring yoki uni "
+"tashqi faylga qo‘shing."
+
+#: includes/admin/tools/class-acf-admin-tool-export.php:435
+msgid "Copy to clipboard"
+msgstr "Buferga nusxalash"
+
+#: includes/admin/tools/class-acf-admin-tool-export.php:472
+msgid "Copied"
+msgstr "Ko‘chirildi"
+
+#: includes/admin/tools/class-acf-admin-tool-import.php:28
+msgid "Import Field Groups"
+msgstr "Maydon guruhlarini import qilish"
+
+#: includes/admin/tools/class-acf-admin-tool-import.php:49
+msgid ""
+"Select the Advanced Custom Fields JSON file you would like to import. When "
+"you click the import button below, ACF will import the field groups."
+msgstr ""
+"Import qilmoqchi bo'lgan Advanced Custom Fields JSON faylini tanlang. "
+"Quyidagi import tugmasini bosganingizda, ACF maydon guruhlarini import "
+"qiladi."
+
+#: includes/admin/tools/class-acf-admin-tool-import.php:66
+msgid "Import File"
+msgstr "Faylni import qilish"
+
+#: includes/admin/tools/class-acf-admin-tool-import.php:97
+msgid "Error uploading file. Please try again"
+msgstr ""
+"Faylni yuklashda xatolik yuz berdi. Iltimos, yana bir bor urinib ko'ring"
+
+#: includes/admin/tools/class-acf-admin-tool-import.php:102
+msgid "Incorrect file type"
+msgstr "Fayl turi noto'g'ri"
+
+#: includes/admin/tools/class-acf-admin-tool-import.php:111
+msgid "Import file empty"
+msgstr "Import fayli boʻsh"
+
+#: includes/admin/tools/class-acf-admin-tool-import.php:142
+msgid "Imported 1 field group"
+msgid_plural "Imported %s field groups"
+msgstr[0] "1 ta maydon guruhi import qilindi"
+msgstr[1] "%s maydon guruhlari import qilindi"
+
+#: includes/admin/views/field-group-field-conditional-logic.php:25
+msgid "Conditional Logic"
+msgstr "Shartli mantiq"
+
+#: includes/admin/views/field-group-field-conditional-logic.php:60
+msgid "Show this field if"
+msgstr "Agar bo'lsa, ushbu maydonni ko'rsating"
+
+#: includes/admin/views/field-group-field-conditional-logic.php:172,
+#: includes/admin/views/field-group-locations.php:38
+msgid "Add rule group"
+msgstr "Qoidalar guruhini qo'shing"
+
+#: includes/admin/views/field-group-field.php:53,
+#: includes/admin/views/field-group-field.php:56
+msgid "Edit field"
+msgstr "Maydonni tahrirlash"
+
+#: includes/admin/views/field-group-field.php:57
+msgid "Duplicate field"
+msgstr "Ikki nusxadagi maydon"
+
+#: includes/admin/views/field-group-field.php:58
+msgid "Move field to another group"
+msgstr "Maydonni boshqa guruhga o'tkazing"
+
+#: includes/admin/views/field-group-field.php:58
+msgid "Move"
+msgstr "Ko'chirish"
+
+#: includes/admin/views/field-group-field.php:59
+msgid "Delete field"
+msgstr "Maydonni o'chirish"
+
+#: includes/admin/views/field-group-field.php:78
+msgid "Field Label"
+msgstr "Maydon yorlig'i"
+
+#: includes/admin/views/field-group-field.php:79
+msgid "This is the name which will appear on the EDIT page"
+msgstr "Bu EDIT sahifasida paydo bo'ladigan nom"
+
+#: includes/admin/views/field-group-field.php:92
+msgid "Field Name"
+msgstr "Maydon nomi"
+
+#: includes/admin/views/field-group-field.php:93
+msgid "Single word, no spaces. Underscores and dashes allowed"
+msgstr ""
+"Bitta so'z, bo'sh joy yo'q. Pastki chiziq va chiziqlarga ruxsat beriladi"
+
+#: includes/admin/views/field-group-field.php:106
+msgid "Field Type"
+msgstr "Maydon turi"
+
+#: includes/admin/views/field-group-field.php:121
+msgid "Instructions"
+msgstr "Ko'rsatmalar"
+
+#: includes/admin/views/field-group-field.php:122
+msgid "Instructions for authors. Shown when submitting data"
+msgstr "Mualliflar uchun ko'rsatmalar. Ma'lumotlarni yuborishda ko'rsatiladi"
+
+#: includes/admin/views/field-group-field.php:135
+msgid "Required?"
+msgstr "Majburiymi?"
+
+#: includes/admin/views/field-group-field.php:161
+msgid "Wrapper Attributes"
+msgstr "O'rash atributlari"
+
+#: includes/admin/views/field-group-field.php:167
+msgid "width"
+msgstr "kengligi"
+
+#: includes/admin/views/field-group-field.php:185
+msgid "class"
+msgstr "sinf"
+
+#: includes/admin/views/field-group-field.php:201
+msgid "id"
+msgstr "id"
+
+#: includes/admin/views/field-group-field.php:215,
+#: includes/admin/views/field-group-field.php:215
+msgid "Close Field"
+msgstr "Maydonni yopish"
+
+#: includes/admin/views/field-group-fields.php:4
+msgid "Order"
+msgstr "Buyurtma"
+
+#: includes/admin/views/field-group-fields.php:8
+msgid "Type"
+msgstr "Turi"
+
+#: includes/admin/views/field-group-fields.php:19
+msgid ""
+"No fields. Click the <strong>+ Add Field</strong> button to create your "
+"first field."
+msgstr "Chiqindida hech qanday maydon topilmadi"
+
+#: includes/admin/views/field-group-fields.php:44
+msgid "+ Add Field"
+msgstr "+ Maydon qo'shish"
+
+#: includes/admin/views/field-group-locations.php:9
+msgid "Rules"
+msgstr "Qoidalar"
+
+#: includes/admin/views/field-group-locations.php:10
+msgid ""
+"Create a set of rules to determine which edit screens will use these "
+"advanced custom fields"
+msgstr ""
+"Qaysi tahrirlash ekranlari ushbu kengaytirilgan maxsus maydonlardan "
+"foydalanishini aniqlash uchun qoidalar to'plamini yarating"
+
+#: includes/admin/views/field-group-options.php:10
+msgid "Active"
+msgstr "Faol"
+
+#: includes/admin/views/field-group-options.php:27
+msgid "Show in REST API"
+msgstr "REST API-da ko'rsatish"
+
+#: includes/admin/views/field-group-options.php:44
+msgid "Style"
+msgstr "Uslub"
+
+#: includes/admin/views/field-group-options.php:51
+msgid "Standard (WP metabox)"
+msgstr "Standart (WP metabox)"
+
+#: includes/admin/views/field-group-options.php:52
+msgid "Seamless (no metabox)"
+msgstr "Uzluksiz (metaboxsiz)"
+
+#: includes/admin/views/field-group-options.php:61
+msgid "Position"
+msgstr "Lavozim"
+
+#: includes/admin/views/field-group-options.php:68
+msgid "High (after title)"
+msgstr "Yuqori (sarlavhadan keyin)"
+
+#: includes/admin/views/field-group-options.php:69
+msgid "Normal (after content)"
+msgstr "Oddiy (tarkibdan keyin)"
+
+#: includes/admin/views/field-group-options.php:70
+msgid "Side"
+msgstr "Yon"
+
+#: includes/admin/views/field-group-options.php:80
+msgid "Label placement"
+msgstr "Yorliqlarni joylashtirish"
+
+#: includes/admin/views/field-group-options.php:97
+msgid "Instruction placement"
+msgstr "Yo'riqnomani joylashtirish"
+
+#: includes/admin/views/field-group-options.php:104
+msgid "Below labels"
+msgstr "Yorliqlar ostida"
+
+#: includes/admin/views/field-group-options.php:105
+msgid "Below fields"
+msgstr "Maydonlar ostida"
+
+#: includes/admin/views/field-group-options.php:114
+msgid "Order No."
+msgstr "Buyurtma raqami"
+
+#: includes/admin/views/field-group-options.php:115
+msgid "Field groups with a lower order will appear first"
+msgstr "Avval pastroq tartibli maydon guruhlari paydo bo'ladi"
+
+#: includes/admin/views/field-group-options.php:128
+msgid "Shown in field group list"
+msgstr "Maydonlar guruhi ro'yxatida ko'rsatilgan"
+
+#: includes/admin/views/field-group-options.php:139
+msgid "Permalink"
+msgstr "Doimiy havola"
+
+#: includes/admin/views/field-group-options.php:140
+msgid "Content Editor"
+msgstr "Kontent muharriri"
+
+#: includes/admin/views/field-group-options.php:141
+msgid "Excerpt"
+msgstr "Ko'chirma"
+
+#: includes/admin/views/field-group-options.php:143
+msgid "Discussion"
+msgstr "Munozara"
+
+#: includes/admin/views/field-group-options.php:145
+msgid "Revisions"
+msgstr "Tahrirlar"
+
+#: includes/admin/views/field-group-options.php:146
+msgid "Slug"
+msgstr "Slug"
+
+#: includes/admin/views/field-group-options.php:147
+msgid "Author"
+msgstr "Muallif"
+
+#: includes/admin/views/field-group-options.php:148
+msgid "Format"
+msgstr "Format"
+
+#: includes/admin/views/field-group-options.php:149
+msgid "Page Attributes"
+msgstr "Sahifa atributlari"
+
+#: includes/admin/views/field-group-options.php:151
+msgid "Categories"
+msgstr "Kategoriyalar"
+
+#: includes/admin/views/field-group-options.php:152
+msgid "Tags"
+msgstr "Teglar"
+
+#: includes/admin/views/field-group-options.php:153
+msgid "Send Trackbacks"
+msgstr "Kuzatuvlarni yuborish"
+
+#: includes/admin/views/field-group-options.php:161
+msgid "Hide on screen"
+msgstr "Ekranda yashirish"
+
+#: includes/admin/views/field-group-options.php:162
+msgid "<b>Select</b> items to <b>hide</b> them from the edit screen."
+msgstr ""
+"Tahrirlash ekranidan ularni <b>yashirish</b> uchun ularni <b>tanlang</b>."
+
+#: includes/admin/views/field-group-options.php:162
+msgid ""
+"If multiple field groups appear on an edit screen, the first field group's "
+"options will be used (the one with the lowest order number)"
+msgstr ""
+"Tahrirlash ekranida bir nechta maydon guruhlari paydo bo'lsa, birinchi "
+"maydon guruhining opsiyalaridan foydalaniladi (eng past tartib raqamiga ega)."
+
+#: includes/admin/views/html-admin-navigation.php:89
+msgid "Upgrade to Pro"
+msgstr "Pro versiyasiga yangilang"
+
+#: includes/admin/views/html-admin-page-upgrade-network.php:26
+msgid ""
+"The following sites require a DB upgrade. Check the ones you want to update "
+"and then click %s."
+msgstr ""
+"Quyidagi saytlar ma'lumotlar bazasini yangilashni talab qiladi. "
+"Yangilanmoqchi bo'lganlarini tekshiring va keyin %s tugmasini bosing."
+
+#: includes/admin/views/html-admin-page-upgrade-network.php:26,
+#: includes/admin/views/html-admin-page-upgrade-network.php:27,
+#: includes/admin/views/html-admin-page-upgrade-network.php:96
+msgid "Upgrade Sites"
+msgstr "Saytlarni yangilash"
+
+#: includes/admin/views/html-admin-page-upgrade-network.php:36,
+#: includes/admin/views/html-admin-page-upgrade-network.php:47
+msgid "Site"
+msgstr "Sayt"
+
+#: includes/admin/views/html-admin-page-upgrade-network.php:80
+msgid "Site is up to date"
+msgstr "Sayt yangilangan"
+
+#: includes/admin/views/html-admin-page-upgrade-network.php:78
+msgid "Site requires database upgrade from %1$s to %2$s"
+msgstr "Sayt maʼlumotlar bazasini %1$s dan %2$s gacha yangilashni talab qiladi"
+
+#: includes/admin/views/html-admin-page-upgrade-network.php:97
+msgid ""
+"Database Upgrade complete. <a href=\"%s\">Return to network dashboard</a>"
+msgstr ""
+"Maʼlumotlar bazasini yangilash tugallandi. <a href=\"%s\">Tarmoq boshqaruv "
+"paneliga qaytish</a>"
+
+#: includes/admin/views/html-admin-page-upgrade-network.php:117
+msgid "Please select at least one site to upgrade."
+msgstr ""
+"Yangilanishlarni qayta tiklashdan chiqarish uchun litsenziyangizni qayta "
+"faollashtiring"
+
+#: includes/admin/views/html-admin-page-upgrade-network.php:121,
+#: includes/admin/views/html-notice-upgrade.php:45
+msgid ""
+"It is strongly recommended that you backup your database before proceeding. "
+"Are you sure you wish to run the updater now?"
+msgstr ""
+"Davom etishdan oldin ma'lumotlar bazasining zaxira nusxasini yaratish "
+"tavsiya etiladi. Haqiqatan ham yangilovchini hozir ishga tushirmoqchimisiz?"
+
+#: includes/admin/views/html-admin-page-upgrade-network.php:148,
+#: includes/admin/views/html-admin-page-upgrade.php:31
+msgid "Upgrading data to version %s"
+msgstr "Maʼlumotlar %s versiyasiga yangilanmoqda"
+
+#: includes/admin/views/html-admin-page-upgrade-network.php:162
+msgid "Upgrade complete."
+msgstr "Yangilash tugallandi."
+
+#: includes/admin/views/html-admin-page-upgrade-network.php:165,
+#: includes/admin/views/html-admin-page-upgrade.php:65
+msgid "Upgrade failed."
+msgstr "Yangilash amalga oshmadi."
+
+#: includes/admin/views/html-admin-page-upgrade.php:30
+msgid "Reading upgrade tasks..."
+msgstr "Yangilash vazifalari o‘qilmoqda..."
+
+#: includes/admin/views/html-admin-page-upgrade.php:33
+msgid "Database upgrade complete. <a href=\"%s\">See what's new</a>"
+msgstr ""
+"Maʼlumotlar bazasini yangilash tugallandi. <a href=\"%s\">Yangi narsalarni "
+"ko‘ring</a>"
+
+#: includes/admin/views/html-admin-tools.php:24
+msgid "Back to all tools"
+msgstr "Barcha vositalarga qaytish"
+
+#: includes/admin/views/html-notice-upgrade.php:28
+msgid "Database Upgrade Required"
+msgstr "Ma'lumotlar bazasini yangilash talab qilinadi"
+
+#: includes/admin/views/html-notice-upgrade.php:29
+msgid "Thank you for updating to %1$s v%2$s!"
+msgstr "%1$s v%2$s versiyasini yangilaganingiz uchun tashakkur!"
+
+#: includes/admin/views/html-notice-upgrade.php:29
+msgid ""
+"This version contains improvements to your database and requires an upgrade."
+msgstr ""
+"Ushbu versiya ma'lumotlar bazasini yaxshilashni o'z ichiga oladi va "
+"yangilashni talab qiladi."
+
+#: includes/admin/views/html-notice-upgrade.php:31
+msgid ""
+"Please also check all premium add-ons (%s) are updated to the latest version."
+msgstr ""
+"Iltimos, barcha premium plaginlarning (%s) so‘nggi versiyaga "
+"yangilanganligini tekshiring."
+
+#: pro/admin/views/html-settings-updates.php:6
+msgid "Deactivate License"
+msgstr "Litsenziyani o'chirish"
+
+#: pro/admin/views/html-settings-updates.php:6
+msgid "Activate License"
+msgstr "Litsenziyani faollashtirish"
+
+#: pro/admin/views/html-settings-updates.php:16
+msgid "License Information"
+msgstr "Litsenziya haqida ma'lumot"
+
+#: pro/admin/views/html-settings-updates.php:34
+msgid ""
+"To unlock updates, please enter your license key below. If you don't have a "
+"licence key, please see <a href=\"%s\" target=\"_blank\">details & "
+"pricing</a>."
+msgstr ""
+"Yangilanishlarni blokdan chiqarish uchun quyida litsenziya kalitingizni "
+"kiriting. Agar sizda litsenziya kaliti boʻlmasa, <a href=\"%s\" "
+"target=\"_blank\">batafsil maʼlumotlar va narxlarni</a> koʻring."
+
+#: pro/admin/views/html-settings-updates.php:41
+msgid "License Key"
+msgstr "Litsenziya kaliti"
+
+#: pro/admin/views/html-settings-updates.php:22
+msgid "Your license key is defined in wp-config.php."
+msgstr "Litsenziya kalitingiz wp-config.php da belgilangan."
+
+#: pro/admin/views/html-settings-updates.php:29
+msgid "Retry Activation"
+msgstr "Faollashtirishni qaytadan urinib ko'ring"
+
+#: pro/admin/views/html-settings-updates.php:76
+msgid "Update Information"
+msgstr "Ma'lumotni yangilash"
+
+#: pro/admin/views/html-settings-updates.php:83
+msgid "Current Version"
+msgstr "Joriy versiya"
+
+#: pro/admin/views/html-settings-updates.php:91
+msgid "Latest Version"
+msgstr "Eng so'nggi versiya"
+
+#: pro/admin/views/html-settings-updates.php:99
+msgid "Update Available"
+msgstr "Yangilanish mavjud"
+
+#: pro/admin/views/html-settings-updates.php:111
+msgid "Please enter your license key above to unlock updates"
+msgstr ""
+"Yangilanishlarni ochish uchun yuqoriga litsenziya kalitingizni kiriting"
+
+#: pro/admin/views/html-settings-updates.php:109
+msgid "Update Plugin"
+msgstr "Plaginni yangilash"
+
+#: pro/admin/views/html-settings-updates.php:107
+msgid "Please reactivate your license to unlock updates"
+msgstr ""
+"Yangilanishlarni qulfdan chiqarish uchun litsenziyangizni qayta "
+"faollashtiring"
+
+#: pro/admin/views/html-settings-updates.php:124
+msgid "Changelog"
+msgstr "O'zgarishlar jurnali"
+
+#: pro/admin/views/html-settings-updates.php:134
+msgid "Upgrade Notice"
+msgstr "Yangilash haqida bildirishnoma"

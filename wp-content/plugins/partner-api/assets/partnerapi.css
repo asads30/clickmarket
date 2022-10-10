@@ -1,0 +1,341 @@
+.partner-api-form{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.partner-api-form-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    flex-direction: row;
+    padding: 0;
+}
+
+.partner-api-form-head-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.partner-api-form-head-back>button {
+    background: none;
+    padding: 0;
+    height: auto;
+    line-height: normal;
+    color: #00b1e3;
+    font-size: 13px;
+}
+
+.partner-api-form-top{
+    display: flex;   
+    margin-bottom: 10px;
+}
+
+.partner-api-form-center{
+    display: flex;
+}
+
+.partner-api-form-top-cc, .partner-api-form-center-phone{
+    width: 65%;
+    margin-right: 10px;
+}
+
+.partner-api-form-top-ex, .partner-api-form-center-button{
+    width: calc(35% - 10px);
+}
+
+.partner-api-form-top>div>input, .partner-api-form-center>div>input, .partner-api-form-center>div>button, .partner-api-form-bottom>div>input, .partner-api-form-bottom>div>button{
+    width: 100%;
+    border-radius: 4px !important;
+}
+
+.partner-api-form-center-button>button, .partner-api-form-center-button>button{
+    font-size: 13px;
+}
+
+.partnerapi-save{
+    margin: 10px 0 5px !important;
+}
+
+.partner-api-form[data-step="create"] .verify, .partner-api-form[data-step="create"] .confirm, .partner-api-form[data-step="create"] .add, .partner-api-form[data-step="create"] .partnartapi-id-field{
+    display: none;
+}
+
+.partner-api-form[data-step="verify"] .verify{
+    display: flex;
+    transition: ease-in 0.5s;
+}
+
+.partner-api-form[data-step="verify"] .create, .partner-api-form[data-step="verify"] .confirm, .partner-api-form[data-step="verify"] .add, .partner-api-form[data-step="verify"] .partnartapi-id-field{
+    display: none;
+}
+
+.partner-api-form[data-step="confirm"] .confirm{
+    display: flex;
+    transition: ease-in 0.5s;
+    margin-top: 10px;
+    flex-direction: column;
+}
+
+.partner-api-form[data-step="confirm"] .create, .partner-api-form[data-step="confirm"] .verify, .partner-api-form[data-step="confirm"] .add{
+    display: none;
+}
+
+.partner-api-form[data-step="add"] .add{
+    display: flex;
+    transition: ease-in 0.5s;
+    margin-top: 10px;
+}
+
+.partner-api-form[data-step="add"] .create, .partner-api-form[data-step="add"] .verify, .partner-api-form[data-step="add"] .confirm{
+    display: none;
+}
+
+.partner-api-add-top>button{
+    width: 100%;
+    color: #fff;
+    background: #34495e;
+    border-radius: 5px;
+    text-transform: inherit;
+    font-size: 13px;
+}
+
+#partnerapi-id{
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.partner-api-form[data-step="confirm"].partner-api-form[data-login="partner-logged-in"] .partner-logged-in{
+    display: flex;
+}
+
+.partner-api-form[data-login="partner-logged-in"] .partnerapi-save label{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.partner-api-form[data-login="partner-logged-out"] .partner-logged-in{
+    display: none;
+}
+
+.partner-api-form .allowed{
+    display: none;
+}
+
+.partner-api-form[data-check="forbidden"] .allowed{
+    display: none;
+}
+
+.partner-api-form[data-check="allowed"] .allowed{
+    display: flex;
+}
+
+.papi{
+    padding: 20px;
+    background: #fff;
+}
+
+.papi[data-step="papi-create"] .verify, .papi[data-step="papi-create"] .confirm, .papi[data-step="papi-create"] .saveds{
+    display: none;
+}
+
+.papi[data-step="papi-verify"] .create, .papi[data-step="papi-verify"] .confirm, .papi[data-step="papi-verify"] .saveds{
+    display: none;
+}
+
+.papi[data-step="papi-confirm"] .create, .papi[data-step="papi-confirm"] .verify, .papi[data-step="papi-confirm"] .saveds{
+    display: none;
+}
+
+.papi[data-step="papi-saveds"] .create, .papi[data-step="papi-saveds"] .verify, .papi[data-step="papi-saveds"] .confirm{
+    display: none;
+}
+
+.papi[data-step="papi-create"] .create{
+    display: block;
+}
+
+.papi[data-step="papi-verify"] .verify{
+    display: block;
+}
+
+.papi[data-step="papi-confirm"] .confirm{
+    display: block;
+}
+
+.papi[data-step="papi-saveds"] .saveds{
+    display: block;
+}
+
+.papi-title{
+    margin-bottom: 10px;
+}
+
+.papi-title>h4{
+    font-size: 14px;
+    font-weight: 700;
+    color: #000;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.papi-title>p{
+    margin-bottom: 0;
+}
+
+.papi-one-form-top{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.papi-one-form-top-cc{
+    width: 60%;
+}
+
+.papi-one-form-top-ex{
+    width: calc(40% - 15px);
+    margin-left: 15px;
+}
+
+.papi-one-form-top-cc input, .papi-one-form-top-ex input{
+    width: 100%;
+    border-radius: 5px !important;
+}
+
+.papi-one-form-center{
+    display: flex;
+    align-items: center;
+}
+
+.papi-one-form-center-phone{
+    width: 60%;
+}
+
+.papi-one-form-center-phone>input{
+    width: 100%;
+    border-radius: 5px !important;
+}
+
+.papi-one-form-center-button{
+    width: calc(40% - 15px);
+    margin-left: 15px;
+}
+
+.papi-one-form-center-button>button{
+    width: 100%;
+    border-radius: 5px !important;
+}
+
+.papi-two-form{
+    display: flex;
+    align-items: center;
+}
+
+.papi-two-form-phone{
+    width: 60%;
+}
+
+.papi-two-form-phone>input{
+    width: 100%;
+    border-radius: 5px !important;
+}
+
+.papi-two-form-button{
+    width: calc(40% - 15px);
+    margin-left: 15px;
+}
+
+.papi-two-form-button>button{
+    width: 100%;
+    border-radius: 5px !important;
+}
+
+.papi-three-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.papi-three-icon>img{
+    margin: 0 !important;
+}
+
+.papi-three-text{
+    margin-bottom: 10px;
+}
+
+.papi-three-text>p{
+    font-size: 15px;
+    color: #000;
+    text-align: center;
+}
+
+.papi-three-text>p>span{
+    font-weight: 700;
+    color: #00b1e3;
+    margin-right: 5px;
+}
+
+.papi-three-btn{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.papi-three-btn>button{
+    font-size: 12px;
+    padding: 0 20px;
+    height: 35px;
+    line-height: 35px;
+    background: #34495e;
+    border-radius: 5px;
+}
+
+.partnartapi-id-field{
+    margin-bottom: 10px !important;
+}
+
+.papi-two-saved{
+    margin-top: 10px;
+}
+
+.papi-two-saved>label{
+    display: flex;
+    align-items: center;
+}
+
+.papi[data-usersaved="not"] .papi-two-saved{
+    display: none;
+}
+
+.papi[data-usersaved="yes"] .papi-two-saved{
+    display: block;
+}
+
+.wc_payment_method > label > img{
+    height: 30px;
+}
+
+@media screen and (max-width:768px) {
+    .papi-one-form-center, .papi-two-form{
+        flex-direction: column;
+    }
+    .papi-one-form-center-phone, .papi-two-form-phone{
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .papi-one-form-center-phone>input, .papi-one-form-center-button, .papi-two-form-button{
+        width: 100%;
+        margin: 0;
+    }
+    .papi-one-form-center-button>button{
+        width: 100%;
+    }
+    .papi-one-form-center-button{
+        margin-left: 0;
+    }
+}
