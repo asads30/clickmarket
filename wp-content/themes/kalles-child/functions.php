@@ -770,6 +770,19 @@ $iso_my_thm = array(
  function url_translit_iso($title){
  global $iso_my_thm;
  return strtr($title, $iso_my_thm);
- }
-  
- add_action('sanitize_title', 'url_translit_iso', 0);
+}  
+add_action('sanitize_title', 'url_translit_iso', 0);
+
+function auto_select_free_shipping_by_default() {
+    if ( isset(WC()->session) && ! WC()->session->has_session() )
+        WC()->session->set_customer_session_cookie( true );
+    if ( strpos( WC()->session->get('chosen_shipping_methods')[0], 'clickbox' ) !== false )
+        return;
+    foreach( WC()->session->get('shipping_for_package_0')['rates'] as $key => $rate ){
+        if( $rate->method_id === 'clickbox' ){
+            WC()->session->set( 'chosen_shipping_methods', array($rate->id) );
+            return;
+        }
+    }
+}
+add_action( 'woocommerce_before_cart', 'auto_select_free_shipping_by_default' );
