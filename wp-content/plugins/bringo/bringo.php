@@ -17,24 +17,28 @@
 if ( ! defined( 'WPINC' ) ) {
     die;
 }
-
 $bringoorderid;
+function log_me($message) {
+    if ( WP_DEBUG === true ) {
+        if ( is_array($message) || is_object($message) ) {
+            error_log( print_r($message, true) );
+        } else {
+            error_log( $message );
+        }
+    }
+}
 define( 'WC_BRINGO_PLUGIN_URL', plugin_dir_url(__FILE__) );
 if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
- 
-    function bringo_shipping_method()
-    {
+    function bringo_shipping_method(){
         if (!class_exists('Bringo_Shipping_Method')) {
-            class Bringo_Shipping_Method extends WC_Shipping_Method
-            {
+            class Bringo_Shipping_Method extends WC_Shipping_Method{
                 /**
                  * Constructor for your shipping class
                  *
                  * @access public
                  * @return void
                  */
-                public function __construct($instance_id = 0)
-                {
+                public function __construct($instance_id = 0){
                     $this->id = 'bringo';
                     $this->instance_id = absint($instance_id);
                     $this->method_title = __('Bringo Shipping', 'bringo');
@@ -43,14 +47,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
                         'shipping-zones',
                         'settings'
                     );
-                    // Availability & Countries
-                    $this->availability = 'including';
-                    $this->countries = array(
-                        'UZ',
-                    );
-
                     $this->init();
-
                     $this->enabled = isset($this->settings['enabled']) ? $this->settings['enabled'] : 'yes';
                     $this->title = pll__( 'bringo2' );
                 }
@@ -61,13 +58,9 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
                  * @access public
                  * @return void
                  */
-                function init()
-                {
-                    // Load the settings API
+                function init(){
                     $this->init_form_fields();
                     $this->init_settings();
-
-                    // Save settings in admin if you have any defined
                     add_action('woocommerce_update_options_shipping_' . $this->id, array($this, 'process_admin_options'));
                 }
 
@@ -75,25 +68,14 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
                  * Define settings field for this shipping
                  * @return void
                  */
-                function init_form_fields()
-                {
-
+                function init_form_fields(){
                     $this->form_fields = array(
-
                         'enabled' => array(
                             'title' => __('Enable', 'bringo'),
                             'type' => 'checkbox',
                             'description' => __('Enable this shipping.', 'bringo'),
                             'default' => 'yes'
-                        ),
-
-                        'title' => array(
-                            'title' => __('Title', 'bringo'),
-                            'type' => 'text',
-                            'description' => __('Title to be display on site', 'bringo'),
-                            'default' => __('Bringo Shipping', 'bringo')
-                        ),
-
+                        )
                     );
 
                 }
@@ -105,42 +87,42 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
                  * @param mixed $package
                  * @return void
                  */
-                public function calculate_shipping($package = array())
-                {
-
+                public function calculate_shipping($package = array()){
                     $rate = array(
                         'id' => $this->id,
                         'label' => $this->title,
-                        'cost' => 25000
+                        'cost' => 0
                     );
-
                     $this->add_rate($rate);
-
                 }
             }
         }
     }
-
     add_action('woocommerce_shipping_init', 'bringo_shipping_method');
 
-    function add_bringo_shipping_method($methods)
-    {
+    function add_bringo_shipping_method($methods){
         $methods['bringo'] = 'Bringo_Shipping_Method';
         return $methods;
     }
-
     add_filter('woocommerce_shipping_methods', 'add_bringo_shipping_method');
     
 	add_action( 'woocommerce_review_order_before_payment', function() {   
         echo '<input type="hidden" id="bringo-price">';
-        echo '<div class="selectBox" id="selectBringo" style="display: none"><h5 id="bringo-edit">' . esc_html__( 'Выберите адрес доставки', 'clickbox'  ) . '</h5>' . '<button class="selectClickbox" type="button" id="bringo-btn">' . esc_html__( 'Выбрать', 'clickbox' ) . '</button></div>';
+        if ( WC()->session->get('bringo_address' )){
+            echo '<div class="selectBox" id="selectBringo" style="display: none"><h5 id="bringo-edit">' . esc_html__( WC()->session->get('bringo_address')  ) . '</h5>' . '<button class="selectClickbox" type="button" id="bringo-btn">' . esc_html__( WC()->session->get('change_bringo') ) . '</button></div>';
+        }
+        echo '<div class="selectBox" id="selectBringo" style="display: none"><h5 id="bringo-edit">' . esc_html__( 'Выберите адрес доставки', 'bringo'  ) . '</h5>' . '<button class="selectClickbox" type="button" id="bringo-btn">' . esc_html__( 'Выбрать', 'clickbox' ) . '</button></div>';
     });
 }
 
-add_action( 'woocommerce_review_order_before_payment', 'bringo_script', 10, 0 );
 function bringo_script() { ?>
     <script type="text/javascript">
         jQuery( function($){
+            localStorage.setItem('bringo-map', 'false');
+            var itemsSize = $('#clickbox-box').val();
+            var itemsD = (itemsSize == 1) ? '23' : '40';
+            var itemsS = (itemsSize == 1) ? '14' : (itemsSize == 2) ? '10' : (itemsSize == 3) ? '20' : '30';
+            var itemsV = (itemsSize == 1) ? '28' : '35';
             var currentLang = $('#currentLang').data('lang');
             let text1 = currentLang == 'uz' ? 'Manzilni kiriting' : 'Введите адрес';
             let text2 = currentLang == 'uz' ? 'Topish' : 'Найти';
@@ -161,7 +143,6 @@ function bringo_script() { ?>
             let text17 = currentLang == 'uz' ? 'Manzil to\'liq emas, aniqlashtirish uchun uy raqamini kiriting' : 'Неполный адрес, требуется уточнение, введите номер дома';
             let text18 = currentLang == 'uz' ? 'Manzilni aniqlashtiring' : 'Уточните адрес';
             let text19 = currentLang == 'uz' ? 'Manzil topilmadi' : 'Адрес не найден';
-            localStorage.setItem('bringo-map', 'false');
             let text20 = currentLang == 'uz' ? 'Tanlash' : 'Выбрать';
             let text21 = currentLang == 'uz' ? 'Yetkazib berish manzilini tanlang' : 'Выберите адрес доставки';
             let text22 = currentLang == 'uz' ? 'Manzilni o\'zgartirish' : 'Поменять адрес';
@@ -232,20 +213,15 @@ function bringo_script() { ?>
             bringoModalConfirm.setContent('<div id="bringo-text">' + text10 + '</div><div class="bringo-conf-box"><input type="text" placeholder="' + text23 +'" id="bringo-time"></div><div class="bringo-conf-box" required><input type="text" class="bringo-confirm-input" id="bringo-home" placeholder="' + text11 +'" required><input type="text" class="bringo-confirm-input" id="bringo-appartment" placeholder="' + text12 + '" required></div><div class="bringo-conf-box"></div><div class="bringo-conf-box"><button id="bringo-conform-btn">' + text14 + '</button></div>');
             function initBringo() {
                 var suggestView = new ymaps.SuggestView('suggest'),map,placemark;
-                // При клике по кнопке запускаем верификацию введёных данных.
                 $('#bringoBtn').bind('click', function (e) {
                     geocode();
                 });
                 function geocode() {
-                    // Забираем запрос из поля ввода.
                     var request = $('#suggest').val();
-                    // Геокодируем введённые данные.
                     ymaps.geocode(request).then(function (res) {
                         var obj = res.geoObjects.get(0),
                             error, hint;
-
                         if (obj) {
-                            // Об оценке точности ответа геокодера можно прочитать тут: https://tech.yandex.ru/maps/doc/geocoder/desc/reference/precision-docpage/
                             switch (obj.properties.get('metaDataProperty.GeocoderMetaData.precision')) {
                                 case 'exact':
                                     break;
@@ -277,7 +253,6 @@ function bringo_script() { ?>
                     }, function (e) {
                         console.log(e)
                     })
-
                 }
                 function showResult(obj) {
                     $('#map').css('height', '400px');
@@ -315,7 +290,6 @@ function bringo_script() { ?>
                     $('#bringo-button-select').attr('data-lat', '');
                     $('#bringo-button-select').attr('data-lng', '');
                     $('#billing_address_1').val('');
-                    // Удаляем карту.
                     if (map) {
                         map.destroy();
                         map = null;
@@ -427,7 +401,7 @@ function bringo_script() { ?>
                 var data = {
                     bringo_merchant_id: 10268,
                     merchant: {
-                        lat: "41.32666",
+                        lat: "41.34021",
                         lng: "69.31330"
                     },
                     client: {
@@ -436,11 +410,11 @@ function bringo_script() { ?>
                     },
                     items: [
                         {
-                            name: $('#clickbox_productname').val(),
-                            weight: $('#product-weight').val(),
-                            height: $('#product-height').val(),
-                            width: $('#product-width').val(),
-                            length: $('#product-length').val()
+                            name: 'Пакет №'+itemsSize,
+                            weight: '0.37',
+                            height: itemsD,
+                            width: itemsS,
+                            length: itemsV
                         },
                     ]
                 };
@@ -459,6 +433,25 @@ function bringo_script() { ?>
                                 $('#bringo_user_lat').val($('#bringo-button-select').attr('data-lat'));
                                 $('#bringo_user_lng').val($('#bringo-button-select').attr('data-lng'));
                                 bringoModalConfirm.open();
+                                $.ajax({
+                                    type: 'POST',
+                                    url: wc_checkout_params.ajax_url,
+                                    data: {
+                                        'action': 'woo_get_ajax_data',
+                                        'billing_ups': result.data.delivery_price,
+                                        'change_bringo': 'Поменять адрес',
+                                        'bringo_lat': data.client.lat,
+                                        'bringo_lng': data.client.lng,
+                                        'bringo_address': $('#bringo-button-select').attr('data-address'),
+                                    },
+                                    success: function (result) {
+                                        $('body').trigger('update_checkout');
+                                    },
+                                    error: function(error){
+                                        console.log(error);
+                                    }
+                                });
+                                
                             } else if(result.success == false) {
                                 $('#bringo-btn').text(text20);
                                 $('#bringo-edit').text(text21);
@@ -490,11 +483,11 @@ function bringo_script() { ?>
                     },
                     items: [
                         {
-                            name: $('#clickbox_productname').val(),
-                            weight: $('#product-weight').val(),
-                            height: $('#product-height').val(),
-                            width: $('#product-width').val(),
-                            length: $('#product-length').val()
+                            name: 'Пакет №'+itemsSize,
+                            weight: '0.34',
+                            height: itemsD,
+                            width: itemsS,
+                            length: itemsV
                         },
                     ]
                 };
@@ -512,6 +505,8 @@ function bringo_script() { ?>
                                 $('#billing_address_1').val($('#bringo-button-select2').attr('data-address'));
                                 $('#bringo_user_lat').val($('#bringo-button-select').attr('data-lat'));
                                 $('#bringo_user_lng').val($('#bringo-button-select').attr('data-lng'));
+                                $('#selectBringo').attr('data-price', result.data.delivery_price);
+                                $('#selectBringo').attr('data-distance', result.data._km);
                                 bringoModalConfirm.open();
                             } else if(result.success == false) {
                                 $('#bringo-btn').text(text20);
@@ -529,14 +524,29 @@ function bringo_script() { ?>
             });
             $('#bringo-close-btn').click(function(){
                 bringoModalAddress.close();
+                $.ajax({
+                    type: 'POST',
+                    url: wc_checkout_params.ajax_url,
+                    data: {
+                        'action': 'woo_get_ajax_data',
+                        'billing_ups': 0,
+                        'change_bringo': 'Выбрать',
+                        'bringo_address': 'Выберите адрес куда нужно доставить посылку',
+                    },
+                    success: function (result) {
+                        $('body').trigger('update_checkout');
+                    },
+                    error: function(error){
+                        console.log(error);
+                    }
+                });
             });
             $('#bringo-conform-btn').click(function(){
                 bringoModalConfirm.close();
                 var comment1 = $('#bringo-home').val();
                 var comment2 = $('#bringo-appartment').val();
-                var comment3 = $('#bringo-confirm-textarea').val();
-                var comment4 = $('#bringo-time').val();
-                var comment = 'Номер дома: ' + comment1 + ', номер квартиры: ' + comment2 + ', комментарий: ' + comment3 + ', предпочтительная время доставки: ' + comment4;
+                var comment3 = $('#bringo-time').val();
+                var comment = 'Номер дома: ' + comment1 + ', номер квартиры: ' + comment2 + ', предпочтительная время доставки: ' + comment3;
                 $('#bringo-button-select').attr('data-comment', comment);
                 $('#bringo-button-select2').attr('data-comment', comment);
                 $('#bringo_user_comment').val(comment);
@@ -563,6 +573,7 @@ function bringo_script() { ?>
     </script>
    <?php
 }
+add_action( 'woocommerce_review_order_before_payment', 'bringo_script', 10, 0 );
 
 function bringo_register_status( $order_statuses ){
     $order_statuses['wc-bringo-send'] = array(                                 
@@ -667,18 +678,14 @@ function bringo_order_sendpay( $order_id, $order ) {
     $bringo_client_lng = $order->get_meta('bringo_client_lng');
     $bringo_client_lat = $order->get_meta('bringo_client_lat');
     $bringo_client_address = $order->get_meta('bringo_client_address');
-    $bringo_user_comment = $order->get_meta('bringo_user_comment');
-    $products;
-    foreach($order->get_items() as $item_id => $item): 
-        $product = $item->get_product();
-        $products = array(
-            "name" => $product->get_name(),
-            "weight" => $product->get_weight(),
-            "height" => $product->get_height(),
-            "width" => $product->get_width(),
-            "length" => $product->get_length()
-        );
-    endforeach;
+    $bringo_user_comment = (string)$order->get_meta('bringo_user_comment');
+    $products = array(
+        "name" => 'Пакет №1',
+        "weight" => '0.34',
+        "height" => '10',
+        "width" => '15',
+        "length" => '20'
+    );
     try {
         $url = "https://api.bringo.uz/api/v1/merchant/createOrder";
         $curl = curl_init($url);
@@ -696,7 +703,7 @@ function bringo_order_sendpay( $order_id, $order ) {
                 "lng" => "69.31330",
                 "lat" => "41.32666",
                 "merchant_phone_number" => "998712310881",
-                "merchant_address" =>  "Toshkent",
+                "merchant_address" =>  "Ташкент, Бизнес центр Оазис",
                 "workdays" => array(
                     "mon" => "09:00-18:00",
                     "tue" => "09:00-18:00",
@@ -723,6 +730,8 @@ function bringo_order_sendpay( $order_id, $order ) {
         curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
         $resp = curl_exec($curl);
         $bringoRes = json_decode($resp);
+        log_me($dataSend);
+        log_me($bringoRes);
         update_post_meta($order_id, 'bringo_order_id', esc_attr($bringoRes->data->id));
         curl_close($curl);
     } catch (\Exception $exception) {
@@ -743,6 +752,63 @@ function bringo_get_status($order){
         $data = json_decode($url);
         echo '<strong>Статус заказа BRINGO: </strong>' . $data->data->status_name;
     }
-    echo '<strong>Коммент к заказу BRINGO: </strong>' . $bringo_user_comment;
+    echo '<br /><strong>Коммент к заказу BRINGO: </strong>' . $bringo_user_comment;
 }
 add_action( 'woocommerce_admin_order_data_after_billing_address', 'bringo_get_status', 10, 1 );
+
+add_filter( 'woocommerce_package_rates','conditional_custom_shipping_cost', 90, 2 );
+function conditional_custom_shipping_cost( $rates, $package ) {
+    if ( WC()->session->get('billing_ups' )){
+        foreach ( $rates as $rate_key => $rate_values ) {
+            if ( 'bringo' == $rate_values->method_id ) {
+                $rates[$rate_key]->cost = WC()->session->get('billing_ups' );
+            }
+        }
+    }
+    return $rates;
+}
+
+add_action( 'woocommerce_checkout_update_order_review', 'refresh_shipping_methods', 10, 1 );
+function refresh_shipping_methods( $post_data ){
+    $bool = true;
+    if ( WC()->session->get('billing_ups' )) $bool = false;
+    foreach ( WC()->cart->get_shipping_packages() as $package_key => $package ){
+        WC()->session->set( 'shipping_for_package_' . $package_key, $bool );
+    }
+    WC()->cart->calculate_shipping();
+}
+
+add_action( 'wp_ajax_woo_get_ajax_data', 'woo_get_ajax_data' );
+add_action( 'wp_ajax_nopriv_woo_get_ajax_data', 'woo_get_ajax_data' );
+function woo_get_ajax_data() {
+    if ( $_POST['billing_ups']){
+        WC()->session->set('billing_ups', $_POST['billing_ups'] );
+    } else {
+        WC()->session->set('billing_ups', '0' );
+    }
+    echo json_encode( WC()->session->get('billing_ups' ) );
+    if ( $_POST['change_bringo']){
+        WC()->session->set('change_bringo', $_POST['change_bringo'] );
+    } else {
+        WC()->session->set('change_bringo', 'Выбрать' );
+    }
+    if ( $_POST['bringo_lat']){
+        WC()->session->set('bringo_lat', $_POST['bringo_lat'] );
+    } else {
+        WC()->session->set('bringo_lat', '' );
+    }
+    echo json_encode( WC()->session->get('bringo_lat' ) );
+    if ( $_POST['bringo_lng']){
+        WC()->session->set('bringo_lng', $_POST['bringo_lng'] );
+    } else {
+        WC()->session->set('bringo_lng', '' );
+    }
+    echo json_encode( WC()->session->get('bringo_lng' ) );
+    if ( $_POST['bringo_address']){
+        WC()->session->set('bringo_address', $_POST['bringo_address'] );
+    } else {
+        WC()->session->set('bringo_address', '' );
+    }
+    echo json_encode( WC()->session->get('bringo_address' ) );
+    die();
+}
