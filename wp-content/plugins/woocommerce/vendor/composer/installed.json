@@ -649,17 +649,17 @@
         },
         {
             "name": "woocommerce/woocommerce-blocks",
-            "version": "v8.3.2",
-            "version_normalized": "8.3.2.0",
+            "version": "v8.5.1",
+            "version_normalized": "8.5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/woocommerce/woocommerce-blocks.git",
-                "reference": "8076840fb21caf29a5d39608e41a3982d4ff6663"
+                "reference": "b14d64b63cf1edb5871f638e6250dd633504fb38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/woocommerce/woocommerce-blocks/zipball/8076840fb21caf29a5d39608e41a3982d4ff6663",
-                "reference": "8076840fb21caf29a5d39608e41a3982d4ff6663",
+                "url": "https://api.github.com/repos/woocommerce/woocommerce-blocks/zipball/b14d64b63cf1edb5871f638e6250dd633504fb38",
+                "reference": "b14d64b63cf1edb5871f638e6250dd633504fb38",
                 "shasum": ""
             },
             "require": {
@@ -673,7 +673,7 @@
                 "wp-phpunit/wp-phpunit": "^6.0",
                 "yoast/phpunit-polyfills": "^1.0"
             },
-            "time": "2022-09-01T10:19:55+00:00",
+            "time": "2022-09-23T12:24:34+00:00",
             "type": "wordpress-plugin",
             "extra": {
                 "scripts-description": {
@@ -705,7 +705,7 @@
             ],
             "support": {
                 "issues": "https://github.com/woocommerce/woocommerce-blocks/issues",
-                "source": "https://github.com/woocommerce/woocommerce-blocks/tree/v8.3.2"
+                "source": "https://github.com/woocommerce/woocommerce-blocks/tree/v8.5.1"
             },
             "install-path": "../../packages/woocommerce-blocks"
         }
