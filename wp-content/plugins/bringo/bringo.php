@@ -207,7 +207,7 @@ function bringo_script() { ?>
                     $('#kalles-section-toolbar_mobile').css('z-index', '1002');
                 },
             });
-            bringoModal.setContent('<div class="bringo-header"><input type="text" id="suggest" class="input" placeholder="' + text1 + '" required><button type="submit" id="bringoBtn">' + text2 + '</button></div><div id="bringo-error"><p id="notice">' + text3 + '</p><button id="changeMap" style="display: none;">' + text4 + '</button></div><div id="map"></div><div class="bringo-footer"><button id="bringo-clear">' + text5 + '</button><button id="bringo-button-select">' + text6 + '</button></div>');
+            bringoModal.setContent('<div class="bringo-header"><input type="text" id="suggest" class="input" placeholder="' + text1 + '" required><button type="submit" id="bringoBtn">'    + text2 + '</button></div><div id="bringo-error"><p id="notice">' + text3 + '</p><button id="changeMap" style="display: none;">' + text4 + '</button></div><div id="map"></div><div class="bringo-footer"><button id="bringo-clear">' + text5 + '</button><button id="bringo-button-select">' + text6 + '</button></div>');
             bringoModal2.setContent('<div id="bringo-map"></div><div class="bringo-map-footer"><button id="back-map">' + text7 +'</button><button id="bringo-button-select2" data-active="0">' + text8 + '</button></div>');
             bringoModalAddress.setContent('<div id="bringo-text">' + text9 + '</div><button id="bringo-close-btn">' + text8 + '</button>');
             bringoModalConfirm.setContent('<div id="bringo-text">' + text10 + '</div><div class="bringo-conf-box"><input type="text" placeholder="' + text23 +'" id="bringo-time"></div><div class="bringo-conf-box" required><input type="text" class="bringo-confirm-input" id="bringo-home" placeholder="' + text11 +'" required><input type="text" class="bringo-confirm-input" id="bringo-appartment" placeholder="' + text12 + '" required></div><div class="bringo-conf-box"></div><div class="bringo-conf-box"><button id="bringo-conform-btn">' + text14 + '</button></div>');
@@ -399,7 +399,7 @@ function bringo_script() { ?>
                 $('#bringo-edit').text(text21);
                 var activeBtn = $(this).attr('data-active');
                 var data = {
-                    bringo_merchant_id: 10268,
+                    bringo_merchant_id: 395,
                     merchant: {
                         lat: "41.34021",
                         lng: "69.31330"
@@ -421,7 +421,7 @@ function bringo_script() { ?>
                 if(activeBtn == 1){
                     $.ajax({
                         type: 'POST',
-                        url: "https://api.bringo.uz/api/v1/calculateDeliveryPrice",
+                        url: "https://dev.bringo.uz/api/v1/calculateDeliveryPrice",
                         data: JSON.stringify(data),
                         dataType: "json",
                         success: function(result) {
@@ -472,7 +472,7 @@ function bringo_script() { ?>
                 $('#bringo-edit').text(text21);
                 var activeBtn = $(this).attr('data-active');
                 var data = {
-                    bringo_merchant_id: 10268,
+                    bringo_merchant_id: 395,
                     merchant: {
                         lat: "41.32666",
                         lng: "69.31330"
@@ -494,7 +494,7 @@ function bringo_script() { ?>
                 if(activeBtn == 1){
                     $.ajax({
                         type: 'POST',
-                        url: "https://api.bringo.uz/api/v1/calculateDeliveryPrice",
+                        url: "https://dev.bringo.uz/api/v1/calculateDeliveryPrice",
                         data: JSON.stringify(data),
                         dataType: "json",
                         success: function(result) {
@@ -687,7 +687,7 @@ function bringo_order_sendpay( $order_id, $order ) {
         "length" => '20'
     );
     try {
-        $url = "https://api.bringo.uz/api/v1/merchant/createOrder";
+        $url = "https://dev.bringo.uz/api/v1/merchant/createOrder";
         $curl = curl_init($url);
         curl_setopt($curl, CURLOPT_URL, $url);
         curl_setopt($curl, CURLOPT_POST, true);
@@ -697,7 +697,7 @@ function bringo_order_sendpay( $order_id, $order ) {
         );
         curl_setopt($curl, CURLOPT_HTTPHEADER, $headers);
         $dataSend = array(
-            "bringo_merchant_id" => 10268,
+            "bringo_merchant_id" => 395,
             "payment_id" => 27,
             "merchant" => array(
                 "lng" => "69.31330",
@@ -721,7 +721,7 @@ function bringo_order_sendpay( $order_id, $order ) {
             "items" => array(
                 $products
             ),
-            "total_price" => $order->get_total(),
+            "total_price" => $order->get_subtotal(),
             "comment" => $bringo_user_comment
         );
         $data_string = json_encode($dataSend);
@@ -748,7 +748,7 @@ function bringo_get_status($order){
         $status_bringo = 'Нет заказа в BRINGO';
     } else {
         echo '<strong>ID заказа BRINGO: </strong>' . $bringoorderid . '<br />';
-        $url = file_get_contents("https://api.bringo.uz/api/merchant/getOrder?order_id=" . $bringoorderid . "&merchant_id=10268");
+        $url = file_get_contents("https://dev.bringo.uz/api/merchant/getOrder?order_id=" . $bringoorderid . "&merchant_id=395");
         $data = json_decode($url);
         echo '<strong>Статус заказа BRINGO: </strong>' . $data->data->status_name;
     }
